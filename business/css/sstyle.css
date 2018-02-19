@@ -1,0 +1,19 @@
+/* line 2, C:/Users/SunWorship/Desktop/hillel/dz10maket/sass/sstyle.scss */
+.qwer {
+  width: 100px;
+  height: 20px;
+}
+
+/* line 5, C:/Users/SunWorship/Desktop/hillel/dz10maket/sass/sstyle.scss */
+.qwer span {
+  color: red;
+  background: blue;
+}
+
+/* line 9, C:/Users/SunWorship/Desktop/hillel/dz10maket/sass/sstyle.scss */
+.qwer p {
+  font-size: 10px;
+  color: #333;
+}
+
+/*# sourceMappingURL=../css/sstyle.map */

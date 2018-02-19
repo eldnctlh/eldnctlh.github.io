@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/sstyle.css",
+	"sources": [
+		"../sass/sstyle.scss"
+	],
+	"sourcesContent": [
+		"$primary-color: #333;\r\n.qwer {\r\n    width: 100px;\r\n    height: 20px;\r\n    span {\r\n        color: red;\r\n        background: blue;\r\n    }\r\n    p {\r\n        font-size: 10px;\r\n        color: $primary-color;\r\n    }\r\n}\r\n"
+	],
+	"mappings": ";AACA,AAAA,KAAK,CAAC;EACF,KAAK,EAAE,KAAM;EACb,MAAM,EAAE,IAAK;CAShB;;;AAXD,AAGI,KAHC,CAGD,IAAI,CAAC;EACD,KAAK,EAAE,GAAI;EACX,UAAU,EAAE,IAAK;CACpB;;;AANL,AAOI,KAPC,CAOD,CAAC,CAAC;EACE,SAAS,EAAE,IAAK;EAChB,KAAK,EAVG,IAAI;CAWf",
+	"names": []
+}

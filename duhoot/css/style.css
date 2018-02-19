@@ -1,0 +1,2039 @@
+@import url("https://meyerweb.com/eric/tools/css/reset/reset.css");
+@font-face {
+  font-family: "Gotham";
+  src: url("../fonts/GothamMedium.ttf");
+}
+
+@font-face {
+  font-family: "GothamBook";
+  src: url("../fonts/GothamBook.ttf");
+}
+
+/* line 10, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+body {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* line 14, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.header {
+  display: flex;
+  min-height: 74px;
+  justify-content: space-between;
+}
+
+/* line 18, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.header_logo {
+  background-image: url("../images/logo.png");
+  background-repeat: no-repeat;
+  min-width: 154px;
+  height: 45px;
+  margin-top: 14px;
+  margin-left: 11.5%;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 27, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .header_logo {
+    margin-left: 10px;
+  }
+}
+
+/* line 31, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.header_menu {
+  list-style: none;
+  margin-top: 32px;
+  font-family: "Gotham";
+  text-align: center;
+}
+
+/* line 36, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.header_menu_item {
+  display: inline-block;
+  margin-left: 24px;
+}
+
+/* line 39, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.header_menu_item a {
+  text-decoration: none;
+  color: #96a6a7;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* line 45, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.header_menu_item a:hover {
+  color: #e94e38;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 52, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .header_menu_item {
+    margin-left: 10px;
+  }
+  /* line 54, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .header_menu_item a {
+    font-size: 10px;
+  }
+}
+
+/* line 60, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.header_right {
+  display: flex;
+}
+
+/* line 63, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.header_search {
+  background-image: url("../images/search.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 74px;
+  height: 100%;
+  background-color: #e2dee0;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 73, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .header_search {
+    width: 50px;
+  }
+}
+
+/* line 77, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.header_login {
+  background-image: url("../images/login.png");
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 40px;
+  width: 243px;
+  height: 100%;
+  background-color: #e94e38;
+  line-height: 74px;
+  font-size: 14px;
+  padding-left: 69px;
+  color: white;
+  text-decoration: none;
+  font-family: "Gotham";
+}
+
+@media screen and (max-width: 931px) {
+  /* line 93, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .header_login {
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* line 98, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .header_login {
+    width: 60px;
+    background-position-x: 10px;
+    padding-left: 30px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  /* line 106, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .header {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  /* line 110, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .header_menu_item {
+    margin-left: 3px;
+  }
+  /* line 114, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .header_login {
+    width: 160px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 40px;
+  }
+  /* line 120, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .header_search {
+    width: 130px;
+    height: 40px;
+  }
+}
+
+/* line 126, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.intro1 {
+  background-image: url("../images/city.png");
+  background-repeat: no-repeat;
+  min-height: 449px;
+  text-align: center;
+}
+
+/* line 131, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.intro1 .intro {
+  background-image: url("../images/introlayer.png");
+  background-color: rgba(0, 0, 0, 0.7);
+  min-height: 449px;
+}
+
+/* line 135, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.intro1 .intro_title {
+  padding-top: 58px;
+  font-family: "Gotham";
+  font-size: 30px;
+  color: white;
+}
+
+/* line 141, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.intro1 .intro_select {
+  margin-top: 33px;
+  width: 230px;
+  height: 50px;
+  border-radius: 30px;
+  -webkit-appearance: none;
+  background-image: url("../images/downarrow.png");
+  background-position-y: center;
+  background-position-x: 182px;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  font-family: "GothamBook";
+  font-size: 18px;
+  color: white;
+  padding-left: 30px;
+}
+
+/* line 157, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.intro1 .intro_select option {
+  color: #96a6a7;
+}
+
+/* line 161, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.intro1 .intro .left {
+  margin-right: 17px;
+}
+
+/* line 164, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.intro1 .intro .right {
+  margin-left: 17px;
+}
+
+/* line 167, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.intro1 .intro_select:active, .intro1 .intro :hover, .intro1 .intro :focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
+/* line 171, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.intro1 .intro_text {
+  display: block;
+  margin: 0 auto;
+  margin-top: 23px;
+  width: 470px;
+  height: 50px;
+  border-radius: 30px;
+  -webkit-appearance: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  font-family: "GothamBook";
+  font-size: 18px;
+  color: white;
+  padding-left: 30px;
+}
+
+/* line 186, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.intro1 .intro_text::-webkit-input-placeholder {
+  color: white;
+}
+
+/* line 189, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.intro1 .intro_text::-moz-placeholder {
+  color: white;
+}
+
+/* line 192, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.intro1 .intro_text:-moz-placeholder {
+  color: white;
+}
+
+/* line 195, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.intro1 .intro_text:-ms-input-placeholder {
+  color: white;
+}
+
+/* line 199, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.intro1 .intro_search {
+  line-height: 60px;
+  width: 140px;
+  margin: 0 auto;
+  margin-top: 29px;
+  height: 60px;
+  background-color: #e94e38;
+  text-decoration: none;
+  border-radius: 30px;
+  font-family: "Gotham";
+}
+
+/* line 209, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.intro1 .intro_search a {
+  color: white;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 640px) {
+  /* line 218, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .intro1 .intro_title {
+    font-size: 20px;
+  }
+  /* line 221, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .intro1 .intro_select {
+    width: 150px;
+    height: 40px;
+    background-position-x: 120px;
+    font-size: 14px;
+  }
+  /* line 227, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .intro1 .intro .left {
+    margin-right: 7px;
+  }
+  /* line 230, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .intro1 .intro .right {
+    margin-left: 7px;
+  }
+  /* line 233, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .intro1 .intro_text {
+    width: 300px;
+    font-size: 14px;
+  }
+  /* line 237, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .intro1 .intro .intro_search {
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* line 247, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .intro1 {
+    min-height: 300px;
+  }
+  /* line 249, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .intro1 .intro {
+    min-height: 300px;
+  }
+  /* line 251, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .intro1 .intro_title {
+    font-size: 14px;
+  }
+  /* line 254, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .intro1 .intro_select {
+    width: 130px;
+    height: 30px;
+    background-position-x: 100px;
+    font-size: 12px;
+  }
+  /* line 260, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .intro1 .intro_text {
+    width: 250px;
+    font-size: 12px;
+    height: 30px;
+  }
+  /* line 265, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .intro1 .intro .intro_search {
+    width: 70px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px;
+  }
+}
+
+/* line 274, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main {
+  background-color: #f3f1f2;
+  border-bottom: 1px solid #e2dee0;
+}
+
+/* line 277, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_head {
+  display: flex;
+  background-color: white;
+  align-items: center;
+  min-height: 60px;
+  justify-content: space-between;
+}
+
+/* line 283, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_head_menu {
+  text-align: center;
+  margin-left: 12%;
+}
+
+/* line 286, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_head_menu_item:nth-child(1) {
+  margin-left: 0px;
+}
+
+/* line 289, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_head_menu_item {
+  font-family: "Gotham";
+  font-size: 12px;
+  display: inline;
+  margin-left: 27px;
+}
+
+/* line 294, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_head_menu_item a {
+  color: #96a6a7;
+  text-decoration: none;
+}
+
+/* line 298, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_head_menu_item .firstitem {
+  color: #e94e38;
+}
+
+/* line 301, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_head_menu_item a:hover {
+  color: #e94e38;
+}
+
+/* line 304, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_head_menu_item a:focus {
+  color: #e94e38;
+}
+
+/* line 309, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_head_inputs {
+  display: flex;
+}
+
+/* line 311, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_head_inputs_select {
+  margin-right: 6px;
+  width: 115px;
+  height: 35px;
+  border-radius: 30px;
+  -webkit-appearance: none;
+  background-image: url("../images/downarrowgrey.png");
+  background-position-y: center;
+  background-position-x: 84px;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid #96a6a7;
+  font-family: "Gotham";
+  font-size: 14px;
+  color: #e94e38;
+  padding-left: 20px;
+}
+
+/* line 327, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_head_inputs_select option {
+  color: #96a6a7;
+}
+
+/* line 331, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_head_inputs_select:active, .main_head_inputs :hover, .main_head_inputs :focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
+/* line 335, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_head_inputs_button {
+  background-image: url("../images/geo.png");
+  background-position-y: center;
+  background-position-x: 99px;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Gotham";
+  background-color: #1baf5d;
+  width: 105px;
+  height: 35px;
+  border-radius: 30px;
+  color: white;
+  line-height: 35px;
+  padding-left: 20px;
+  margin-left: 6px;
+  cursor: pointer;
+}
+
+/* line 353, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_head_inputs_button:hover {
+  background-color: #10723b;
+}
+
+/* line 356, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_head_inputs_button:focus {
+  background-color: #10723b;
+}
+
+/* line 360, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_head_filter {
+  display: flex;
+  align-items: center;
+  margin-right: 12%;
+}
+
+/* line 364, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_head_filter_title {
+  color: #96a6a7;
+  font-family: "Gotham";
+  font-size: 12px;
+}
+
+/* line 369, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_head_filter_icon {
+  width: 40px;
+  height: 40px;
+  background-color: #b6c0c1;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 10px;
+}
+
+/* line 378, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_head_filter .first {
+  background-color: #1baf5d;
+  background-image: url("../images/home.png");
+}
+
+/* line 381, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_head_filter .first:hover {
+  background-color: #1baf5d;
+}
+
+/* line 384, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_head_filter .first:focus {
+  background-color: #1baf5d;
+}
+
+/* line 388, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_head_filter .second {
+  background-image: url("../images/woman.png");
+}
+
+/* line 390, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_head_filter .second:hover {
+  background-color: #37a6b3;
+}
+
+/* line 393, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_head_filter .second:focus {
+  background-color: #37a6b3;
+}
+
+/* line 397, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_head_filter .third {
+  background-image: url("../images/study.png");
+}
+
+/* line 399, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_head_filter .third:hover {
+  background-color: #e94e38;
+}
+
+/* line 402, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_head_filter .third:focus {
+  background-color: #e94e38;
+}
+
+/* line 406, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_head_filter .fourth {
+  background-image: url("../images/music.png");
+  background-color: #f19e1f;
+}
+
+/* line 409, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_head_filter .fourth:hover {
+  background-color: #f19e1f;
+}
+
+/* line 412, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_head_filter .fourth:focus {
+  background-color: #f19e1f;
+}
+
+/* line 416, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_head_filter .fifth {
+  background-image: url("../images/transport.png");
+  background-color: #88499c;
+}
+
+/* line 419, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_head_filter .fifth:hover {
+  background-color: #88499c;
+}
+
+/* line 422, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_head_filter .fifth:focus {
+  background-color: #88499c;
+}
+
+/* line 428, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .container {
+  max-width: 947px;
+  margin: 0 auto;
+  padding-top: 46px;
+}
+
+/* line 433, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_offer_pic {
+  background-repeat: no-repeat;
+  height: 140px;
+  width: 210px;
+}
+
+/* line 437, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_offer_pic .empty {
+  font-size: 0px;
+}
+
+/* line 440, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_offer_pic_hover {
+  visibility: hidden;
+  background-color: rgba(27, 175, 93, 0.7);
+  width: 100%;
+  height: 100%;
+}
+
+/* line 445, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_offer_pic_hover_button {
+  width: 137px;
+  height: 31px;
+  border: 2px solid #ffffff;
+  border-radius: 30px;
+  margin-top: 25px;
+  margin-left: 38px;
+}
+
+/* line 452, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_offer_pic_hover_button a {
+  margin-left: 8px;
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 31px;
+  font-family: "Gotham";
+}
+
+/* line 460, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_offer_pic_hover_button .fa-search {
+  font-size: 12px;
+  color: white;
+  line-height: 31px;
+}
+
+/* line 466, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_offer_pic_hover_stars {
+  font-size: 18px;
+  margin-right: 6px;
+  margin-top: 20px;
+}
+
+/* line 470, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_offer_pic_hover_stars a {
+  text-decoration: none;
+  color: white;
+}
+
+/* line 475, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_offer_pic_hover .fa-comments {
+  font-size: 24px;
+  color: white;
+  margin-left: 6px;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+/* line 484, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_offer_pic:hover > .main_offer_pic_hover {
+  visibility: visible;
+}
+
+/* line 487, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_offer_pic:hover > .main_offer_price {
+  display: none;
+}
+
+/* line 490, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_offer_title {
+  color: #566375;
+  font-family: "Gotham";
+  font-size: 14px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-top: 33px;
+}
+
+/* line 498, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_offer_text {
+  font-family: "Gotham";
+  font-size: 12px;
+  margin-top: 19px;
+}
+
+/* line 503, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_offer_mark {
+  margin-top: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 508, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_offer_mark_count {
+  color: #96a6a7;
+  font-family: "Gotham";
+  font-size: 12px;
+  margin-left: 2px;
+}
+
+/* line 514, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_offer_mark .fa-star {
+  color: #f19e1f;
+  font-size: 12px;
+}
+
+/* line 519, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_offer_logo {
+  width: 55px;
+  height: 55px;
+  border: 3px solid #ffffff;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  position: absolute;
+  top: 113px;
+  left: 77px;
+}
+
+/* line 530, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main_offer_price {
+  width: 65px;
+  height: 25px;
+  background-color: #1baf5d;
+  border-radius: 30px;
+  color: white;
+  line-height: 25px;
+  font-family: "Gotham";
+  font-size: 12px;
+  position: absolute;
+  top: 14px;
+  left: 137px;
+}
+
+/* line 543, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 546, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block1_offer1 {
+  width: 210px;
+  height: 266px;
+  background-color: white;
+  border-radius: 1%;
+  text-align: center;
+  position: relative;
+}
+
+/* line 553, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block1_offer1 .main_offer_pic {
+  background-image: url("../images/house1.png");
+  border-bottom: 3px solid #1baf5d;
+  margin-top: -2px;
+}
+
+/* line 558, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block1_offer1 .main_offer_logo {
+  background-color: #1baf5d;
+  background-image: url("../images/homebig.png");
+}
+
+/* line 562, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block1_offer1 .main_offer_text {
+  color: #1baf5d;
+}
+
+/* line 566, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block1_offer2 {
+  width: 210px;
+  height: 266px;
+  background-color: white;
+  border-radius: 1%;
+  text-align: center;
+  position: relative;
+}
+
+/* line 573, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block1_offer2 .main_offer_pic {
+  background-image: url("../images/beach.png");
+  border-bottom: 3px solid #f19e1f;
+  margin-top: -2px;
+}
+
+/* line 577, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block1_offer2 .main_offer_pic_hover {
+  background-color: rgba(241, 158, 31, 0.7);
+}
+
+/* line 581, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block1_offer2 .main_offer_logo {
+  background-color: #f19e1f;
+  background-image: url("../images/musicbig.png");
+}
+
+/* line 585, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block1_offer2 .main_offer_text {
+  color: #f19e1f;
+}
+
+/* line 589, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block1_offer3 {
+  width: 210px;
+  height: 266px;
+  background-color: white;
+  border-radius: 1%;
+  text-align: center;
+  position: relative;
+}
+
+/* line 596, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block1_offer3 .main_offer_pic {
+  background-image: url("../images/house1.png");
+  border-bottom: 3px solid #88499c;
+  margin-top: -2px;
+}
+
+/* line 600, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block1_offer3 .main_offer_pic_hover {
+  background-color: rgba(136, 73, 156, 0.7);
+}
+
+/* line 604, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block1_offer3 .main_offer_logo {
+  background-color: #88499c;
+  background-image: url("../images/transportbig.png");
+}
+
+/* line 608, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block1_offer3 .main_offer_text {
+  color: #88499c;
+}
+
+/* line 612, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block1_offer4 {
+  width: 210px;
+  height: 266px;
+  background-color: white;
+  border-radius: 1%;
+  text-align: center;
+  position: relative;
+}
+
+/* line 619, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block1_offer4 .main_offer_pic {
+  background-image: url("../images/house2.png");
+  border-bottom: 3px solid #1baf5d;
+  margin-top: -2px;
+}
+
+/* line 624, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block1_offer4 .main_offer_logo {
+  background-color: #1baf5d;
+  background-image: url("../images/homebig.png");
+}
+
+/* line 628, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block1_offer4 .main_offer_text {
+  color: #1baf5d;
+}
+
+/* line 633, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block2 {
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 637, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block2_offer1 {
+  width: 455px;
+  height: 270px;
+  background-color: white;
+  border-radius: 1%;
+  text-align: center;
+  position: relative;
+}
+
+/* line 644, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block2_offer1 .main_offer_pic {
+  background-image: url("../images/house2big.png");
+  border-bottom: 3px solid #1baf5d;
+  margin-top: -1px;
+  width: 455px;
+  height: 120px;
+}
+
+/* line 651, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block2_offer1 .main_offer_pic_hover_button {
+  margin-left: 159px;
+}
+
+/* line 654, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block2_offer1 .main_offer_pic_hover_stars {
+  margin-top: 5px;
+}
+
+/* line 657, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block2_offer1 .main_offer_pic_hover .fa-comments {
+  margin-top: 5px;
+}
+
+/* line 662, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block2_offer1 .main_offer_logo {
+  background-color: #1baf5d;
+  background-image: url("../images/homebig.png");
+  top: 90px;
+  left: 22px;
+}
+
+/* line 668, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block2_offer1 .main_offer_text {
+  color: #1baf5d;
+  color: white;
+  position: absolute;
+  left: 0px;
+  top: 80px;
+  font-size: 14px;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7) 50%, transparent 100%);
+  width: 455px;
+  padding-bottom: 7px;
+  text-align: left;
+}
+
+/* line 680, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block2_offer1 .main_offer_mark {
+  position: absolute;
+  top: 90px;
+  left: 230px;
+}
+
+/* line 684, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block2_offer1 .main_offer_mark_count {
+  color: white;
+}
+
+/* line 688, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block2_offer1 .main_offer_description_stars {
+  margin-top: 17px;
+}
+
+/* line 690, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block2_offer1 .main_offer_description_stars .fa-star {
+  color: #f19e1f;
+  font-size: 12px;
+}
+
+/* line 695, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block2_offer1 .main_offer_description_content {
+  display: flex;
+  margin-top: 6px;
+  align-items: center;
+}
+
+/* line 699, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block2_offer1 .main_offer_description_content .main_offer_description_content_pic {
+  background-image: url("../images/person1.png");
+  background-repeat: no-repeat;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: 2px solid #e4e4e4;
+  margin-left: 22px;
+}
+
+/* line 708, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block2_offer1 .main_offer_description_content .main_offer_description_content_text {
+  width: 340px;
+  text-align: left;
+  margin-left: 21px;
+}
+
+/* line 712, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block2_offer1 .main_offer_description_content .main_offer_description_content_text .main_offer_description_content_text_title {
+  color: #566375;
+  font-family: "Gotham";
+  font-size: 16px;
+  line-height: 38px;
+}
+
+/* line 718, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block2_offer1 .main_offer_description_content .main_offer_description_content_text .main_offer_description_content_text_text {
+  color: #566375;
+  font-family: "GothamBook";
+  font-size: 14px;
+  line-height: 20px;
+  padding-top: 11px;
+  display: inline;
+}
+
+/* line 726, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block2_offer1 .main_offer_description_content .main_offer_description_content_text .main_offer_description_content_text_more {
+  color: #566375;
+  font-family: "Gotham";
+  font-size: 14px;
+  line-height: 20px;
+  display: inline;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+/* line 737, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block2_offer2 {
+  width: 455px;
+  height: 270px;
+  background-color: white;
+  border-radius: 1%;
+  text-align: center;
+  position: relative;
+}
+
+/* line 744, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block2_offer2 .main_offer_pic {
+  background-image: url("../images/party.png");
+  border-bottom: 3px solid #f19e1f;
+  margin-top: 0px;
+  width: 455px;
+  height: 120px;
+}
+
+/* line 750, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block2_offer2 .main_offer_pic_hover {
+  background-color: rgba(241, 158, 31, 0.7);
+}
+
+/* line 752, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block2_offer2 .main_offer_pic_hover_button {
+  margin-left: 159px;
+}
+
+/* line 755, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block2_offer2 .main_offer_pic_hover_stars {
+  margin-top: 5px;
+}
+
+/* line 758, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block2_offer2 .main_offer_pic_hover .fa-comments {
+  margin-top: 5px;
+}
+
+/* line 763, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block2_offer2 .main_offer_logo {
+  background-color: #f19e1f;
+  background-image: url("../images/homebig.png");
+  top: 90px;
+  left: 22px;
+}
+
+/* line 769, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block2_offer2 .main_offer_text {
+  color: #f19e1f;
+  color: white;
+  position: absolute;
+  left: 0px;
+  top: 80px;
+  font-size: 14px;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7) 50%, transparent 100%);
+  width: 455px;
+  padding-bottom: 7px;
+  text-align: left;
+}
+
+/* line 781, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block2_offer2 .main_offer_mark {
+  position: absolute;
+  top: 90px;
+  left: 230px;
+}
+
+/* line 785, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block2_offer2 .main_offer_mark_count {
+  color: white;
+}
+
+/* line 789, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block2_offer2 .main_offer_description_stars {
+  margin-top: 17px;
+}
+
+/* line 791, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block2_offer2 .main_offer_description_stars .fa-star {
+  color: #f19e1f;
+  font-size: 12px;
+}
+
+/* line 796, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block2_offer2 .main_offer_description_content {
+  display: flex;
+  margin-top: 6px;
+  align-items: center;
+}
+
+/* line 800, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block2_offer2 .main_offer_description_content .main_offer_description_content_pic {
+  background-image: url("../images/person2.png");
+  background-repeat: no-repeat;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: 2px solid #e4e4e4;
+  margin-left: 22px;
+}
+
+/* line 809, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block2_offer2 .main_offer_description_content .main_offer_description_content_text {
+  width: 340px;
+  text-align: left;
+  margin-left: 21px;
+}
+
+/* line 813, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block2_offer2 .main_offer_description_content .main_offer_description_content_text .main_offer_description_content_text_title {
+  color: #566375;
+  font-family: "Gotham";
+  font-size: 16px;
+  line-height: 38px;
+}
+
+/* line 819, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block2_offer2 .main_offer_description_content .main_offer_description_content_text .main_offer_description_content_text_text {
+  color: #566375;
+  font-family: "GothamBook";
+  font-size: 14px;
+  line-height: 20px;
+  padding-top: 11px;
+  display: inline;
+}
+
+/* line 827, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block2_offer2 .main_offer_description_content .main_offer_description_content_text .main_offer_description_content_text_more {
+  color: #566375;
+  font-family: "Gotham";
+  font-size: 14px;
+  line-height: 20px;
+  display: inline;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+@media screen and (max-width: 455px) {
+  /* line 841, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .main_block2_offer1 {
+    width: 320px;
+  }
+  /* line 843, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .main_block2_offer1 .main_offer_pic {
+    width: 320px;
+  }
+  /* line 846, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .main_block2_offer1 .main_offer_pic_hover_button {
+    margin-left: 91px;
+  }
+  /* line 851, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .main_block2_offer1 .main_offer_text {
+    width: 320px;
+    font-size: 12px;
+  }
+  /* line 855, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .main_block2_offer1 .main_offer_mark {
+    left: 200px;
+  }
+  /* line 857, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .main_block2_offer1 .main_offer_mark .fa-star {
+    font-size: 10px;
+  }
+  /* line 862, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .main_block2_offer1 .main_offer_description_content .main_offer_description_content_pic {
+    margin-left: 5px;
+    min-width: 55px;
+  }
+  /* line 867, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .main_block2_offer1 .main_offer_description_content .main_offer_description_content_text .main_offer_description_content_text_title {
+    font-size: 14px;
+  }
+  /* line 870, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .main_block2_offer1 .main_offer_description_content .main_offer_description_content_text .main_offer_description_content_text_text {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  /* line 874, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .main_block2_offer1 .main_offer_description_content .main_offer_description_content_text .main_offer_description_content_text_more {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+@media screen and (max-width: 455px) {
+  /* line 885, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .main_block2 .main_block2_offer2 {
+    width: 320px;
+  }
+  /* line 887, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .main_block2 .main_block2_offer2 .main_offer_pic {
+    width: 320px;
+  }
+  /* line 890, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .main_block2 .main_block2_offer2 .main_offer_pic_hover_button {
+    margin-left: 91px;
+  }
+  /* line 895, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .main_block2 .main_block2_offer2 .main_offer_text {
+    width: 320px;
+    font-size: 12px;
+  }
+  /* line 899, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .main_block2 .main_block2_offer2 .main_offer_mark {
+    left: 200px;
+  }
+  /* line 901, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .main_block2 .main_block2_offer2 .main_offer_mark .fa-star {
+    font-size: 10px;
+  }
+  /* line 906, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .main_block2 .main_block2_offer2 .main_offer_description_content .main_offer_description_content_pic {
+    margin-left: 5px;
+    min-width: 55px;
+  }
+  /* line 911, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .main_block2 .main_block2_offer2 .main_offer_description_content .main_offer_description_content_text .main_offer_description_content_text_title {
+    font-size: 14px;
+  }
+  /* line 914, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .main_block2 .main_block2_offer2 .main_offer_description_content .main_offer_description_content_text .main_offer_description_content_text_text {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  /* line 918, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .main_block2 .main_block2_offer2 .main_offer_description_content .main_offer_description_content_text .main_offer_description_content_text_more {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+/* line 927, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .block1_2 {
+  margin-top: 30px;
+}
+
+/* line 930, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block3 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+/* line 935, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_block3 .main_block2_offer2 .main_offer_pic {
+  margin-top: -1px;
+}
+
+@media screen and (max-width: 455px) {
+  /* line 942, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .main_block3 .main_block2_offer2 {
+    width: 320px;
+  }
+  /* line 944, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .main_block3 .main_block2_offer2 .main_offer_pic {
+    width: 320px;
+  }
+  /* line 947, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .main_block3 .main_block2_offer2 .main_offer_pic_hover_button {
+    margin-left: 91px;
+  }
+  /* line 952, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .main_block3 .main_block2_offer2 .main_offer_text {
+    width: 320px;
+    font-size: 12px;
+  }
+  /* line 956, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .main_block3 .main_block2_offer2 .main_offer_mark {
+    left: 200px;
+  }
+  /* line 958, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .main_block3 .main_block2_offer2 .main_offer_mark .fa-star {
+    font-size: 10px;
+  }
+  /* line 963, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .main_block3 .main_block2_offer2 .main_offer_description_content .main_offer_description_content_pic {
+    margin-left: 5px;
+    min-width: 55px;
+  }
+  /* line 968, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .main_block3 .main_block2_offer2 .main_offer_description_content .main_offer_description_content_text .main_offer_description_content_text_title {
+    font-size: 14px;
+  }
+  /* line 971, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .main_block3 .main_block2_offer2 .main_offer_description_content .main_offer_description_content_text .main_offer_description_content_text_text {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  /* line 975, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .main_block3 .main_block2_offer2 .main_offer_description_content .main_offer_description_content_text .main_offer_description_content_text_more {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+/* line 984, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_more {
+  font-family: "Gotham";
+  font-size: 20px;
+  margin-top: 41px;
+  text-align: center;
+  border-bottom: 1px solid #e2dee0;
+  height: 55px;
+}
+
+/* line 991, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_more a {
+  color: #566375;
+  text-decoration: none;
+  border-bottom: 1px solid #e2dee0;
+}
+
+/* line 996, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_more .fa-long-arrow-alt-right {
+  font-size: 18px;
+  color: #566375;
+}
+
+/* line 1001, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_post_info {
+  text-align: center;
+  margin-top: 88px;
+}
+
+/* line 1004, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_post_info_title {
+  color: #566375;
+  font-family: "Gotham";
+  font-size: 22px;
+}
+
+/* line 1009, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_post_info_text {
+  color: #96a6a7;
+  font-family: "GothamBook";
+  font-size: 16px;
+  margin-top: 11px;
+}
+
+/* line 1015, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_post_info_icons {
+  display: flex;
+  justify-content: space-between;
+  width: 763px;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+/* line 1021, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_post_info_icons_icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid #9dacad;
+  background-repeat: no-repeat;
+  background-image: url("../images/homebigger.png");
+  background-position: center;
+  cursor: pointer;
+}
+
+/* line 1031, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_post_info_icons_icon:hover {
+  border: 2px solid #1baf5d;
+}
+
+/* line 1034, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_post_info_icons .border {
+  width: 53px;
+  height: 2px;
+  background-color: #e2dee0;
+  margin-top: 50px;
+}
+
+/* line 1042, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_post_info_icons .second {
+  background-image: url("../images/womanbigger.png");
+}
+
+/* line 1046, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_post_info_icons .third {
+  background-image: url("../images/studybigger.png");
+}
+
+/* line 1049, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_post_info_icons .fourth {
+  background-image: url("../images/musicbigger.png");
+}
+
+/* line 1052, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_post_info_icons .fifth {
+  background-image: url("../images/transportbigger.png");
+}
+
+/* line 1055, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_post_info_icons .first:hover {
+  background-image: url("../images/homebiggerhover.png");
+}
+
+/* line 1058, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_post_info_icons .second:hover {
+  background-image: url("../images/womanbiggerhover.png");
+}
+
+/* line 1061, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_post_info_icons .third:hover {
+  background-image: url("../images/studybiggerhover.png");
+}
+
+/* line 1064, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_post_info_icons .fourth:hover {
+  background-image: url("../images/musicbiggerhover.png");
+}
+
+/* line 1067, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_post_info_icons .fifth:hover {
+  background-image: url("../images/transportbiggerhover.png");
+}
+
+/* line 1071, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_post_info_blocks {
+  width: 763px;
+  margin: 0 auto;
+}
+
+/* line 1074, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_post_info_blocks_title {
+  color: #1baf5d;
+  font-family: "Gotham";
+  font-size: 24px;
+  margin-top: 38px;
+}
+
+/* line 1080, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_post_info_blocks_blocks {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 43px;
+  padding-bottom: 143px;
+}
+
+/* line 1085, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_post_info_blocks_blocks_block1 {
+  width: 360px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 1089, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_post_info_blocks_blocks_block1_pic {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  background-color: #1db05e;
+  background-image: url("../images/lightning.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* line 1098, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_post_info_blocks_blocks_block1_text {
+  width: 259px;
+  color: #566375;
+  font-family: "GothamBook";
+  font-size: 14px;
+  line-height: 24px;
+  text-align: left;
+}
+
+/* line 1107, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_post_info_blocks_blocks_block2 {
+  width: 360px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 1111, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_post_info_blocks_blocks_block2_pic {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  background-color: #1db05e;
+  background-image: url("../images/plant.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* line 1120, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.main .main_post_info_blocks_blocks_block2_text {
+  width: 259px;
+  color: #566375;
+  font-family: "GothamBook";
+  font-size: 14px;
+  line-height: 24px;
+  text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 1133, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .main_post_info {
+    margin-top: 50px;
+  }
+  /* line 1135, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .main_post_info_title {
+    font-size: 18px;
+  }
+  /* line 1138, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .main_post_info_text {
+    font-size: 14px;
+  }
+  /* line 1141, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .main_post_info_icons {
+    flex-wrap: wrap;
+    width: auto;
+    justify-content: center;
+  }
+  /* line 1145, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .main_post_info_icons_icon {
+    width: 75px;
+    height: 75px;
+  }
+  /* line 1149, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .main_post_info_icons .border {
+    margin-top: 37px;
+  }
+  /* line 1153, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .main_post_info_blocks {
+    width: auto;
+    margin-top: 20px;
+  }
+  /* line 1156, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .main_post_info_blocks_blocks {
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+    justify-content: space-around;
+  }
+  /* line 1160, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .main_post_info_blocks_blocks_block1 {
+    width: 300px;
+    padding-top: 20px;
+  }
+  /* line 1163, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .main_post_info_blocks_blocks_block1_text {
+    width: 220px;
+  }
+  /* line 1167, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .main_post_info_blocks_blocks_block2 {
+    width: 300px;
+    padding-top: 20px;
+  }
+  /* line 1170, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .main_post_info_blocks_blocks_block2_text {
+    width: 220px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  /* line 1182, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main_head_menu {
+    margin-left: 3%;
+  }
+  /* line 1184, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main_head_menu_item {
+    font-size: 10px;
+    margin-left: 10px;
+  }
+  /* line 1190, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main_head_inputs_select {
+    width: 70px;
+    height: 23px;
+    font-size: 10px;
+    padding-left: 5px;
+    line-height: 23px;
+    background-position-x: 50px;
+  }
+  /* line 1198, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main_head_inputs_button {
+    width: 70px;
+    height: 23px;
+    font-size: 10px;
+    padding-left: 5px;
+    line-height: 23px;
+    background-position-x: 60px;
+  }
+  /* line 1207, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main_head_filter {
+    margin-right: 3%;
+  }
+  /* line 1209, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main_head_filter_title {
+    font-size: 10px;
+  }
+  /* line 1212, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main_head_filter_icon {
+    width: 35px;
+    height: 35px;
+    margin-left: 5px;
+  }
+  /* line 1220, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .container .main_block1 {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  /* line 1223, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .container .main_block1_offer1 {
+    margin: 5px;
+  }
+  /* line 1226, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .container .main_block1_offer2 {
+    margin: 5px;
+  }
+  /* line 1229, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .container .main_block1_offer3 {
+    margin: 5px;
+  }
+  /* line 1232, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .container .main_block1_offer4 {
+    margin: 5px;
+  }
+  /* line 1236, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .container .main_block2 {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  /* line 1239, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .container .main_block2_offer1 {
+    margin: 5px;
+  }
+  /* line 1242, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .container .main_block2_offer2 {
+    margin: 5px;
+  }
+  /* line 1247, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .container .main_block1_2_offer1 {
+    margin: 5px;
+  }
+  /* line 1250, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .container .main_block1_2_offer2 {
+    margin: 5px;
+  }
+  /* line 1253, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .container .main_block1_2_offer3 {
+    margin: 5px;
+  }
+  /* line 1256, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .container .main_block1_2_offer4 {
+    margin: 5px;
+  }
+  /* line 1260, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main .container .main_block3 {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  /* line 1269, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main_head {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  /* line 1272, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main_head_menu {
+    padding: 10px;
+  }
+  /* line 1274, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main_head_menu_item {
+    font-size: 10px;
+    margin-left: 10px;
+    line-height: 14px;
+  }
+  /* line 1280, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main_head_inputs {
+    padding: 10px;
+  }
+  /* line 1282, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main_head_inputs_select {
+    width: 70px;
+    height: 23px;
+    font-size: 10px;
+    padding-left: 5px;
+    line-height: 23px;
+    background-position-x: 50px;
+  }
+  /* line 1290, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main_head_inputs_button {
+    width: 70px;
+    height: 23px;
+    font-size: 10px;
+    padding-left: 5px;
+    line-height: 23px;
+    background-position-x: 60px;
+  }
+  /* line 1299, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main_head_filter {
+    padding: 10px;
+    margin-right: 3%;
+  }
+  /* line 1302, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main_head_filter_title {
+    font-size: 10px;
+  }
+  /* line 1305, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .main_head_filter_icon {
+    width: 35px;
+    height: 35px;
+    margin-left: 5px;
+  }
+}
+
+/* line 1314, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.footer1 {
+  background-image: url("../images/footercity.png");
+}
+
+/* line 1316, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.footer1 .footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  padding-bottom: 64px;
+}
+
+/* line 1320, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.footer1 .footer_title {
+  color: #ffffff;
+  font-family: "Gotham";
+  font-size: 24px;
+  padding-top: 61px;
+}
+
+/* line 1326, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.footer1 .footer_text {
+  display: block;
+  margin: 0 auto;
+  margin-top: 23px;
+  width: 423px;
+  height: 60px;
+  border-radius: 30px;
+  -webkit-appearance: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  font-family: "GothamBook";
+  font-size: 18px;
+  padding-left: 69px;
+  background-image: url("../images/mail.png");
+  background-repeat: no-repeat;
+  background-position-x: 33px;
+  background-position-y: center;
+}
+
+/* line 1344, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.footer1 .footer_text:active, .footer1 .footer :hover, .footer1 .footer :focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
+/* line 1348, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.footer1 .footer_text::-webkit-input-placeholder {
+  color: white;
+}
+
+/* line 1351, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.footer1 .footer_text::-moz-placeholder {
+  color: white;
+}
+
+/* line 1354, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.footer1 .footer_text:-moz-placeholder {
+  color: white;
+}
+
+/* line 1357, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.footer1 .footer_text:-ms-input-placeholder {
+  color: white;
+}
+
+/* line 1360, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.footer1 .footer_button {
+  width: 120px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: #e94e38;
+  margin-top: -58px;
+  margin-left: 59.5%;
+  text-align: center;
+  line-height: 50px;
+}
+
+/* line 1369, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.footer1 .footer_button a {
+  color: white;
+  text-decoration: none;
+}
+
+/* line 1374, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.footer1 .footer .border {
+  width: 75%;
+  margin: 0 auto;
+  height: 1px;
+  background-color: #ffffff;
+  opacity: 0.1;
+  margin-top: 57px;
+}
+
+/* line 1382, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.footer1 .footer_foot {
+  display: flex;
+  padding-top: 42px;
+  justify-content: space-between;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+/* line 1388, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.footer1 .footer_foot_block1 {
+  margin-left: 10px;
+}
+
+/* line 1390, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.footer1 .footer_foot_block1_title {
+  color: #ffffff;
+  font-family: "Gotham";
+  font-size: 16px;
+  border-bottom: 1px solid rgba(216, 216, 216, 0.3);
+}
+
+/* line 1396, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.footer1 .footer_foot_block1_text {
+  color: #c0bebc;
+  margin-top: 21px;
+  font-family: "GothamBook";
+  font-size: 14px;
+  line-height: 24px;
+  width: 101px;
+  text-align: left;
+}
+
+/* line 1407, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.footer1 .footer_foot_block2_title {
+  color: #ffffff;
+  font-family: "Gotham";
+  font-size: 16px;
+  border-bottom: 1px solid rgba(216, 216, 216, 0.3);
+}
+
+/* line 1413, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.footer1 .footer_foot_block2_text {
+  color: #c0bebc;
+  margin-top: 21px;
+  font-family: "GothamBook";
+  font-size: 14px;
+  line-height: 24px;
+  width: 101px;
+  text-align: left;
+}
+
+/* line 1423, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.footer1 .footer_foot_block3 {
+  margin-right: 10px;
+}
+
+/* line 1425, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.footer1 .footer_foot_block3_title {
+  color: #ffffff;
+  font-family: "Gotham";
+  font-size: 16px;
+  border-bottom: 1px solid rgba(216, 216, 216, 0.3);
+  width: 79px;
+}
+
+/* line 1432, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.footer1 .footer_foot_block3_links {
+  display: flex;
+  width: 160px;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+/* line 1437, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.footer1 .footer_foot_block3_links_link {
+  background-repeat: no-repeat;
+  width: 28px;
+  height: 29px;
+  background-position: center;
+}
+
+/* line 1443, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.footer1 .footer_foot_block3_links .first {
+  background-image: url("../images/facebook.png");
+}
+
+/* line 1446, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.footer1 .footer_foot_block3_links .second {
+  background-image: url("../images/twitter.png");
+}
+
+/* line 1449, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.footer1 .footer_foot_block3_links .third {
+  background-image: url("../images/google.png");
+}
+
+/* line 1452, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.footer1 .footer_foot_block3_links .fourth {
+  background-image: url("../images/youtube.png");
+}
+
+/* line 1456, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+.footer1 .footer_foot_block3_copyright {
+  color: #ffffff;
+  font-family: "GothamBook";
+  font-size: 14px;
+  margin-top: 68px;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 1468, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .footer1 .footer {
+    padding-bottom: 30px;
+  }
+  /* line 1470, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .footer1 .footer_title {
+    font-size: 20px;
+  }
+  /* line 1473, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .footer1 .footer_text {
+    width: 300px;
+    height: 40px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 768px) and (max-width: 320px) {
+  /* line 1479, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .footer1 .footer .footer_button {
+    margin-left: 77%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* line 1483, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .footer1 .footer_button {
+    margin-left: 67%;
+    margin-top: -38px;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+  }
+  /* line 1489, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .footer1 .footer_button a {
+    font-size: 10px;
+  }
+  /* line 1493, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .footer1 .footer .border {
+    width: 80%;
+  }
+  /* line 1496, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .footer1 .footer_foot {
+    margin-top: 30px;
+  }
+  /* line 1499, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .footer1 .footer_foot_block1_title {
+    font-size: 14px;
+  }
+  /* line 1502, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .footer1 .footer_foot_block1_text {
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 10px;
+  }
+  /* line 1509, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .footer1 .footer_foot_block2_title {
+    font-size: 14px;
+  }
+  /* line 1512, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .footer1 .footer_foot_block2_text {
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 10px;
+  }
+  /* line 1519, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .footer1 .footer_foot_block3_title {
+    font-size: 14px;
+  }
+  /* line 1522, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .footer1 .footer_foot_block3_links {
+    width: 130px;
+  }
+  /* line 1525, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .footer1 .footer_foot_block3_copyright {
+    font-size: 12px;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  /* line 1537, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .footer1 .footer_title {
+    font-size: 16px;
+  }
+  /* line 1540, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .footer1 .footer_text {
+    width: 250px;
+    font-size: 10px;
+  }
+  /* line 1544, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .footer1 .footer_button {
+    margin-left: 71%;
+  }
+  /* line 1547, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .footer1 .footer .border {
+    width: 90%;
+  }
+  /* line 1552, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .footer1 .footer_foot_block1_title {
+    font-size: 12px;
+  }
+  /* line 1555, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .footer1 .footer_foot_block1_text {
+    font-size: 10px;
+    line-height: 16px;
+    width: 80px;
+  }
+  /* line 1561, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .footer1 .footer_foot_block2 {
+    margin-left: 10px;
+  }
+  /* line 1563, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .footer1 .footer_foot_block2_title {
+    font-size: 12px;
+  }
+  /* line 1566, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .footer1 .footer_foot_block2_text {
+    font-size: 10px;
+    line-height: 16px;
+    width: 80px;
+  }
+  /* line 1572, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .footer1 .footer_foot_block3 {
+    margin-left: 10px;
+  }
+  /* line 1574, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .footer1 .footer_foot_block3_title {
+    font-size: 12px;
+  }
+  /* line 1580, C:/Users/SunWorship/Desktop/hillel/dzlastmaket/scss/style.scss */
+  .footer1 .footer_foot_block3_copyright {
+    font-size: 10px;
+  }
+}
+
+/*# sourceMappingURL=../css/style.map */

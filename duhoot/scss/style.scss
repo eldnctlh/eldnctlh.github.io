@@ -1,0 +1,1587 @@
+@import url("https://meyerweb.com/eric/tools/css/reset/reset.css");
+@font-face {
+    font-family: "Gotham";
+    src: url("../fonts/GothamMedium.ttf");
+}
+@font-face {
+    font-family: "GothamBook";
+    src: url("../fonts/GothamBook.ttf");
+}
+body {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    min-height: 74px;
+    justify-content: space-between;
+    &_logo {
+        background-image: url("../images/logo.png");
+        background-repeat: no-repeat;
+        min-width: 154px;
+        height: 45px;
+        margin-top: 14px;
+        margin-left: 11.5%;
+    }
+    @media screen and (max-width: 768px) {
+        &_logo {
+            margin-left: 10px;
+        }
+    }
+    &_menu {
+        list-style: none;
+        margin-top: 32px;
+        font-family: "Gotham";
+        text-align: center;
+        &_item {
+            display: inline-block;
+            margin-left: 24px;
+            a {
+                text-decoration: none;
+                color: #96a6a7;
+                font-size: 14px;
+                line-height: 24px;
+            }
+            a:hover {
+                color: #e94e38;
+            }
+        }
+    }
+    @media screen and(max-width: 768px) {
+        &_menu {
+            &_item {
+                margin-left: 10px;
+                a {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+    &_right {
+        display: flex;
+    }
+    &_search {
+        background-image: url("../images/search.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 74px;
+        height: 100%;
+        background-color: #e2dee0;
+        
+    }
+    @media screen and(max-width: 768px) {
+        &_search {
+            width: 50px;
+        }
+    }
+    &_login {
+        background-image: url("../images/login.png");
+        background-repeat: no-repeat;
+        background-position-y: center;
+        background-position-x: 40px;
+        width: 243px;
+        height: 100%;
+        background-color: #e94e38;
+        line-height: 74px;
+        font-size: 14px;
+        padding-left: 69px;
+        color: white;
+        text-decoration: none;
+        font-family: "Gotham";
+    }
+    @media screen and(max-width: 931px) {
+        &_login {
+            width: 100px;
+        }
+    }
+    @media screen and(max-width: 768px) {
+        &_login {
+            width: 60px;
+            background-position-x: 10px;
+            padding-left: 30px;
+        }
+    }
+}
+@media screen and(max-width: 400px) {
+    .header {
+        flex-wrap: wrap;
+        justify-content: center;
+        &_menu {
+            &_item {
+                margin-left: 3px;
+            }
+        }
+        &_login {
+            width: 160px;
+            height: 40px;
+            font-size: 12px;
+            line-height: 40px;
+        }
+        &_search {
+            width: 130px;
+            height: 40px;
+        }
+    }
+}
+.intro1 {
+    background-image: url("../images/city.png");
+    background-repeat: no-repeat;
+    min-height: 449px;
+    text-align: center;
+    .intro {
+        background-image: url("../images/introlayer.png");
+        background-color: rgba($color: #000000, $alpha: 0.7);
+        min-height: 449px;
+        &_title {
+            padding-top: 58px;
+            font-family: "Gotham";
+            font-size: 30px;
+            color: white;
+        }
+        &_select {
+            margin-top: 33px;
+            width: 230px;
+            height: 50px;
+            border-radius: 30px;
+            -webkit-appearance: none;
+            background-image: url("../images/downarrow.png");
+            background-position-y: center;
+            background-position-x: 182px;
+            background-repeat: no-repeat;
+            background-color: rgba($color: #ffffff, $alpha: 0.1);
+            border: 1px solid rgba($color: #ffffff, $alpha: 0.1);
+            font-family: "GothamBook";
+            font-size: 18px;
+            color: white;
+            padding-left: 30px;
+            option {
+                color: #96a6a7;
+            }
+        }
+        .left {
+            margin-right: 17px;
+        }
+        .right {
+            margin-left: 17px;
+        }
+        &_select:active, :hover, :focus {
+            outline: 0;
+            outline-offset: 0;
+        }
+        &_text {
+            display: block;
+            margin: 0 auto;
+            margin-top: 23px;
+            width: 470px;
+            height: 50px;
+            border-radius: 30px;
+            -webkit-appearance: none;
+            background-color: rgba($color: #ffffff, $alpha: 0.1);
+            border: 1px solid rgba($color: #ffffff, $alpha: 0.1);
+            font-family: "GothamBook";
+            font-size: 18px;
+            color: white;
+            padding-left: 30px;
+        }
+        &_text::-webkit-input-placeholder {
+            color:white;
+        }
+        &_text::-moz-placeholder {
+            color:white;
+        }
+        &_text:-moz-placeholder {
+            color:white;
+        }
+        &_text:-ms-input-placeholder {
+            color:white;
+        }
+    }
+    .intro_search {
+        line-height: 60px;
+        width: 140px;
+        margin: 0 auto;
+        margin-top: 29px;
+        height: 60px;
+        background-color: #e94e38;
+        text-decoration: none;
+        border-radius: 30px;
+        font-family: "Gotham";
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
+@media screen and(max-width: 640px) {
+    .intro1 {
+        .intro {
+            &_title {
+                font-size: 20px;
+            }
+            &_select {
+                width: 150px;
+                height: 40px;
+                background-position-x: 120px;
+                font-size: 14px;
+            }
+            .left {
+                margin-right: 7px;
+            }
+            .right {
+                margin-left: 7px;
+            }
+            &_text {
+                width: 300px;
+                font-size: 14px;
+            }
+            .intro_search {
+                width: 100px;
+                height: 40px;
+                font-size: 14px;
+                line-height: 40px;
+            }
+        }
+    }
+}
+@media screen and(max-width: 320px) {
+    .intro1 {
+        min-height: 300px;
+        .intro {
+            min-height: 300px;
+            &_title {
+                font-size: 14px;
+            }
+            &_select {
+                width: 130px;
+                height: 30px;
+                background-position-x: 100px;
+                font-size: 12px;
+            }
+            &_text {
+                width: 250px;
+                font-size: 12px;
+                height: 30px;
+            }
+            .intro_search {
+                width: 70px;
+                height: 30px;
+                font-size: 12px;
+                line-height: 30px;
+            }
+        }
+    }
+}
+.main {
+    background-color: #f3f1f2;
+    border-bottom: 1px solid #e2dee0;
+    &_head {
+        display: flex;
+        background-color: white;
+        align-items: center;
+        min-height: 60px;
+        justify-content: space-between;
+        &_menu {
+            text-align: center;
+            margin-left: 12%;
+            &_item:nth-child(1) {
+                margin-left: 0px;
+            }
+            &_item {
+                font-family: "Gotham";
+                font-size: 12px;
+                display: inline;
+                margin-left: 27px;
+                a {
+                    color: #96a6a7;
+                    text-decoration: none;
+                }
+                .firstitem {
+                    color: #e94e38;
+                }
+                a:hover {
+                    color: #e94e38;
+                }
+                a:focus {
+                    color: #e94e38;
+                }
+            }
+        }
+        &_inputs {
+            display: flex;
+            &_select {
+                margin-right: 6px;
+                width: 115px;
+                height: 35px;
+                border-radius: 30px;
+                -webkit-appearance: none;
+                background-image: url("../images/downarrowgrey.png");
+                background-position-y: center;
+                background-position-x: 84px;
+                background-repeat: no-repeat;
+                background-color: rgba($color: #ffffff, $alpha: 0.1);
+                border: 1px solid #96a6a7;
+                font-family: "Gotham";
+                font-size: 14px;
+                color: #e94e38;
+                padding-left: 20px;
+                option {
+                    color: #96a6a7;
+                }
+            }
+            &_select:active, :hover, :focus {
+                outline: 0;
+                outline-offset: 0;
+            }
+            &_button {
+                background-image: url("../images/geo.png");
+                background-position-y: center;
+                background-position-x: 99px;
+                background-repeat: no-repeat;
+                text-decoration: none;
+                font-size: 14px;
+                font-family: "Gotham";
+                background-color: #1baf5d;
+                width: 105px;
+                height: 35px;
+                border-radius: 30px;
+                color: white;
+                line-height: 35px;  
+                padding-left: 20px;
+                margin-left: 6px;
+                cursor: pointer;
+            }
+            &_button:hover {
+                background-color: #10723b;
+            }
+            &_button:focus {
+                background-color: #10723b;
+            }
+        }
+        &_filter {
+            display: flex;
+            align-items: center;
+            margin-right: 12%;
+            &_title {
+                color: #96a6a7;
+                font-family: "Gotham";
+                font-size: 12px;
+            }
+            &_icon {
+                width: 40px;
+                height: 40px;
+                background-color: #b6c0c1;
+                border-radius: 50%;
+                background-repeat: no-repeat;
+                background-position: center;
+                margin-left: 10px;
+            }
+            .first {
+                background-color: #1baf5d;
+                background-image: url("../images/home.png");
+                &:hover {
+                    background-color: #1baf5d;
+                }
+                &:focus {
+                    background-color: #1baf5d;
+                }
+            }
+            .second{
+                background-image: url("../images/woman.png");
+                &:hover {
+                    background-color: rgb(55, 166, 179);
+                }
+                &:focus {
+                    background-color: rgb(55, 166, 179);
+                }
+            }
+            .third {
+                background-image: url("../images/study.png");
+                &:hover {
+                    background-color: #e94e38;
+                }
+                &:focus {
+                    background-color: #e94e38;
+                }
+            }
+            .fourth {
+                background-image: url("../images/music.png");
+                background-color: #f19e1f;
+                &:hover {
+                    background-color: #f19e1f;
+                }
+                &:focus {
+                    background-color: #f19e1f;
+                }
+            }
+            .fifth {
+                background-image: url("../images/transport.png");
+                background-color: #88499c;
+                &:hover {
+                    background-color: #88499c;
+                }
+                &:focus {
+                    background-color: #88499c;
+                }
+            }
+        }
+    }
+    .container {
+        max-width: 947px;
+        margin: 0 auto;
+        padding-top: 46px;
+    }
+    &_offer_pic{
+        background-repeat: no-repeat;
+        height: 140px;
+        width: 210px;
+        .empty {
+            font-size: 0px;
+        }
+        &_hover {
+            visibility: hidden;
+            background-color: rgba($color: #1baf5d, $alpha: 0.7);
+            width: 100%;
+            height: 100%;
+            &_button {
+                width: 137px;
+                height: 31px;
+                border: 2px solid #ffffff;
+                border-radius: 30px;
+                margin-top: 25px;
+                margin-left: 38px;
+                a {
+                    margin-left: 8px;
+                    color: white;
+                    text-decoration: none;
+                    font-size: 12px;
+                    line-height: 31px;
+                    font-family: "Gotham";
+                }
+                .fa-search {
+                    font-size: 12px;
+                    color: white;
+                    line-height: 31px;
+                }
+            }
+            &_stars {
+                font-size: 18px;
+                margin-right: 6px;
+                margin-top: 20px;
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+            .fa-comments {
+                font-size: 24px;
+                color: white;
+                margin-left: 6px;
+                margin-top: 20px;
+                text-decoration: none;
+            }
+        }
+    }
+    &_offer_pic:hover>.main_offer_pic_hover {
+        visibility: visible;
+    }
+    &_offer_pic:hover>.main_offer_price {
+        display: none;  
+    }
+    &_offer_title {
+        color: #566375;
+        font-family: "Gotham";
+        font-size: 14px;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-top: 33px;
+    }
+    &_offer_text {
+        font-family: "Gotham";
+        font-size: 12px;
+        margin-top: 19px;
+    }
+    &_offer_mark {
+        margin-top: 6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &_count {
+            color: #96a6a7;
+            font-family: "Gotham";
+            font-size: 12px;
+            margin-left: 2px;
+        }
+        .fa-star {
+            color: #f19e1f;
+            font-size: 12px;
+        }
+    }
+    &_offer_logo {
+        width: 55px;
+        height: 55px;
+        border: 3px solid #ffffff;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 50%; 
+        position: absolute;
+        top: 113px;
+        left: 77px;
+    }   
+    &_offer_price {
+        width: 65px;
+        height: 25px;
+        background-color: #1baf5d;
+        border-radius: 30px;
+        color: white;
+        line-height: 25px;
+        font-family: "Gotham";
+        font-size: 12px;
+        position: absolute;
+        top: 14px;
+        left: 137px;
+    }
+    .main_block1 {
+        display: flex;
+        justify-content: space-between;
+        &_offer1 {
+            width: 210px;
+            height: 266px;
+            background-color: white;
+            border-radius: 1%;
+            text-align: center;
+            position: relative;
+            .main_offer_pic {
+                background-image: url("../images/house1.png");
+                border-bottom: 3px solid #1baf5d;
+                margin-top: -2px;
+            }
+            .main_offer_logo {
+                background-color: #1baf5d;
+                background-image: url("../images/homebig.png");
+            }
+            .main_offer_text {
+                color: #1baf5d;
+            }
+        }
+        &_offer2 {
+            width: 210px;
+            height: 266px;
+            background-color: white;
+            border-radius: 1%;
+            text-align: center;
+            position: relative;
+            .main_offer_pic {
+                background-image: url("../images/beach.png");
+                border-bottom: 3px solid #f19e1f;
+                margin-top: -2px;
+                &_hover {
+                    background-color: rgba($color: #f19e1f, $alpha: 0.7)
+                }
+            }
+            .main_offer_logo {
+                background-color: #f19e1f;
+                background-image: url("../images/musicbig.png");
+            }
+            .main_offer_text {
+                color: #f19e1f;
+            }
+        }
+        &_offer3 {
+            width: 210px;
+            height: 266px;
+            background-color: white;
+            border-radius: 1%;
+            text-align: center;
+            position: relative;
+            .main_offer_pic {
+                background-image: url("../images/house1.png");
+                border-bottom: 3px solid #88499c;
+                margin-top: -2px;
+                &_hover {
+                    background-color: rgba($color: #88499c, $alpha: 0.7)
+                }
+            }
+            .main_offer_logo {
+                background-color: #88499c;
+                background-image: url("../images/transportbig.png");
+            }
+            .main_offer_text {
+                color: #88499c;
+            }
+        }
+        &_offer4 {
+            width: 210px;
+            height: 266px;
+            background-color: white;
+            border-radius: 1%;
+            text-align: center;
+            position: relative;
+            .main_offer_pic {
+                background-image: url("../images/house2.png");
+                border-bottom: 3px solid #1baf5d;
+                margin-top: -2px;
+            }
+            .main_offer_logo {
+                background-color: #1baf5d;
+                background-image: url("../images/homebig.png");
+            }
+            .main_offer_text {
+                color: #1baf5d;
+            }
+        }
+    }
+    .main_block2 {
+        margin-top: 32px;
+        display: flex;
+        justify-content: space-between;
+        &_offer1 {
+            width: 455px;
+            height: 270px;
+            background-color: white;
+            border-radius: 1%;
+            text-align: center;
+            position: relative;
+            .main_offer_pic {
+                background-image: url("../images/house2big.png");
+                border-bottom: 3px solid #1baf5d;
+                margin-top: -1px;
+                width: 455px;
+                height: 120px;
+                &_hover {
+                    &_button {
+                        margin-left: 159px;
+                    }
+                    &_stars {
+                        margin-top: 5px;
+                    }
+                    .fa-comments {
+                        margin-top: 5px;
+                    }
+                }
+            }
+            .main_offer_logo {
+                background-color: #1baf5d;
+                background-image: url("../images/homebig.png");
+                top: 90px;
+                left: 22px;
+            }
+            .main_offer_text {
+                color: #1baf5d;
+                color: white;
+                position: absolute;
+                left: 0px;
+                top: 80px;
+                font-size: 14px;
+                background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7) 50%, rgba(0, 0, 0, 0) 100%);
+                width: 455px;
+                padding-bottom: 7px;
+                text-align: left;
+            }
+            .main_offer_mark {
+                position: absolute;
+                top: 90px;
+                left: 230px;
+                &_count {
+                    color: white;
+                }
+            }
+            .main_offer_description_stars {
+                margin-top: 17px;
+                .fa-star {
+                    color: #f19e1f;
+                    font-size: 12px;
+                }
+            }
+            .main_offer_description_content {
+                display: flex;
+                margin-top: 6px;
+                align-items: center;
+                .main_offer_description_content_pic {
+                    background-image: url("../images/person1.png");
+                    background-repeat: no-repeat;
+                    width: 55px;
+                    height: 55px;
+                    border-radius: 50%;
+                    border: 2px solid #e4e4e4;
+                    margin-left: 22px;
+                }
+                .main_offer_description_content_text {
+                    width: 340px;
+                    text-align: left;
+                    margin-left: 21px;
+                    .main_offer_description_content_text_title {
+                        color: #566375;
+                        font-family: "Gotham";
+                        font-size: 16px;
+                        line-height: 38px;
+                    }
+                    .main_offer_description_content_text_text {
+                        color: #566375;
+                        font-family: "GothamBook";
+                        font-size: 14px;
+                        line-height: 20px;
+                        padding-top: 11px;
+                        display: inline;
+                    }
+                    .main_offer_description_content_text_more {
+                        color: #566375;
+                        font-family: "Gotham";
+                        font-size: 14px;
+                        line-height: 20px;
+                        display: inline;
+                        border-bottom: 1px solid #e4e4e4;
+                    }
+                }
+            }
+        }
+        &_offer2 {
+            width: 455px;
+            height: 270px;
+            background-color: white;
+            border-radius: 1%;
+            text-align: center;
+            position: relative;
+            .main_offer_pic {
+                background-image: url("../images/party.png");
+                border-bottom: 3px solid #f19e1f;
+                margin-top: 0px;
+                width: 455px;
+                height: 120px;
+                &_hover {
+                    background-color: rgba($color: #f19e1f, $alpha: 0.7);
+                    &_button {
+                        margin-left: 159px;
+                    }
+                    &_stars {
+                        margin-top: 5px;
+                    }
+                    .fa-comments {
+                        margin-top: 5px;
+                    }
+                }
+            }
+            .main_offer_logo {
+                background-color: #f19e1f;
+                background-image: url("../images/homebig.png");
+                top: 90px;
+                left: 22px;
+            }
+            .main_offer_text {
+                color: #f19e1f;
+                color: white;
+                position: absolute;
+                left: 0px;
+                top: 80px;
+                font-size: 14px;
+                background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7) 50%, rgba(0, 0, 0, 0) 100%);
+                width: 455px;
+                padding-bottom: 7px;
+                text-align: left;
+            }
+            .main_offer_mark {
+                position: absolute;
+                top: 90px;
+                left: 230px;
+                &_count {
+                    color: white;
+                }
+            }
+            .main_offer_description_stars {
+                margin-top: 17px;
+                .fa-star {
+                    color: #f19e1f;
+                    font-size: 12px;
+                }
+            }
+            .main_offer_description_content {
+                display: flex;
+                margin-top: 6px;
+                align-items: center;
+                .main_offer_description_content_pic {
+                    background-image: url("../images/person2.png");
+                    background-repeat: no-repeat;
+                    width: 55px;
+                    height: 55px;
+                    border-radius: 50%;
+                    border: 2px solid #e4e4e4;
+                    margin-left: 22px;
+                }
+                .main_offer_description_content_text {
+                    width: 340px;
+                    text-align: left;
+                    margin-left: 21px;
+                    .main_offer_description_content_text_title {
+                        color: #566375;
+                        font-family: "Gotham";
+                        font-size: 16px;
+                        line-height: 38px;
+                    }
+                    .main_offer_description_content_text_text {
+                        color: #566375;
+                        font-family: "GothamBook";
+                        font-size: 14px;
+                        line-height: 20px;
+                        padding-top: 11px;
+                        display: inline;
+                    }
+                    .main_offer_description_content_text_more {
+                        color: #566375;
+                        font-family: "Gotham";
+                        font-size: 14px;
+                        line-height: 20px;
+                        display: inline;
+                        border-bottom: 1px solid #e4e4e4;
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 455px) {
+        .main_block2 {
+            &_offer1 {
+                width: 320px;
+                .main_offer_pic {
+                    width: 320px;
+                    &_hover {
+                        &_button {
+                            margin-left: 91px;
+                        }
+                    }
+                }
+                .main_offer_text {
+                    width: 320px;
+                    font-size: 12px;
+                }
+                .main_offer_mark {
+                    left: 200px;
+                    .fa-star {
+                        font-size: 10px;
+                    }
+                }
+                .main_offer_description_content {
+                    .main_offer_description_content_pic {
+                        margin-left: 5px;
+                        min-width: 55px;
+                    }
+                    .main_offer_description_content_text {
+                        .main_offer_description_content_text_title {
+                            font-size: 14px;
+                        }
+                        .main_offer_description_content_text_text {
+                            font-size: 12px;
+                            line-height: 16px;
+                        }
+                        .main_offer_description_content_text_more {
+                            font-size: 12px;
+                            line-height: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 455px) {
+        .main_block2 {
+            .main_block2_offer2 {
+                width: 320px;
+                .main_offer_pic {
+                    width: 320px;
+                    &_hover {
+                        &_button {
+                            margin-left: 91px;
+                        }
+                    }
+                }
+                .main_offer_text {
+                    width: 320px;
+                    font-size: 12px;
+                }
+                .main_offer_mark {
+                    left: 200px;
+                    .fa-star {
+                        font-size: 10px;
+                    }
+                }
+                .main_offer_description_content {
+                    .main_offer_description_content_pic {
+                        margin-left: 5px;
+                        min-width: 55px;
+                    }
+                    .main_offer_description_content_text {
+                        .main_offer_description_content_text_title {
+                            font-size: 14px;
+                        }
+                        .main_offer_description_content_text_text {
+                            font-size: 12px;
+                            line-height: 16px;
+                        }
+                        .main_offer_description_content_text_more {
+                            font-size: 12px;
+                            line-height: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .block1_2 {
+        margin-top: 30px;
+    }
+    .main_block3 {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        .main_block2_offer2 {
+            .main_offer_pic {
+                margin-top: -1px;
+            }
+        }
+    }
+    @media screen and (max-width: 455px) {
+        .main_block3 {
+            .main_block2_offer2 {
+                width: 320px;
+                .main_offer_pic {
+                    width: 320px;
+                    &_hover {
+                        &_button {
+                            margin-left: 91px;
+                        }
+                    }
+                }
+                .main_offer_text {
+                    width: 320px;
+                    font-size: 12px;
+                }
+                .main_offer_mark {
+                    left: 200px;
+                    .fa-star {
+                        font-size: 10px;
+                    }
+                }
+                .main_offer_description_content {
+                    .main_offer_description_content_pic {
+                        margin-left: 5px;
+                        min-width: 55px;
+                    }
+                    .main_offer_description_content_text {
+                        .main_offer_description_content_text_title {
+                            font-size: 14px;
+                        }
+                        .main_offer_description_content_text_text {
+                            font-size: 12px;
+                            line-height: 16px;
+                        }
+                        .main_offer_description_content_text_more {
+                            font-size: 12px;
+                            line-height: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .main_more {
+        font-family: "Gotham";
+        font-size: 20px;
+        margin-top: 41px;
+        text-align: center;
+        border-bottom: 1px solid #e2dee0;
+        height: 55px;
+        a {
+            color: #566375;
+            text-decoration: none;
+            border-bottom: 1px solid #e2dee0;
+        }
+        .fa-long-arrow-alt-right {
+            font-size: 18px;
+            color: #566375;
+        }
+    }
+    .main_post_info {
+        text-align: center;
+        margin-top: 88px;
+        &_title {
+            color: #566375;
+            font-family: "Gotham";
+            font-size: 22px;
+        }
+        &_text {
+            color: #96a6a7;
+            font-family: "GothamBook";
+            font-size: 16px;
+            margin-top: 11px;
+        }
+        &_icons {
+            display: flex;
+            justify-content: space-between;
+            width: 763px;
+            margin: 0 auto;
+            margin-top: 70px;
+            &_icon {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                border: 2px solid #9dacad;
+                background-repeat: no-repeat;
+                background-image: url("../images/homebigger.png");
+                background-position: center;
+                cursor: pointer;
+            }
+            &_icon:hover {
+                border: 2px solid #1baf5d;
+            }
+            .border {
+                width: 53px;
+                height: 2px;
+                background-color: #e2dee0;
+                margin-top: 50px;
+            }
+            .first {
+            }
+            .second {
+                background-image: url("../images/womanbigger.png");
+                
+            }
+            .third {
+                background-image: url("../images/studybigger.png");
+            }
+            .fourth {
+                background-image: url("../images/musicbigger.png");
+            }
+            .fifth {
+                background-image: url("../images/transportbigger.png");
+            }
+            .first:hover {
+                background-image: url("../images/homebiggerhover.png");
+            }
+            .second:hover {
+                background-image: url("../images/womanbiggerhover.png");
+            }
+            .third:hover {
+                background-image: url("../images/studybiggerhover.png");
+            }
+            .fourth:hover {
+                background-image: url("../images/musicbiggerhover.png");
+            }
+            .fifth:hover {
+                background-image: url("../images/transportbiggerhover.png");
+            }
+        }
+        &_blocks {
+            width: 763px;
+            margin: 0 auto;
+            &_title {
+                color: #1baf5d;
+                font-family: "Gotham";
+                font-size: 24px;
+                margin-top: 38px;
+            }
+            &_blocks {
+                display: flex;
+                justify-content: space-between; 
+                margin-top: 43px;
+                padding-bottom: 143px;
+                &_block1 {
+                    width: 360px;
+                    display: flex;
+                    justify-content: space-between;
+                    &_pic {
+                        width: 62px;
+                        height: 62px;
+                        border-radius: 50%;
+                        background-color: #1db05e;
+                        background-image: url("../images/lightning.png");
+                        background-repeat: no-repeat;
+                        background-position: center;
+                    }
+                    &_text {
+                        width: 259px;
+                        color: #566375;
+                        font-family: "GothamBook";
+                        font-size: 14px;
+                        line-height: 24px;
+                        text-align: left;
+                    }
+                }
+                &_block2 {
+                    width: 360px;
+                    display: flex;
+                    justify-content: space-between;
+                    &_pic {
+                        width: 62px;
+                        height: 62px;
+                        border-radius: 50%;
+                        background-color: #1db05e;
+                        background-image: url("../images/plant.png");
+                        background-repeat: no-repeat;
+                        background-position: center;
+                    }
+                    &_text {
+                        width: 259px;
+                        color: #566375;
+                        font-family: "GothamBook";
+                        font-size: 14px;
+                        line-height: 24px;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 768px) {
+        .main_post_info {
+            margin-top: 50px;
+            &_title {
+                font-size: 18px;
+            }
+            &_text {
+                font-size: 14px;
+            }
+            &_icons {
+                flex-wrap: wrap;
+                width: auto;
+                justify-content: center;
+                &_icon {
+                    width: 75px;
+                    height: 75px;
+                }
+                .border {
+                    margin-top: 37px;
+                }
+            }
+            &_blocks {
+                width: auto;
+                margin-top: 20px;
+                &_blocks {
+                    flex-wrap: wrap;
+                    padding-bottom: 100px;
+                    justify-content: space-around;
+                    &_block1 {
+                        width: 300px;
+                        padding-top: 20px;
+                        &_text {
+                            width: 220px;
+                        }
+                    }
+                    &_block2 {
+                        width: 300px;
+                        padding-top: 20px;
+                        &_text {
+                            width: 220px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 840px) {
+    .main {
+        &_head {
+            &_menu {
+                margin-left: 3%;
+                &_item {
+                    font-size: 10px;
+                    margin-left: 10px;
+                }
+            }
+            &_inputs {
+                &_select {
+                    width: 70px;
+                    height: 23px;
+                    font-size: 10px;
+                    padding-left: 5px;
+                    line-height: 23px;
+                    background-position-x: 50px;
+                }
+                &_button {
+                    width: 70px;
+                    height: 23px;
+                    font-size: 10px;
+                    padding-left: 5px;
+                    line-height: 23px;
+                    background-position-x: 60px;
+                }
+            }
+            &_filter {
+                margin-right: 3%;
+                &_title {
+                    font-size: 10px;
+                }
+                &_icon {
+                    width: 35px;
+                    height: 35px;
+                    margin-left: 5px;
+                }
+            }
+        }
+        .container {
+            .main_block1 {
+                flex-wrap: wrap;
+                justify-content: space-around;
+                &_offer1 {
+                    margin: 5px;
+                }
+                &_offer2 {
+                    margin: 5px;
+                }
+                &_offer3 {
+                    margin: 5px;
+                }
+                &_offer4 {
+                    margin: 5px;
+                }
+            }
+            .main_block2 {
+                flex-wrap: wrap;
+                justify-content: space-around;
+                &_offer1 {
+                    margin: 5px;
+                }
+                &_offer2 {
+                    margin: 5px;
+                }
+            }
+            .main_block1_2 {
+                &_offer1 {
+                    margin: 5px;
+                }
+                &_offer2 {
+                    margin: 5px;
+                }
+                &_offer3 {
+                    margin: 5px;
+                }
+                &_offer4 {
+                    margin: 5px;
+                }
+            }
+            .main_block3 {
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+        }
+    }
+}
+@media screen and (max-width: 680px) {
+    .main {
+        &_head {
+            flex-wrap: wrap;
+            justify-content: space-around;
+            &_menu {
+                padding: 10px;
+                &_item {
+                    font-size: 10px;
+                    margin-left: 10px;
+                    line-height: 14px;
+                }
+            }
+            &_inputs {
+                padding: 10px;
+                &_select {
+                    width: 70px;
+                    height: 23px;
+                    font-size: 10px;
+                    padding-left: 5px;
+                    line-height: 23px;
+                    background-position-x: 50px;
+                }
+                &_button {
+                    width: 70px;
+                    height: 23px;
+                    font-size: 10px;
+                    padding-left: 5px;
+                    line-height: 23px;
+                    background-position-x: 60px;
+                }
+            }
+            &_filter {
+                padding: 10px;
+                margin-right: 3%;
+                &_title {
+                    font-size: 10px;
+                }
+                &_icon {
+                    width: 35px;
+                    height: 35px;
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+}
+.footer1 {
+    background-image: url("../images/footercity.png");
+    .footer {
+        background-color: rgba($color: #000000, $alpha: 0.7);
+        text-align: center;
+        padding-bottom: 64px;
+        &_title {
+            color: #ffffff;
+            font-family: "Gotham";
+            font-size: 24px;
+            padding-top: 61px;
+        }
+        &_text {
+            display: block;
+            margin: 0 auto;
+            margin-top: 23px;
+            width: 423px;
+            height: 60px;
+            border-radius: 30px;
+            -webkit-appearance: none;
+            background-color: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            font-family: "GothamBook";
+            font-size: 18px;
+            padding-left: 69px;
+            background-image: url("../images/mail.png");
+            background-repeat: no-repeat;
+            background-position-x: 33px;
+            background-position-y: center;
+        }
+        &_text:active, :hover, :focus {
+            outline: 0;
+            outline-offset: 0;
+        }
+        &_text::-webkit-input-placeholder {
+            color:white;
+        }
+        &_text::-moz-placeholder {
+            color:white;
+        }
+        &_text:-moz-placeholder {
+            color:white;
+        }
+        &_text:-ms-input-placeholder {
+            color:white;
+        }
+        &_button {
+            width: 120px;
+            height: 50px;
+            border-radius: 30px;
+            background-color: #e94e38;
+            margin-top: -58px;
+            margin-left: 59.5%;
+            text-align: center;
+            line-height: 50px;
+            a {
+                color: white;
+                text-decoration: none;
+            }
+        }
+        .border {
+            width: 75%;
+            margin: 0 auto;
+            height: 1px;
+            background-color: #ffffff;
+            opacity: 0.1;
+            margin-top: 57px;
+        }
+        &_foot {
+            display: flex;
+            padding-top: 42px;
+            justify-content: space-between;
+            max-width: 980px;
+            margin: 0 auto;
+            &_block1 {
+                margin-left: 10px;
+                &_title {
+                    color: #ffffff;
+                    font-family: "Gotham";
+                    font-size: 16px;
+                    border-bottom: 1px solid rgba($color: #d8d8d8, $alpha: 0.3);
+                }
+                &_text {
+                    color: #c0bebc;
+                    margin-top: 21px;
+                    font-family: "GothamBook";
+                    font-size: 14px;
+                    line-height: 24px;
+                    width: 101px;
+                    text-align: left;
+                }
+            }
+            &_block2 {
+                &_title {
+                    color: #ffffff;
+                    font-family: "Gotham";
+                    font-size: 16px;
+                    border-bottom: 1px solid rgba($color: #d8d8d8, $alpha: 0.3);
+                }
+                &_text {
+                    color: #c0bebc;
+                    margin-top: 21px;
+                    font-family: "GothamBook";
+                    font-size: 14px;
+                    line-height: 24px;
+                    width: 101px;
+                    text-align: left;
+                }
+            }
+            &_block3 {
+                margin-right: 10px;
+                &_title {
+                    color: #ffffff;
+                    font-family: "Gotham";
+                    font-size: 16px;
+                    border-bottom: 1px solid rgba($color: #d8d8d8, $alpha: 0.3);
+                    width: 79px;
+                }
+                &_links {
+                    display: flex;
+                    width: 160px;
+                    justify-content: space-between;
+                    margin-top: 30px;
+                    &_link {
+                        background-repeat: no-repeat;
+                        width: 28px;
+                        height: 29px;
+                        background-position: center;
+                    }
+                    .first {
+                        background-image: url("../images/facebook.png");
+                    }
+                    .second {
+                        background-image: url("../images/twitter.png");
+                    }
+                    .third {
+                        background-image: url("../images/google.png");
+                    }
+                    .fourth{
+                        background-image: url("../images/youtube.png");
+                    }
+                }
+                &_copyright {
+                    color: #ffffff;
+                    font-family: "GothamBook";
+                    font-size: 14px;
+                    margin-top: 68px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .footer1 {
+        .footer {
+            padding-bottom: 30px;
+            &_title {
+                font-size: 20px;
+            }
+            &_text {
+                width: 300px;
+                height: 40px;
+                font-size: 12px;
+            }
+            @media screen and (max-width: 320px) {
+                .footer_button {
+                    margin-left: 77%;
+                }
+            }
+            &_button {
+                margin-left: 67%;
+                margin-top: -38px;
+                width: 70px;
+                height: 30px;
+                line-height: 30px;
+                a {
+                    font-size: 10px;
+                }
+            }
+            .border {
+                width: 80%;
+            }
+            &_foot {
+                margin-top: 30px;
+                &_block1 {
+                    &_title {
+                        font-size: 14px;
+                    }
+                    &_text {
+                        font-size: 12px;
+                        line-height: 18px;
+                        margin-top: 10px;
+                    }
+                }
+                &_block2 {
+                    &_title {
+                        font-size: 14px;
+                    }
+                    &_text {
+                        font-size: 12px;
+                        line-height: 18px;
+                        margin-top: 10px;
+                    }
+                }
+                &_block3 {
+                    &_title {
+                        font-size: 14px;
+                    }
+                    &_links {
+                        width: 130px;
+                    }
+                    &_copyright {
+                        font-size: 12px;
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 400px) {
+    .footer1 {
+        .footer {
+            &_title {
+                font-size: 16px;
+            }
+            &_text {
+                width: 250px;
+                font-size: 10px;
+            }
+            &_button {
+                margin-left: 71%;
+            }
+            .border {
+                width: 90%;
+            }
+            &_foot {
+                &_block1 {
+                    &_title {
+                        font-size: 12px;
+                    }
+                    &_text {
+                        font-size: 10px;
+                        line-height: 16px;
+                        width: 80px;
+                    }
+                }
+                &_block2 {
+                    margin-left: 10px;
+                    &_title {
+                        font-size: 12px;
+                    }
+                    &_text {
+                        font-size: 10px;
+                        line-height: 16px;
+                        width: 80px;
+                    }
+                }
+                &_block3 {
+                    margin-left: 10px;
+                    &_title {
+                        font-size: 12px;
+                    }
+                    &_links {
+                        
+                    }
+                    &_copyright {
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
