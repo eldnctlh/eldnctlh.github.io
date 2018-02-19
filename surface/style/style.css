@@ -1,0 +1,2186 @@
+@import url("https://meyerweb.com/eric/tools/css/reset/reset.css");
+@font-face {
+  font-family: "ProximaNovaLight";
+  src: url("../fonts/ProximaNovaLight.ttf");
+}
+
+@font-face {
+  font-family: "ProximaNovaBold";
+  src: url("../fonts/ProximaNovaBold.ttf");
+}
+
+@font-face {
+  font-family: "ProximaNovaRegular";
+  src: url("../fonts/ProximaNovaRegular.ttf");
+}
+
+@font-face {
+  font-family: "ProximaNovaSemibold";
+  src: url("../fonts/ProximaNovaSemibold.ttf");
+}
+
+/* line 18, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.container {
+  max-width: 1535px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 23, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .container {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* line 29, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .container {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+}
+
+/* line 34, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.header1 {
+  background-color: rgba(10, 14, 52, 0.9);
+}
+
+/* line 38, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.header {
+  max-width: 1920px;
+  margin: 0 auto;
+  background-image: url("../images/f.png");
+  background-position-x: center;
+  background-repeat: no-repeat;
+}
+
+/* line 44, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.header .head {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 48, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.header .head .logo {
+  background-image: url("../images/logo.png");
+  background-repeat: no-repeat;
+  width: 189px;
+  height: 33px;
+  margin-top: 54px;
+}
+
+@media screen and (max-width: 320px) {
+  /* line 56, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .header .head .logo {
+    margin-top: 39px;
+    margin-left: 92px;
+    background-image: url("../images/logo320.png");
+    width: 137px;
+    height: 24px;
+  }
+}
+
+/* line 64, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.header .head .info {
+  font-size: 14px;
+  font-family: "ProximaNovaLight";
+  color: white;
+  margin-top: 65px;
+  visibility: visible;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 72, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .header .head .info {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* line 77, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .header .head .info {
+    visibility: hidden;
+    font-size: 0px;
+  }
+}
+
+/* line 83, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.header .main {
+  margin-top: 310px;
+  position: relative;
+}
+
+/* line 86, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.header .main .title1 {
+  font-size: 90px;
+  color: white;
+  font-family: "ProximaNovaBold";
+  letter-spacing: 4.5px;
+  position: relative;
+  z-index: 10;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 95, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .header .main .title1 {
+    font-size: 64px;
+    margin-left: 89px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* line 101, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .header .main .title1 {
+    font-size: 32px;
+    margin-left: 10px;
+    letter-spacing: 1.6px;
+  }
+}
+
+/* line 107, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.header .main .line {
+  position: absolute;
+  top: -140px;
+  left: 510px;
+  z-index: 1;
+  height: 450px;
+  width: 6px;
+  background-color: #5e42b0;
+  transform: rotate(40deg);
+}
+
+@media screen and (max-width: 768px) {
+  /* line 118, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .header .main .line {
+    left: 400px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* line 123, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .header .main .line {
+    left: 153px;
+    height: 230px;
+    top: -60px;
+    width: 4px;
+  }
+}
+
+/* line 130, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.header .main .title2 {
+  font-size: 90px;
+  color: white;
+  font-family: "ProximaNovaBold";
+  letter-spacing: 4.5px;
+  margin-left: 450px;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 138, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .header .main .title2 {
+    margin-left: 197px;
+    font-size: 64px;
+    position: relative;
+    z-index: 10;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* line 146, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .header .main .title2 {
+    margin-left: 65px;
+    font-size: 32px;
+    position: relative;
+    z-index: 10;
+    margin-top: 20px;
+    letter-spacing: 1.6px;
+  }
+}
+
+/* line 155, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.header .main .menu {
+  margin-left: 900px;
+  margin-top: 15px;
+}
+
+/* line 158, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.header .main .menu ul {
+  list-style: none;
+}
+
+/* line 160, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.header .main .menu ul .item {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+/* line 163, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.header .main .menu ul .item a {
+  font-family: "ProximaNovaRegular";
+  color: #9071ea;
+  font-size: 14px;
+  letter-spacing: 0.7px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 171, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .header .main .menu ul .item a {
+    font-size: 16px;
+    letter-spacing: 0.8px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* line 177, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .header .main .menu ul .item a {
+    font-size: 12px;
+    letter-spacing: 0.6px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* line 184, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .header .main .menu ul .item {
+    margin-left: 33px;
+  }
+}
+
+/* line 188, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.header .main .menu ul .item:nth-child(1) {
+  margin-left: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 194, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .header .main .menu {
+    margin-left: 50px;
+    margin-top: 180px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* line 200, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .header .main .menu {
+    margin-left: 25px;
+    margin-top: 202px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* line 207, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .header .main {
+    margin-top: 140px;
+  }
+}
+
+/* line 211, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.header .buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 181px;
+  padding-bottom: 110px;
+}
+
+/* line 216, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.header .buttons a {
+  text-decoration: none;
+}
+
+/* line 219, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.header .buttons .logo {
+  background-repeat: no-repeat;
+  width: 39px;
+  height: 39px;
+  background-position: center;
+  padding-top: 35px;
+  margin-right: 80px;
+}
+
+/* line 227, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.header .buttons .text {
+  margin-top: 26px;
+  color: white;
+  letter-spacing: 0.7px;
+  font-size: 14px;
+  margin-left: -50px;
+}
+
+/* line 233, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.header .buttons .text .text1 {
+  font-family: "ProximaNovaLight";
+}
+
+/* line 236, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.header .buttons .text .text2 {
+  font-family: "ProximaNovaSemibold";
+  margin-top: 5px;
+}
+
+/* line 241, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.header .buttons .button1 {
+  width: 311px;
+  height: 77px;
+  border-radius: 50px;
+  background-color: #5e42b0;
+  display: flex;
+  justify-content: center;
+  margin-right: 25px;
+}
+
+/* line 249, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.header .buttons .button1 .logo {
+  background-image: url("../images/apple.png");
+}
+
+/* line 253, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.header .buttons .button2 {
+  width: 311px;
+  height: 77px;
+  border-radius: 50px;
+  background-color: #5e42b0;
+  display: flex;
+  justify-content: center;
+  margin-left: 25px;
+}
+
+/* line 261, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.header .buttons .button2 .logo {
+  background-image: url("../images/googleplay.png");
+}
+
+@media screen and (max-width: 768px) {
+  /* line 267, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .header .buttons {
+    padding-bottom: 90px;
+    margin-top: 116px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* line 273, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .header .buttons {
+    padding-bottom: 110px;
+    margin-top: -140px;
+  }
+  /* line 276, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .header .buttons .text {
+    font-size: 8px;
+    margin-top: 12px;
+    margin-left: -85px;
+  }
+  /* line 280, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .header .buttons .text .text2 {
+    margin-top: 3px;
+  }
+  /* line 284, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .header .buttons .button1 {
+    width: 140px;
+    height: 39px;
+    margin-right: 4px;
+  }
+  /* line 288, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .header .buttons .button1 .logo {
+    background-image: url("../images/apple320.png");
+    padding-top: 0px;
+  }
+  /* line 293, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .header .buttons .button2 {
+    width: 140px;
+    height: 39px;
+    margin-left: 4px;
+  }
+  /* line 297, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .header .buttons .button2 .logo {
+    background-image: url("../images/googleplay320.png");
+    padding-top: 0px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* line 306, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .header {
+    background-image: url("../images/f320.png");
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* line 311, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .header1 {
+    background-color: rgba(10, 14, 52, 0);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* line 316, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main1 {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* line 322, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main1 {
+    max-width: 320px;
+    margin: 0 auto;
+    position: relative;
+  }
+}
+
+/* line 328, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main1 {
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  max-width: 1920px;
+}
+
+/* line 333, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main1 .content {
+  padding-top: 91px;
+}
+
+@media screen and (max-width: 320px) {
+  /* line 328, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main1 {
+    padding-top: 0px;
+  }
+}
+
+/* line 339, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main1 .title {
+  margin-left: calc(50% + 120px);
+  font-size: 90px;
+  color: #e7e7e7;
+  font-family: "ProximaNovaBold";
+  padding-top: 112px;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 347, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main1 .title {
+    margin-left: 291px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* line 352, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main1 .title {
+    margin-left: 19px;
+    padding-top: 25px;
+    font-size: 50px;
+  }
+}
+
+/* line 358, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main1 .number {
+  font-family: "ProximaNovaBold";
+  font-size: 18px;
+  letter-spacing: 0.9px;
+  border-bottom: 5px solid #5e42b0;
+}
+
+/* line 364, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main1 .offer_title {
+  color: #c1c1c1;
+  font-family: "ProximaNovaBold";
+  font-size: 36px;
+}
+
+/* line 369, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main1 .text {
+  font-family: "ProximaNovaRegular";
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 28px;
+  margin-top: 30px;
+  max-width: 40%;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 378, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main1 .text {
+    max-width: 420px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* line 383, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main1 .text {
+    max-width: 288px;
+    font-size: 15px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* line 390, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main1 .offer_title {
+    font-size: 28px;
+    padding-left: 12px;
+  }
+}
+
+/* line 395, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main1 .offer1 {
+  margin-left: calc(50% + 120px);
+  min-height: 260px;
+}
+
+/* line 398, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main1 .offer1 .text {
+  max-width: 100%;
+}
+
+/* line 402, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main1 .radio {
+  visibility: hidden;
+  padding-bottom: 30px;
+  position: absolute;
+  top: 580px;
+  left: 133px;
+  z-index: 20;
+}
+
+/* line 409, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main1 .radio .radio1 {
+  background-color: #c1c1c1;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* line 415, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main1 .radio .radio1:hover {
+  background-color: #5c3caf;
+}
+
+/* line 419, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main1 .radio .radio2 {
+  background-color: #5c3caf;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+/* line 426, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main1 .radio .radio2:hover {
+  background-color: #5c3caf;
+}
+
+/* line 430, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main1 .radio .radio3 {
+  background-color: #c1c1c1;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+/* line 437, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main1 .radio .radio3:hover {
+  background-color: #5c3caf;
+}
+
+@media screen and (max-width: 320px) {
+  /* line 443, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main1 .radio {
+    visibility: visible;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* line 449, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main1 .offer1 {
+    margin-left: 291px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* line 454, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main1 .offer1 {
+    margin-left: 17px;
+    margin-top: 250px;
+    display: none;
+  }
+}
+
+/* line 462, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main1 .offer2 {
+  background-color: #f6f4fa;
+  width: 100%;
+  padding-left: calc(50% + 120px);
+  min-height: 260px;
+}
+
+/* line 467, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main1 .offer2 .number {
+  font-family: "ProximaNovaBold";
+  font-size: 18px;
+  letter-spacing: 0.9px;
+  border-bottom: 5px solid #5e42b0;
+}
+
+/* line 473, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main1 .offer2 .offer_title {
+  color: #c1c1c1;
+  font-family: "ProximaNovaBold";
+  font-size: 36px;
+}
+
+@media screen and (max-width: 320px) {
+  /* line 479, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main1 .offer2 .offer_title {
+    font-size: 28px;
+    padding-left: 12px;
+  }
+}
+
+/* line 484, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main1 .offer2 .text {
+  font-family: "ProximaNovaRegular";
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  line-height: 28px;
+}
+
+@media screen and (max-width: 320px) {
+  /* line 492, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main1 .offer2 .text {
+    max-width: 288px;
+    font-size: 15px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* line 501, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main1 .offer2 {
+    padding-left: 291px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* line 506, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main1 .offer2 {
+    padding-left: 17px;
+    margin-top: 250px;
+    padding-bottom: 30px;
+  }
+}
+
+/* line 512, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main1 .offer3 {
+  background-color: #5e42b0;
+  width: 100%;
+  padding-left: calc(50% + 120px);
+  min-height: 260px;
+}
+
+/* line 517, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main1 .offer3 .number {
+  font-family: "ProximaNovaBold";
+  font-size: 18px;
+  letter-spacing: 0.9px;
+  border-bottom: 5px solid #efefef;
+}
+
+/* line 523, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main1 .offer3 .offer_title {
+  color: #c1c1c1;
+  font-family: "ProximaNovaBold";
+  font-size: 36px;
+}
+
+@media screen and (max-width: 320px) {
+  /* line 529, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main1 .offer3 .offer_title {
+    font-size: 28px;
+    padding-left: 12px;
+  }
+}
+
+/* line 534, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main1 .offer3 .text {
+  font-family: "ProximaNovaRegular";
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  color: white;
+}
+
+@media screen and (max-width: 320px) {
+  /* line 543, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main1 .offer3 .text {
+    max-width: 288px;
+    font-size: 15px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* line 551, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main1 .offer3 {
+    padding-left: 291px;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* line 557, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main1 .offer3 {
+    padding-left: 17px;
+    display: none;
+  }
+}
+
+/* line 562, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main1 .pic1 {
+  position: absolute;
+  top: 0;
+  left: 15%;
+  z-index: 1;
+  background-image: url("../images/footballer.png");
+  background-repeat: no-repeat;
+  height: 1105px;
+  width: 725px;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 573, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main1 .pic1 {
+    left: -270px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* line 578, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main1 .pic1 {
+    background-image: url("../images/footballer320.png");
+    width: 192px;
+    height: 281px;
+    top: 100px;
+    left: 64px;
+  }
+}
+
+/* line 586, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main1 .cross1 {
+  background-image: url("../images/crosspurple.png");
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 140px;
+  left: 400px;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 596, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main1 .cross1 {
+    left: 80px;
+    top: 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* line 602, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main1 .cross1 {
+    left: 65px;
+    top: 115px;
+  }
+}
+
+/* line 607, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main1 .cross2 {
+  background-image: url("../images/crosspurple.png");
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 130px;
+  left: 380px;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 618, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main1 .cross2 {
+    left: 60px;
+    top: 10px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* line 624, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main1 .cross2 {
+    left: 45px;
+    top: 100px;
+  }
+}
+
+/* line 629, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main1 .line {
+  position: absolute;
+  top: -80px;
+  left: 31%;
+  height: 950px;
+  width: 5px;
+  background-color: #9172e6;
+  transform: rotate(40deg);
+}
+
+@media screen and (max-width: 768px) {
+  /* line 639, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main1 .line {
+    left: 30px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* line 644, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main1 .line {
+    left: 140px;
+    height: 280px;
+    top: 75px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* line 652, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main2 {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* line 657, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main2 {
+    max-width: 320px;
+    position: relative;
+  }
+}
+
+/* line 662, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main2 {
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  max-width: 1920px;
+}
+
+/* line 667, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main2 .content {
+  padding-top: 91px;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 671, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main2 .content {
+    padding-top: 63px;
+  }
+}
+
+/* line 675, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main2 .title {
+  margin-left: 328px;
+  font-size: 90px;
+  color: #e7e7e7;
+  font-family: "ProximaNovaBold";
+  padding-top: 112px;
+}
+
+/* line 682, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main2 .number {
+  font-family: "ProximaNovaBold";
+  font-size: 18px;
+  letter-spacing: 0.9px;
+  border-bottom: 5px solid #5e42b0;
+}
+
+/* line 688, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main2 .offer_title {
+  color: #c1c1c1;
+  font-family: "ProximaNovaBold";
+  font-size: 36px;
+}
+
+/* line 693, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main2 .text {
+  font-family: "ProximaNovaRegular";
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 28px;
+  margin-top: 30px;
+  max-width: 565px;
+}
+
+/* line 701, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main2 .offer1 {
+  min-height: 260px;
+  padding-left: 328px;
+}
+
+/* line 705, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main2 .radio {
+  visibility: hidden;
+  padding-bottom: 30px;
+  margin-top: -30px;
+  margin-left: 133px;
+}
+
+/* line 710, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main2 .radio .radio1 {
+  background-color: #c1c1c1;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* line 716, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main2 .radio .radio1:hover {
+  background-color: #5c3caf;
+}
+
+/* line 720, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main2 .radio .radio2 {
+  background-color: #c1c1c1;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+/* line 727, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main2 .radio .radio2:hover {
+  background-color: #5c3caf;
+}
+
+/* line 731, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main2 .radio .radio3 {
+  background-color: #5c3caf;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+/* line 738, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main2 .radio .radio3:hover {
+  background-color: #5c3caf;
+}
+
+@media screen and (max-width: 320px) {
+  /* line 744, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main2 .radio {
+    visibility: visible;
+    position: absolute;
+    top: 565px;
+    z-index: 11;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* line 754, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main2 .offer1 {
+    min-height: 205px;
+  }
+}
+
+/* line 758, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main2 .offer2 {
+  background-color: #f6f4fa;
+  width: 100%;
+  min-height: 260px;
+  padding-left: 328px;
+}
+
+/* line 763, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main2 .offer2 .number {
+  font-family: "ProximaNovaBold";
+  font-size: 18px;
+  letter-spacing: 0.9px;
+  border-bottom: 5px solid #5e42b0;
+}
+
+/* line 769, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main2 .offer2 .offer_title {
+  color: #c1c1c1;
+  font-family: "ProximaNovaBold";
+  font-size: 36px;
+}
+
+/* line 774, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main2 .offer2 .text {
+  font-family: "ProximaNovaRegular";
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  line-height: 28px;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 783, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main2 .offer2 {
+    min-height: 230px;
+  }
+}
+
+/* line 787, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main2 .offer3 {
+  background-color: #0a0e34;
+  width: 100%;
+  min-height: 260px;
+  padding-left: 328px;
+}
+
+/* line 792, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main2 .offer3 .number {
+  font-family: "ProximaNovaBold";
+  font-size: 18px;
+  letter-spacing: 0.9px;
+  border-bottom: 5px solid #efefef;
+  color: #9173e6;
+}
+
+/* line 799, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main2 .offer3 .offer_title {
+  color: #c1c1c1;
+  font-family: "ProximaNovaBold";
+  font-size: 36px;
+}
+
+/* line 804, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main2 .offer3 .text {
+  font-family: "ProximaNovaRegular";
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 814, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main2 .offer3 {
+    min-height: 205px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* line 819, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main2 .title {
+    padding-top: 80px;
+    margin-left: 39px;
+  }
+  /* line 823, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main2 .offer1 {
+    padding-left: 39px;
+  }
+  /* line 826, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main2 .offer2 {
+    padding-left: 39px;
+  }
+  /* line 829, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main2 .offer3 {
+    padding-left: 39px;
+  }
+  /* line 832, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main2 .text {
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* line 837, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main2 .title {
+    font-size: 50px;
+    padding-top: 35px;
+  }
+  /* line 841, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main2 .offer1 {
+    padding-left: 17px;
+    display: none;
+    padding-top: 245px;
+  }
+  /* line 845, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main2 .offer1 .offer_title {
+    font-size: 28px;
+  }
+  /* line 849, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main2 .offer2 {
+    padding-left: 17px;
+    display: none;
+  }
+  /* line 852, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main2 .offer2 .offer_title {
+    font-size: 28px;
+  }
+  /* line 856, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main2 .offer3 {
+    margin-top: 245px;
+    padding-left: 17px;
+    background-color: #f5f4f9;
+    padding-bottom: 40px;
+  }
+  /* line 861, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main2 .offer3 .text {
+    color: #000000;
+    max-width: 288px;
+    font-size: 15px;
+  }
+  /* line 866, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main2 .offer3 .offer_title {
+    font-size: 28px;
+  }
+}
+
+/* line 871, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main2 .pic2 {
+  position: absolute;
+  top: 0px;
+  left: 49%;
+  z-index: 1;
+  background-image: url("../images/basketballer.png");
+  background-repeat: no-repeat;
+  width: 991px;
+  height: 815px;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 882, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main2 .pic2 {
+    background-size: 70%;
+    left: 325px;
+    top: 60px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* line 889, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main2 .pic2 {
+    background-size: 30%;
+    left: 10px;
+    top: 100px;
+  }
+}
+
+/* line 895, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main2 .cross1 {
+  background-image: url("../images/crosspurple.png");
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 130px;
+  left: 60.5%;
+}
+
+/* line 904, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main2 .cross1_1 {
+  background-image: url("../images/crosspurple.png");
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  opacity: 0.8;
+  top: 380px;
+  left: 85%;
+}
+
+/* line 914, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main2 .cross2 {
+  background-image: url("../images/crosspurple.png");
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 150px;
+  left: 61%;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 925, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main2 .cross1 {
+    left: 533px;
+  }
+  /* line 928, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main2 .cross1_1 {
+    visibility: hidden;
+  }
+  /* line 931, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main2 .cross2 {
+    left: 550px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* line 936, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main2 .cross1 {
+    left: 70px;
+    top: 110px;
+  }
+  /* line 940, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main2 .cross1_1 {
+    visibility: hidden;
+  }
+  /* line 943, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main2 .cross2 {
+    left: 52px;
+    top: 101px;
+  }
+}
+
+/* line 948, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main2 .line1 {
+  position: absolute;
+  top: 320px;
+  left: 65%;
+  height: 500px;
+  width: 5px;
+  background-color: #9172e6;
+  transform: rotate(44deg);
+}
+
+/* line 957, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.main2 .line2 {
+  position: absolute;
+  top: 0px;
+  left: 92%;
+  height: 450px;
+  width: 5px;
+  background-color: #9172e6;
+  transform: rotate(44deg);
+}
+
+@media screen and (max-width: 768px) {
+  /* line 967, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main2 .line1 {
+    left: 600px;
+    top: 150px;
+  }
+  /* line 971, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main2 .line2 {
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* line 976, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main2 .line1 {
+    left: 90px;
+    top: 200px;
+    height: 150px;
+  }
+  /* line 981, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .main2 .line2 {
+    left: 250px;
+    height: 125px;
+    top: 100px;
+    visibility: visible;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* line 990, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .sub_main {
+    max-width: 768px;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* line 996, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .sub_main {
+    max-width: 320px;
+    flex-direction: column;
+  }
+}
+
+/* line 1001, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.sub_main {
+  max-width: 1920px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* line 1006, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.sub_main .pic1 {
+  position: relative;
+  background-image: url("../images/manphone.png");
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 730px;
+}
+
+/* line 1012, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.sub_main .pic1 .number_box {
+  position: absolute;
+  top: 213px;
+  left: 92%;
+  width: 158px;
+  background-color: #5e42b0;
+  color: #f5f6f7;
+  font-family: "ProximaNovaBold";
+  text-align: center;
+  padding-top: 65px;
+  padding-bottom: 65px;
+  font-size: 24px;
+}
+
+/* line 1024, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.sub_main .pic1 .number_box .border {
+  border-bottom: 5px solid #ffffff;
+  width: 22px;
+  opacity: 0.3;
+  margin-left: 68px;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 1033, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .sub_main .pic1 .number_box {
+    top: 465px;
+    left: 33px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* line 1039, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .sub_main .pic1 .number_box {
+    top: 300px;
+    left: 33px;
+    width: 70px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  /* line 1047, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .sub_main .pic1 .number_box .border {
+    margin-left: 25px;
+  }
+}
+
+/* line 1054, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.sub_main .pic2 {
+  position: relative;
+  background-image: url("../images/manheadphone.png");
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 730px;
+}
+
+/* line 1060, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.sub_main .pic2 .number_box2 {
+  position: absolute;
+  top: 213px;
+  right: 92%;
+  width: 158px;
+  background-color: #5e42b0;
+  color: #f5f6f7;
+  font-family: "ProximaNovaBold";
+  text-align: center;
+  padding-top: 65px;
+  padding-bottom: 65px;
+  font-size: 24px;
+}
+
+/* line 1072, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.sub_main .pic2 .number_box2 .border {
+  border-bottom: 5px solid #ffffff;
+  width: 22px;
+  opacity: 0.3;
+  margin-left: 68px;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 1081, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .sub_main .pic2 .number_box2 {
+    top: 465px;
+    left: 33px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* line 1087, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .sub_main .pic2 .number_box2 {
+    top: 300px;
+    left: 33px;
+    width: 70px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  /* line 1095, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .sub_main .pic2 .number_box2 .border {
+    margin-left: 25px;
+  }
+}
+
+/* line 1101, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.sub_main .pic3 {
+  position: relative;
+  background-image: url("../images/team.png");
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 730px;
+}
+
+/* line 1107, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.sub_main .pic3 .number_box {
+  position: absolute;
+  top: 213px;
+  left: 92%;
+  width: 158px;
+  background-color: #5e42b0;
+  color: #f5f6f7;
+  font-family: "ProximaNovaBold";
+  text-align: center;
+  padding-top: 65px;
+  padding-bottom: 65px;
+  font-size: 24px;
+}
+
+/* line 1119, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.sub_main .pic3 .number_box .border {
+  border-bottom: 5px solid #ffffff;
+  width: 22px;
+  opacity: 0.3;
+  margin-left: 68px;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 1128, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .sub_main .pic3 .number_box {
+    top: 465px;
+    left: 33px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* line 1134, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .sub_main .pic3 .number_box {
+    top: 300px;
+    left: 33px;
+    width: 70px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  /* line 1142, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .sub_main .pic3 .number_box .border {
+    margin-left: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* line 1149, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .sub_main .pic1 {
+    background-image: url("../images/manphone768.png");
+    width: 768px;
+    height: 584px;
+  }
+  /* line 1154, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .sub_main .pic2 {
+    order: 2;
+    background-image: url("../images/manheadphone768.png");
+    width: 768px;
+    height: 584px;
+  }
+  /* line 1160, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .sub_main .pic3 {
+    order: 4;
+    background-image: url("../images/team768.png");
+    width: 768px;
+    height: 584px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* line 1168, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .sub_main .pic1 {
+    background-image: url("../images/manphone320.png");
+    width: 320px;
+    height: 351px;
+  }
+  /* line 1173, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .sub_main .pic2 {
+    order: 2;
+    background-image: url("../images/manheadphone320.png");
+    width: 320px;
+    height: 351px;
+  }
+  /* line 1179, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .sub_main .pic3 {
+    order: 4;
+    background-image: url("../images/team320.png");
+    width: 320px;
+    height: 351px;
+  }
+}
+
+/* line 1186, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.sub_main .capability1 {
+  width: 50%;
+  margin-top: -3px;
+}
+
+/* line 1189, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.sub_main .capability1 .title {
+  opacity: 0.4;
+  color: #c1c1c1;
+  font-family: "ProximaNovaBold";
+  font-size: 90px;
+  margin-left: 128px;
+  margin-top: 257px;
+}
+
+/* line 1197, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.sub_main .capability1 .text {
+  font-family: "ProximaNovaRegular";
+  font-size: 24px;
+  max-width: 500px;
+  margin-left: 128px;
+  margin-top: 100px;
+}
+
+/* line 1204, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.sub_main .capability1 .border {
+  border-bottom: 5px solid #5e42b0;
+  width: 22px;
+  margin-left: 128px;
+  margin-top: 120px;
+}
+
+/* line 1211, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.sub_main .capability2 {
+  width: 50%;
+  margin-top: -3px;
+}
+
+/* line 1214, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.sub_main .capability2 .title {
+  opacity: 0.4;
+  color: #c1c1c1;
+  font-family: "ProximaNovaBold";
+  font-size: 90px;
+  margin-left: 128px;
+  margin-top: 257px;
+}
+
+/* line 1222, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.sub_main .capability2 .text {
+  font-family: "ProximaNovaRegular";
+  font-size: 24px;
+  max-width: 500px;
+  margin-left: 128px;
+  margin-top: 100px;
+}
+
+/* line 1229, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.sub_main .capability2 .border {
+  border-bottom: 5px solid #5e42b0;
+  width: 22px;
+  margin-left: 128px;
+  margin-top: 120px;
+}
+
+/* line 1236, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.sub_main .capability3 {
+  width: 50%;
+  margin-top: -3px;
+}
+
+/* line 1239, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.sub_main .capability3 .title {
+  opacity: 0.4;
+  color: #c1c1c1;
+  font-family: "ProximaNovaBold";
+  font-size: 90px;
+  margin-left: 128px;
+  margin-top: 257px;
+}
+
+/* line 1247, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.sub_main .capability3 .text {
+  font-family: "ProximaNovaRegular";
+  font-size: 24px;
+  max-width: 500px;
+  margin-left: 128px;
+  margin-top: 100px;
+}
+
+/* line 1254, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.sub_main .capability3 .border {
+  border-bottom: 5px solid #5e42b0;
+  width: 22px;
+  margin-left: 128px;
+  margin-top: 120px;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 1262, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .sub_main .capability1 {
+    width: 768px;
+    padding-bottom: 60px;
+  }
+  /* line 1265, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .sub_main .capability1 .title {
+    margin-top: 80px;
+    margin-left: 28px;
+  }
+  /* line 1269, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .sub_main .capability1 .border {
+    margin-top: 30px;
+    margin-left: 28px;
+  }
+  /* line 1273, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .sub_main .capability1 .text {
+    margin-top: 36px;
+    margin-left: 28px;
+  }
+  /* line 1278, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .sub_main .capability2 {
+    order: 3;
+    width: 768px;
+    padding-bottom: 60px;
+  }
+  /* line 1282, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .sub_main .capability2 .title {
+    margin-top: 80px;
+    margin-left: 28px;
+  }
+  /* line 1286, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .sub_main .capability2 .border {
+    margin-top: 30px;
+    margin-left: 28px;
+  }
+  /* line 1290, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .sub_main .capability2 .text {
+    margin-top: 36px;
+    margin-left: 28px;
+  }
+  /* line 1295, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .sub_main .capability3 {
+    order: 5;
+    width: 768px;
+    padding-bottom: 60px;
+  }
+  /* line 1299, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .sub_main .capability3 .title {
+    margin-top: 80px;
+    margin-left: 28px;
+  }
+  /* line 1303, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .sub_main .capability3 .border {
+    margin-top: 30px;
+    margin-left: 28px;
+  }
+  /* line 1307, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .sub_main .capability3 .text {
+    margin-top: 36px;
+    margin-left: 28px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* line 1314, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .sub_main .capability1 {
+    width: 320px;
+    padding-bottom: 51px;
+  }
+  /* line 1317, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .sub_main .capability1 .title {
+    margin-top: 35px;
+    margin-left: 19px;
+    font-size: 28px;
+  }
+  /* line 1322, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .sub_main .capability1 .border {
+    margin-top: 23px;
+    margin-left: 19px;
+  }
+  /* line 1326, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .sub_main .capability1 .text {
+    margin-top: 36px;
+    margin-left: 19px;
+    width: 220px;
+    font-size: 16px;
+  }
+  /* line 1333, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .sub_main .capability2 {
+    width: 320px;
+    padding-bottom: 51px;
+  }
+  /* line 1336, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .sub_main .capability2 .title {
+    margin-top: 35px;
+    margin-left: 19px;
+    font-size: 28px;
+  }
+  /* line 1341, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .sub_main .capability2 .border {
+    margin-top: 23px;
+    margin-left: 19px;
+  }
+  /* line 1345, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .sub_main .capability2 .text {
+    margin-top: 36px;
+    margin-left: 19px;
+    width: 220px;
+    font-size: 16px;
+  }
+  /* line 1352, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .sub_main .capability3 {
+    width: 320px;
+    padding-bottom: 51px;
+  }
+  /* line 1355, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .sub_main .capability3 .title {
+    margin-top: 35px;
+    margin-left: 19px;
+    font-size: 28px;
+  }
+  /* line 1360, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .sub_main .capability3 .border {
+    margin-top: 23px;
+    margin-left: 19px;
+  }
+  /* line 1364, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .sub_main .capability3 .text {
+    margin-top: 36px;
+    margin-left: 19px;
+    width: 220px;
+    font-size: 16px;
+  }
+}
+
+/* line 1373, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.footer {
+  max-width: 1920px;
+  margin: 0 auto;
+  background-image: url("../images/footerbg.png");
+  margin-top: -3px;
+  background-position-x: center;
+}
+
+/* line 1379, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.footer .footer1 {
+  background-color: rgba(10, 14, 52, 0.9);
+  max-width: 1920px;
+}
+
+/* line 1382, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.footer .footer1 .title {
+  padding-top: 229px;
+  font-size: 0px;
+  margin-left: 25%;
+  position: relative;
+}
+
+/* line 1387, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.footer .footer1 .title .logo {
+  background-image: url("../images/footlogo.png");
+  background-repeat: no-repeat;
+  width: 130px;
+  height: 137px;
+  display: inline-block;
+}
+
+/* line 1395, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.footer .footer1 .title .text {
+  display: inline-block;
+  margin-left: 36px;
+  position: relative;
+  z-index: 1;
+}
+
+/* line 1400, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.footer .footer1 .title .text .text1 {
+  font-family: "ProximaNovaBold";
+  font-size: 90px;
+  color: white;
+  letter-spacing: 4.96px;
+}
+
+/* line 1406, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.footer .footer1 .title .text .text2 {
+  color: #a496ca;
+  font-family: "ProximaNovaBold";
+  font-size: 36px;
+}
+
+/* line 1412, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.footer .footer1 .title .line1 {
+  position: absolute;
+  top: 200px;
+  left: 260px;
+  height: 200px;
+  width: 5px;
+  background-color: #9172e6;
+  transform: rotate(40deg);
+}
+
+/* line 1421, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.footer .footer1 .title .line2 {
+  position: absolute;
+  top: 125px;
+  left: 675px;
+  height: 350px;
+  width: 5px;
+  background-color: #9172e6;
+  transform: rotate(40deg);
+}
+
+/* line 1431, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.footer .footer1 .buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 163px;
+}
+
+/* line 1435, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.footer .footer1 .buttons a {
+  text-decoration: none;
+}
+
+/* line 1438, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.footer .footer1 .buttons .logo {
+  background-repeat: no-repeat;
+  width: 39px;
+  height: 39px;
+  background-position: center;
+  padding-top: 35px;
+  margin-right: 80px;
+}
+
+/* line 1446, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.footer .footer1 .buttons .text {
+  margin-top: 26px;
+  color: white;
+  letter-spacing: 0.7px;
+  font-size: 14px;
+  margin-left: -50px;
+}
+
+/* line 1452, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.footer .footer1 .buttons .text .text1 {
+  font-family: "ProximaNovaLight";
+}
+
+/* line 1455, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.footer .footer1 .buttons .text .text2 {
+  font-family: "ProximaNovaSemibold";
+  margin-top: 5px;
+}
+
+/* line 1460, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.footer .footer1 .buttons .button1 {
+  width: 311px;
+  height: 77px;
+  border-radius: 50px;
+  background-color: #5e42b0;
+  display: flex;
+  justify-content: center;
+  margin-right: 25px;
+}
+
+/* line 1468, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.footer .footer1 .buttons .button1 .logo {
+  background-image: url("../images/apple.png");
+}
+
+/* line 1472, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.footer .footer1 .buttons .button2 {
+  width: 311px;
+  height: 77px;
+  border-radius: 50px;
+  background-color: #5e42b0;
+  display: flex;
+  justify-content: center;
+  margin-left: 25px;
+}
+
+/* line 1480, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.footer .footer1 .buttons .button2 .logo {
+  background-image: url("../images/googleplay.png");
+}
+
+/* line 1485, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.footer .footer1 .foot {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 200px;
+  padding-top: 70px;
+  padding-bottom: 65px;
+  background-color: rgba(10, 14, 52, 0.6);
+}
+
+/* line 1492, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.footer .footer1 .foot .logo {
+  background-image: url("../images/logo.png");
+  background-repeat: no-repeat;
+  width: 189px;
+  height: 33px;
+  margin-left: 50px;
+  visibility: visible;
+}
+
+/* line 1500, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.footer .footer1 .foot .links {
+  display: flex;
+  margin-left: 90px;
+}
+
+/* line 1503, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.footer .footer1 .foot .links .link1 {
+  width: 27px;
+  height: 27px;
+  background-image: url("../images/facebook.png");
+  background-repeat: no-repeat;
+}
+
+/* line 1509, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.footer .footer1 .foot .links .link2 {
+  width: 27px;
+  height: 27px;
+  background-image: url("../images/twitter.png");
+  background-repeat: no-repeat;
+  margin-left: 40px;
+}
+
+/* line 1516, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.footer .footer1 .foot .links .link3 {
+  width: 27px;
+  height: 27px;
+  background-image: url("../images/instagram.png");
+  background-repeat: no-repeat;
+  margin-left: 40px;
+}
+
+/* line 1524, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.footer .footer1 .foot .info {
+  font-family: "ProximaNovaRegular";
+  font-size: 20px;
+  margin-right: 60px;
+  visibility: visible;
+}
+
+/* line 1529, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+.footer .footer1 .foot .info a {
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 1538, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .footer {
+    max-width: 768px;
+  }
+  /* line 1540, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .footer .footer1 {
+    max-width: 768px;
+  }
+  /* line 1542, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .footer .footer1 .title {
+    margin-left: 0px;
+    padding-top: 128px;
+  }
+  /* line 1545, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .footer .footer1 .title .logo {
+    display: block;
+    margin-left: 319px;
+  }
+  /* line 1549, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .footer .footer1 .title .text {
+    margin-left: 46px;
+    margin-top: 70px;
+  }
+  /* line 1552, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .footer .footer1 .title .text .text1 {
+    font-size: 80px;
+    letter-spacing: 4.85px;
+  }
+  /* line 1560, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .footer .footer1 .title .line1 {
+    top: 300px;
+  }
+  /* line 1563, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .footer .footer1 .title .line2 {
+    top: 250px;
+    left: 465px;
+  }
+  /* line 1568, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .footer .footer1 .buttons {
+    margin-top: 198px;
+  }
+  /* line 1571, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .footer .footer1 .foot {
+    margin-top: 129px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+  /* line 1575, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .footer .footer1 .foot .logo {
+    visibility: hidden;
+  }
+  /* line 1578, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .footer .footer1 .foot .info {
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* line 1586, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .footer {
+    max-width: 320px;
+    background-image: url("../images/footbg320.png");
+  }
+  /* line 1589, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .footer .footer1 {
+    max-width: 320px;
+    background-color: rgba(10, 14, 52, 0);
+  }
+  /* line 1592, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .footer .footer1 .title {
+    margin-left: 0px;
+    padding-top: 85px;
+  }
+  /* line 1595, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .footer .footer1 .title .logo {
+    background-image: url("../images/footlogo320.png");
+    background-repeat: no-repeat;
+    width: 73px;
+    height: 78px;
+    display: block;
+    margin-left: 124px;
+  }
+  /* line 1603, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .footer .footer1 .title .text {
+    margin-left: 17px;
+    margin-top: 50px;
+  }
+  /* line 1606, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .footer .footer1 .title .text .text1 {
+    font-size: 34px;
+    letter-spacing: 1.7px;
+  }
+  /* line 1610, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .footer .footer1 .title .text .text2 {
+    font-size: 15px;
+    letter-spacing: 0.75px;
+    margin-top: 8px;
+  }
+  /* line 1616, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .footer .footer1 .title .line1 {
+    top: 212px;
+    left: 45px;
+    width: 4px;
+    height: 100px;
+  }
+  /* line 1622, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .footer .footer1 .title .line2 {
+    top: 190px;
+    left: 195px;
+    width: 4px;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 320px) and (max-width: 320px) {
+  /* line 1630, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .footer .footer1 .buttons {
+    margin-top: 70px;
+  }
+  /* line 1632, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .footer .footer1 .buttons .text {
+    font-size: 8px;
+    margin-top: 10px;
+    margin-left: -85px;
+  }
+  /* line 1636, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .footer .footer1 .buttons .text .text2 {
+    margin-top: 3px;
+  }
+  /* line 1640, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .footer .footer1 .buttons .button1 {
+    width: 140px;
+    height: 39px;
+    margin-right: 4px;
+  }
+  /* line 1644, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .footer .footer1 .buttons .button1 .logo {
+    background-image: url("../images/apple320.png");
+    padding-top: 0px;
+  }
+  /* line 1649, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .footer .footer1 .buttons .button2 {
+    width: 140px;
+    height: 39px;
+    margin-left: 4px;
+  }
+  /* line 1653, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .footer .footer1 .buttons .button2 .logo {
+    background-image: url("../images/googleplay320.png");
+    padding-top: 0px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* line 1660, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .footer .footer1 .foot {
+    margin-top: 125px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  /* line 1664, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .footer .footer1 .foot .logo {
+    visibility: hidden;
+    width: 0px;
+    background-image: none;
+  }
+  /* line 1669, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .footer .footer1 .foot .info {
+    visibility: hidden;
+    font-size: 0px;
+  }
+  /* line 1673, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .footer .footer1 .foot .links {
+    margin-left: 0px;
+  }
+  /* line 1675, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .footer .footer1 .foot .links .link1 {
+    width: 18px;
+    height: 18px;
+    background-image: url("../images/facebook320.png");
+  }
+  /* line 1680, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .footer .footer1 .foot .links .link2 {
+    width: 18px;
+    height: 18px;
+    background-image: url("../images/twitter320.png");
+  }
+  /* line 1685, C:/Users/SunWorship/Desktop/hillel/dz13maket/sstyle/style.scss */
+  .footer .footer1 .foot .links .link3 {
+    width: 18px;
+    height: 18px;
+    background-image: url("../images/instagram320.png");
+  }
+}
+
+/*# sourceMappingURL=../style/style.map */

@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../scss/sstyle.css",
+	"sources": [
+		"../scss/sstyle.scss"
+	],
+	"sourcesContent": [
+		".container {\r\n    max-width: 950px;\r\n    margin: 0 auto;\r\n}\r\n.header {\r\n    .logo {\r\n        .logo_main {\r\n\r\n        }\r\n        .logo_secondary {\r\n\r\n        }\r\n    }\r\n    .header_menu {\r\n        ul {\r\n            .menu_item {\r\n                a {\r\n                    \r\n                }\r\n            }\r\n        }\r\n    }\r\n}"
+	],
+	"mappings": ";AAAA,AAAA,UAAU,CAAC;EACP,SAAS,EAAE,KAAM;EACjB,MAAM,EAAE,MAAO;CAClB",
+	"names": []
+}

@@ -1,0 +1,1694 @@
+@import url("https://meyerweb.com/eric/tools/css/reset/reset.css");
+@font-face {
+    font-family: "ProximaNovaLight";
+    src: url("../fonts/ProximaNovaLight.ttf");
+}
+@font-face {
+    font-family: "ProximaNovaBold";
+    src: url("../fonts/ProximaNovaBold.ttf");
+}
+@font-face {
+    font-family: "ProximaNovaRegular";
+    src: url("../fonts/ProximaNovaRegular.ttf");
+}
+@font-face {
+    font-family: "ProximaNovaSemibold";
+    src: url("../fonts/ProximaNovaSemibold.ttf");
+}
+.container {
+    max-width: 1535px;
+    margin: 0 auto;
+}
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 320px) {
+    .container {
+        max-width: 320px;
+        margin: 0 auto;
+    }
+}
+.header1 {
+    background-color: rgba($color: #0a0e34, $alpha: 0.9);
+}
+
+.header {
+    max-width: 1920px;
+    margin: 0 auto;
+    background-image: url("../images/f.png");
+    background-position-x: center;
+    background-repeat: no-repeat;
+    .head {
+        display: flex;
+        justify-content: space-between;
+
+        .logo {
+            background-image: url("../images/logo.png");
+            background-repeat: no-repeat;
+            width: 189px;
+            height: 33px;
+            margin-top: 54px;
+        }
+        @media screen and (max-width: 320px) {
+            .logo {
+                margin-top: 39px;
+                margin-left: 92px;
+                background-image: url("../images/logo320.png");
+                width: 137px;
+                height: 24px;
+            }
+        }
+        .info {
+            font-size: 14px;
+            font-family: "ProximaNovaLight";
+            color: white;
+            margin-top: 65px;
+            visibility: visible;
+        }
+        @media screen and (max-width: 768px) {
+            .info {
+                margin-right: 20px;
+            }
+        }
+        @media screen and (max-width: 320px) {
+            .info {
+                visibility: hidden;
+                font-size: 0px;
+            }
+        }
+    }
+    .main {
+        margin-top: 310px;
+        position: relative;
+        .title1 {
+            font-size: 90px;
+            color: white;
+            font-family: "ProximaNovaBold";
+            letter-spacing: 4.5px;
+            position: relative;
+            z-index: 10;
+        }
+        @media screen and (max-width: 768px) {
+            .title1 {
+                font-size: 64px;
+                margin-left: 89px;
+            }
+        }
+        @media screen and (max-width: 320px) {
+            .title1 {
+                font-size: 32px;
+                margin-left: 10px;
+                letter-spacing: 1.6px;
+            }
+        }
+        .line {
+            position: absolute;
+            top: -140px;
+            left: 510px;
+            z-index: 1;
+            height: 450px;
+            width: 6px;
+            background-color: #5e42b0;
+            transform: rotate(40deg);
+        }
+        @media screen and(max-width: 768px) {
+            .line {
+                left: 400px;
+            }
+        }
+        @media screen and(max-width: 320px) {
+            .line {
+                left: 153px;
+                height: 230px;
+                top: -60px;
+                width: 4px;
+            }
+        }
+        .title2 {
+            font-size: 90px;
+            color: white;
+            font-family: "ProximaNovaBold";
+            letter-spacing: 4.5px;
+            margin-left: 450px;
+        }
+        @media screen and (max-width: 768px) {
+            .title2 {
+                margin-left: 197px;
+                font-size: 64px;
+                position: relative;
+                z-index: 10;
+            }
+        }
+        @media screen and (max-width: 320px) {
+            .title2 {
+                margin-left: 65px;
+                font-size: 32px;
+                position: relative;
+                z-index: 10;
+                margin-top: 20px;
+                letter-spacing: 1.6px;
+            }
+        }
+        .menu {
+            margin-left: 900px;
+            margin-top: 15px;
+            ul {
+                list-style: none;
+                .item {
+                    display: inline-block;
+                    margin-left: 50px;
+                    a {
+                        font-family: "ProximaNovaRegular";
+                        color: #9071ea;
+                        font-size: 14px;
+                        letter-spacing: 0.7px;
+                        text-decoration: none;
+                    }
+                    @media screen and (max-width: 768px) {
+                        a {
+                            font-size: 16px;
+                            letter-spacing: 0.8px;
+                        }
+                    }
+                    @media screen and (max-width: 320px) {
+                        a {
+                            font-size: 12px;
+                            letter-spacing: 0.6px;
+                        }
+                    }
+                }
+                @media screen and (max-width: 320px) {
+                    .item {
+                        margin-left: 33px;
+                    }
+                }
+                .item:nth-child(1) {
+                    margin-left: 0px;
+                }
+            }
+        }
+        @media screen and (max-width: 768px) {
+            .menu {
+                margin-left: 50px;
+                margin-top: 180px;
+            }
+        }
+        @media screen and (max-width: 320px) {
+            .menu {
+                margin-left: 25px;
+                margin-top: 202px;
+            }
+        }
+    }
+    @media screen and (max-width: 320px) {
+        .main {
+            margin-top: 140px;
+        }
+    }
+    .buttons {
+        display: flex;
+        justify-content: center;
+        margin-top: 181px;
+        padding-bottom: 110px;
+        a {
+            text-decoration: none;
+        }
+        .logo {
+            background-repeat: no-repeat;
+            width: 39px;
+            height: 39px;
+            background-position: center;
+            padding-top: 35px;
+            margin-right: 80px;
+        }
+        .text {
+            margin-top: 26px;
+            color: white;
+            letter-spacing: 0.7px;
+            font-size: 14px;
+            margin-left: -50px;
+            .text1 {
+                font-family: "ProximaNovaLight";
+            }
+            .text2 {
+                font-family: "ProximaNovaSemibold";
+                margin-top: 5px;
+            }
+        }
+        .button1 {
+            width: 311px;
+            height: 77px;
+            border-radius: 50px;
+            background-color: #5e42b0;
+            display: flex;
+            justify-content: center;
+            margin-right: 25px;
+            .logo {
+                background-image: url("../images/apple.png");
+            }
+        }
+        .button2 {
+            width: 311px;
+            height: 77px;
+            border-radius: 50px;
+            background-color: #5e42b0;
+            display: flex;
+            justify-content: center;
+            margin-left: 25px;
+            .logo {
+                background-image: url("../images/googleplay.png");
+            }
+        }
+    }
+    @media screen and (max-width: 768px) {
+        .buttons {
+            padding-bottom: 90px;
+            margin-top: 116px;
+        }
+    }
+    @media screen and (max-width: 320px) {
+        .buttons {
+            padding-bottom: 110px;
+            margin-top: -140px;
+            .text {
+                font-size: 8px;
+                margin-top: 12px;
+                margin-left: -85px;
+                .text2 {
+                    margin-top: 3px;
+                }
+            }
+            .button1 {
+                width: 140px;
+                height: 39px;
+                margin-right: 4px;
+                .logo {
+                    background-image: url("../images/apple320.png");
+                    padding-top: 0px;
+                }
+            }
+            .button2 {
+                width: 140px;
+                height: 39px;
+                margin-left: 4px;
+                .logo {
+                    background-image: url("../images/googleplay320.png");
+                    padding-top: 0px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 320px) {
+    .header {
+        background-image: url("../images/f320.png");
+    }
+}
+@media screen and (max-width: 320px) {
+    .header1 {
+        background-color: rgba($color: #0a0e34, $alpha: 0);
+    }
+}
+@media screen and (max-width: 768px) {
+    .main1 {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 320px) {
+    .main1 {
+        max-width: 320px;
+        margin: 0 auto;
+        position: relative;
+    }
+}
+.main1 {
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    max-width: 1920px;
+    .content {
+        padding-top: 91px;
+    }
+    @media screen and(max-width: 320px) {
+        padding-top: 0px;
+    }
+    .title {
+        margin-left: calc(50% + 120px);
+        font-size: 90px;
+        color: #e7e7e7;
+        font-family: "ProximaNovaBold";
+        padding-top: 112px;
+    }
+    @media screen and(max-width: 768px) {
+        .title {
+            margin-left: 291px; 
+        }
+    }
+    @media screen and(max-width: 320px) {
+        .title {
+            margin-left: 19px; 
+            padding-top: 25px;
+            font-size: 50px;
+        }
+    }
+    .number {
+        font-family: "ProximaNovaBold";
+        font-size: 18px;
+        letter-spacing: 0.9px;
+        border-bottom: 5px solid #5e42b0;
+    }   
+    .offer_title {
+        color: #c1c1c1;
+        font-family: "ProximaNovaBold";
+        font-size: 36px;
+    }
+    .text {
+        font-family: "ProximaNovaRegular";
+        font-size: 20px;
+        letter-spacing: 1px;
+        line-height: 28px;
+        margin-top: 30px;
+        max-width: 40%;
+    }
+    @media screen and(max-width: 768px) {
+        .text {
+            max-width: 420px;
+        }
+    }
+    @media screen and(max-width: 320px) {
+        .text {
+            max-width: 288px;
+            font-size: 15px;
+            line-height: 18px;
+        }
+    }
+    @media screen and(max-width: 320px) {
+        .offer_title {
+            font-size: 28px;
+            padding-left: 12px;
+        }
+    }
+    .offer1 {
+        margin-left: calc(50% + 120px);
+        min-height: 260px;
+        .text {
+            max-width: 100%;
+        }
+    }
+    .radio {
+        visibility: hidden;
+        padding-bottom: 30px;
+        position: absolute;
+        top: 580px;
+        left: 133px;
+        z-index: 20;
+        .radio1 {
+            background-color: #c1c1c1;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            display: inline-block;
+            &:hover {
+                background-color: #5c3caf;
+            }
+        }
+        .radio2 {
+            background-color: #5c3caf;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-left: 5px;
+            &:hover {
+                background-color: #5c3caf;
+            }
+        }
+        .radio3 {
+            background-color: #c1c1c1;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-left: 5px;
+            &:hover {
+                background-color: #5c3caf;
+            }
+        }
+    }
+    @media screen and(max-width: 320px) {
+        .radio {
+            visibility: visible;
+        }
+        
+    }
+    @media screen and(max-width: 768px) {
+        .offer1 {
+            margin-left: 291px; 
+        }
+    }
+    @media screen and(max-width: 320px) {
+        .offer1 {
+            margin-left: 17px; 
+            margin-top: 250px;
+            display: none;
+        }
+        
+    }
+    
+    .offer2 {
+        background-color: #f6f4fa;
+        width: 100%;
+        padding-left: calc(50% + 120px);
+        min-height: 260px;
+        .number {
+            font-family: "ProximaNovaBold";
+            font-size: 18px;
+            letter-spacing: 0.9px;
+            border-bottom: 5px solid #5e42b0;
+        }   
+        .offer_title {
+            color: #c1c1c1;
+            font-family: "ProximaNovaBold";
+            font-size: 36px;
+        }
+        @media screen and(max-width: 320px) {
+            .offer_title {
+                font-size: 28px;
+                padding-left: 12px;
+            }
+        }
+        .text {
+            font-family: "ProximaNovaRegular";
+            font-size: 20px;
+            letter-spacing: 1px;
+            margin-top: 30px;
+            line-height: 28px;
+        }
+        @media screen and(max-width: 320px) {
+            .text {
+                max-width: 288px;
+                font-size: 15px;
+                line-height: 18px;
+            }
+        }
+    }
+    
+    @media screen and(max-width: 768px) {
+        .offer2 {
+            padding-left: 291px; 
+        }
+    }
+    @media screen and(max-width: 320px) {
+        .offer2 {
+            padding-left: 17px; 
+            margin-top: 250px;
+            padding-bottom: 30px;
+        }
+    }
+    .offer3 {
+        background-color: #5e42b0;
+        width: 100%;
+        padding-left: calc(50% + 120px);
+        min-height: 260px;
+        .number {
+            font-family: "ProximaNovaBold";
+            font-size: 18px;
+            letter-spacing: 0.9px;
+            border-bottom: 5px solid #efefef;
+        }   
+        .offer_title {
+            color: #c1c1c1;
+            font-family: "ProximaNovaBold";
+            font-size: 36px;
+        }
+        @media screen and(max-width: 320px) {
+            .offer_title {
+                font-size: 28px;
+                padding-left: 12px;
+            }
+        }
+        .text {
+            font-family: "ProximaNovaRegular";
+            font-size: 20px;
+            line-height: 28px;
+            letter-spacing: 1px;
+            margin-top: 30px;
+            color: white;
+        }
+        @media screen and(max-width: 320px) {
+            .text {
+                max-width: 288px;
+                font-size: 15px;
+                line-height: 18px;
+            }
+        }
+    }
+    @media screen and(max-width: 768px) {
+        .offer3 {
+            padding-left: 291px; 
+            padding-bottom: 30px;
+        }
+    }
+    @media screen and(max-width: 320px) {
+        .offer3 {
+            padding-left: 17px; 
+            display: none;
+        }
+    }
+    .pic1 {
+        position: absolute;
+        top: 0;
+        left: 15%;
+        z-index: 1;
+        background-image: url("../images/footballer.png");
+        background-repeat: no-repeat;
+        height: 1105px;
+        width: 725px;
+    }
+    @media screen and(max-width: 768px) {
+        .pic1 {
+           left: -270px;
+        }
+    }
+    @media screen and(max-width: 320px) {
+        .pic1 {
+            background-image: url("../images/footballer320.png");
+            width: 192px;
+            height: 281px;
+            top: 100px;
+            left: 64px;
+        }
+    }
+    .cross1 {
+        background-image: url("../images/crosspurple.png");
+        background-repeat: no-repeat;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 140px;
+        left: 400px;
+    }
+    @media screen and(max-width: 768px) {
+        .cross1 {
+           left: 80px;
+           top: 20px;
+        }
+    }
+    @media screen and(max-width: 320px) {
+        .cross1 {
+           left: 65px;
+           top: 115px;
+        }
+    }
+    .cross2 {
+        background-image: url("../images/crosspurple.png");
+        background-repeat: no-repeat;
+        opacity: 0.5;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 130px;
+        left: 380px;
+    }
+    @media screen and(max-width: 768px) {
+        .cross2 {
+           left: 60px;
+           top: 10px;
+        }
+    }
+    @media screen and(max-width: 320px) {
+        .cross2 {
+            left: 45px;
+            top: 100px;
+        }
+    }
+    .line {
+        position: absolute;
+        top: -80px;
+        left: 31%; 
+        height: 950px;
+        width: 5px;
+        background-color: #9172e6;
+        transform: rotate(40deg);
+    }
+    @media screen and(max-width: 768px) {
+        .line {
+           left: 30px;
+        }
+    }
+    @media screen and(max-width: 320px) {
+        .line {
+           left: 140px;
+           height: 280px;
+           top: 75px;
+        }
+    }
+}
+@media screen and(max-width: 768px) {
+    .main2 {
+       max-width: 768px;
+    }
+}
+@media screen and(max-width: 320px) {
+    .main2 {
+       max-width: 320px;
+       position: relative;
+    }
+}
+.main2 {
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    max-width: 1920px;
+    .content {
+        padding-top: 91px;
+    }
+    @media screen and (max-width: 768px) {
+        .content {
+            padding-top: 63px
+        }
+    }
+    .title {
+        margin-left: 328px;
+        font-size: 90px;
+        color: #e7e7e7;
+        font-family: "ProximaNovaBold";
+        padding-top: 112px;
+    }
+    .number {
+        font-family: "ProximaNovaBold";
+        font-size: 18px;
+        letter-spacing: 0.9px;
+        border-bottom: 5px solid #5e42b0;
+    }   
+    .offer_title {
+        color: #c1c1c1;
+        font-family: "ProximaNovaBold";
+        font-size: 36px;
+    }
+    .text {
+        font-family: "ProximaNovaRegular";
+        font-size: 20px;
+        letter-spacing: 1px;
+        line-height: 28px;
+        margin-top: 30px;
+        max-width: 565px;
+    }
+    .offer1 {
+        min-height: 260px;
+        padding-left: 328px;
+    }
+    .radio {
+        visibility: hidden;
+        padding-bottom: 30px;
+        margin-top: -30px;
+        margin-left: 133px;
+        .radio1 {
+            background-color: #c1c1c1;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            display: inline-block;
+            &:hover {
+                background-color: #5c3caf;
+            }
+        }
+        .radio2 {
+            background-color: #c1c1c1;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-left: 5px;
+            &:hover {
+                background-color: #5c3caf;
+            }
+        }
+        .radio3 {
+            background-color: #5c3caf;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-left: 5px;
+            &:hover {
+                background-color: #5c3caf;
+            }
+        }
+    }
+    @media screen and(max-width: 320px) {
+        .radio {
+            visibility: visible;
+            position: absolute;
+            top: 565px;
+            z-index: 11;
+
+        }
+        
+    }
+    @media screen and (max-width: 768px){
+        .offer1 {
+            min-height: 205px;
+        }
+    }
+    .offer2 {
+        background-color: #f6f4fa;
+        width: 100%;
+        min-height: 260px;
+        padding-left: 328px;
+        .number {
+            font-family: "ProximaNovaBold";
+            font-size: 18px;
+            letter-spacing: 0.9px;
+            border-bottom: 5px solid #5e42b0;
+        }   
+        .offer_title {
+            color: #c1c1c1;
+            font-family: "ProximaNovaBold";
+            font-size: 36px;
+        }
+        .text {
+            font-family: "ProximaNovaRegular";
+            font-size: 20px;
+            letter-spacing: 1px;
+            margin-top: 30px;
+            line-height: 28px;
+        }
+    }
+    @media screen and (max-width: 768px) {
+        .offer2 {
+            min-height: 230px;
+        }
+    }
+    .offer3 {
+        background-color: #0a0e34;
+        width: 100%;
+        min-height: 260px;
+        padding-left: 328px;
+        .number {
+            font-family: "ProximaNovaBold";
+            font-size: 18px;
+            letter-spacing: 0.9px;
+            border-bottom: 5px solid #efefef;
+            color: #9173e6;
+        }   
+        .offer_title {
+            color: #c1c1c1;
+            font-family: "ProximaNovaBold";
+            font-size: 36px;
+        }
+        .text {
+            font-family: "ProximaNovaRegular";
+            font-size: 20px;
+            line-height: 28px;
+            letter-spacing: 1px;
+            margin-top: 30px;
+            color: white;
+        }
+    }
+    @media screen and (max-width: 768px){
+        .offer3 {
+            min-height: 205px;
+        }
+    }
+    @media screen and (max-width: 768px) {
+        .title {
+            padding-top: 80px;
+            margin-left: 39px;
+        }
+        .offer1 {
+            padding-left: 39px;
+         }
+         .offer2 {
+            padding-left: 39px;
+         }
+         .offer3 {
+            padding-left: 39px;
+         }
+         .text {
+            max-width: 400px;
+        }
+    }
+    @media screen and(max-width: 320px) {
+        .title {
+           font-size: 50px;
+           padding-top: 35px;
+        }
+        .offer1 {
+            padding-left: 17px;
+            display: none;
+            padding-top: 245px;
+            .offer_title {
+                font-size: 28px;
+            }   
+        }
+        .offer2 {
+            padding-left: 17px;
+            display: none;
+            .offer_title {
+                font-size: 28px;
+            }
+        }
+        .offer3 {
+            margin-top: 245px;
+            padding-left: 17px;
+            background-color: #f5f4f9;
+            padding-bottom: 40px;
+            .text {
+                color: #000000;
+                max-width: 288px;
+                font-size: 15px;
+            }
+            .offer_title {
+                font-size: 28px;
+            }
+        }
+    }
+    .pic2 {
+        position: absolute;
+        top: 0px;
+        left: 49%;
+        z-index: 1;
+        background-image: url("../images/basketballer.png");
+        background-repeat: no-repeat;
+        width: 991px;
+        height: 815px;
+    }
+    @media screen and (max-width: 768px) {
+        .pic2 {
+            background-size: 70%;
+            left: 325px;
+            top: 60px;
+        }
+    }
+    @media screen and (max-width: 320px) {
+        .pic2 {
+            background-size: 30%;
+            left: 10px;
+            top: 100px;
+        }
+    }
+    .cross1 {
+        background-image: url("../images/crosspurple.png");
+        background-repeat: no-repeat;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 130px;
+        left: 60.5%;
+    }
+    .cross1_1 {
+        background-image: url("../images/crosspurple.png");
+        background-repeat: no-repeat;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        opacity: 0.8;
+        top: 380px;
+        left: 85%;
+    }
+    .cross2 {
+        background-image: url("../images/crosspurple.png");
+        background-repeat: no-repeat;
+        opacity: 0.5;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 150px;
+        left: 61%;
+    }
+    @media screen and (max-width: 768px) {
+        .cross1 {
+            left: 533px;
+        }
+        .cross1_1 {
+           visibility: hidden;
+        }
+        .cross2 {
+            left: 550px;
+        }
+    }
+    @media screen and (max-width: 320px) {
+        .cross1 {
+            left: 70px;
+            top: 110px;
+        }
+        .cross1_1 {
+           visibility: hidden;
+        }
+        .cross2 {
+            left: 52px;
+            top: 101px;
+        }
+    }
+    .line1 {
+        position: absolute;
+        top: 320px;
+        left: 65%;
+        height: 500px;
+        width: 5px;
+        background-color: #9172e6;
+        transform: rotate(44deg);
+    }
+    .line2 {
+        position: absolute;
+        top: 0px;
+        left: 92%;
+        height: 450px;
+        width: 5px;
+        background-color: #9172e6;
+        transform: rotate(44deg);
+    }
+    @media screen and (max-width: 768px) {
+        .line1 {
+            left: 600px;
+            top: 150px;
+        }
+        .line2 {
+            visibility: hidden;
+        }   
+    }
+    @media screen and (max-width: 320px) {
+        .line1 {
+            left: 90px;
+            top: 200px;
+            height: 150px;
+        }
+        .line2 {
+            left: 250px;
+            height: 125px;
+            top: 100px;
+            visibility: visible;
+        }   
+    }
+} 
+@media screen and (max-width: 768px) {
+    .sub_main {
+        max-width: 768px;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 320px) {
+    .sub_main {
+        max-width: 320px;
+        flex-direction: column;
+    }
+}
+.sub_main {
+    max-width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    .pic1 {
+        position: relative;
+        background-image: url("../images/manphone.png");
+        background-repeat: no-repeat;
+        width: 50%;
+        height: 730px;
+        .number_box {
+            position: absolute;
+            top: 213px;
+            left: 92%;
+            width: 158px;
+            background-color: #5e42b0;
+            color: #f5f6f7;
+            font-family: "ProximaNovaBold";
+            text-align: center;
+            padding-top: 65px;
+            padding-bottom: 65px;
+            font-size: 24px;
+            .border {
+                border-bottom: 5px solid #ffffff;
+                width: 22px;
+                opacity: 0.3;
+                margin-left: 68px;
+            }
+            
+        }
+        @media screen and(max-width: 768px) {
+            .number_box {
+                top: 465px;
+                left: 33px;
+            }
+        }
+        @media screen and(max-width: 320px) {
+            .number_box {
+                top: 300px;
+                left: 33px;
+                width: 70px;
+                padding-top: 25px;
+                padding-bottom: 25px;
+                font-size: 14px;
+                line-height: 20px;
+                .border {
+                    margin-left: 25px;
+                }
+            }
+        }
+        
+    }
+    .pic2 {
+        position: relative;
+        background-image: url("../images/manheadphone.png");
+        background-repeat: no-repeat;
+        width: 50%;
+        height: 730px;
+        .number_box2 {
+            position: absolute;
+            top: 213px;
+            right: 92%;
+            width: 158px;
+            background-color: #5e42b0;
+            color: #f5f6f7;
+            font-family: "ProximaNovaBold";
+            text-align: center;
+            padding-top: 65px;
+            padding-bottom: 65px;
+            font-size: 24px;
+            .border {
+                border-bottom: 5px solid #ffffff;
+                width: 22px;
+                opacity: 0.3;
+                margin-left: 68px;
+            }
+            
+        }
+        @media screen and(max-width: 768px) {
+            .number_box2 {
+                top: 465px;
+                left: 33px;
+            }
+        }
+        @media screen and(max-width: 320px) {
+            .number_box2 {
+                top: 300px;
+                left: 33px;
+                width: 70px;
+                padding-top: 25px;
+                padding-bottom: 25px;
+                font-size: 14px;
+                line-height: 20px;
+                .border {
+                    margin-left: 25px;
+                }
+            }
+        }
+    }
+    .pic3 {
+        position: relative;
+        background-image: url("../images/team.png");
+        background-repeat: no-repeat;
+        width: 50%;
+        height: 730px;
+        .number_box {
+            position: absolute;
+            top: 213px;
+            left: 92%;
+            width: 158px;
+            background-color: #5e42b0;
+            color: #f5f6f7;
+            font-family: "ProximaNovaBold";
+            text-align: center;
+            padding-top: 65px;
+            padding-bottom: 65px;
+            font-size: 24px;
+            .border {
+                border-bottom: 5px solid #ffffff;
+                width: 22px;
+                opacity: 0.3;
+                margin-left: 68px;
+            }
+            
+        }
+        @media screen and(max-width: 768px) {
+            .number_box {
+                top: 465px;
+                left: 33px;
+            }
+        }
+        @media screen and(max-width: 320px) {
+            .number_box {
+                top: 300px;
+                left: 33px;
+                width: 70px;
+                padding-top: 25px;
+                padding-bottom: 25px;
+                font-size: 14px;
+                line-height: 20px;
+                .border {
+                    margin-left: 25px;
+                }
+            }
+        }
+    }
+    @media screen and(max-width: 768px) {
+        .pic1 {
+            background-image: url("../images/manphone768.png");
+            width: 768px;
+            height: 584px;
+        }
+        .pic2 {
+            order: 2;
+            background-image: url("../images/manheadphone768.png");
+            width: 768px;
+            height: 584px;
+        }
+        .pic3 {
+            order: 4;
+            background-image: url("../images/team768.png");
+            width: 768px;
+            height: 584px;
+        }
+    }
+    @media screen and(max-width: 320px) {
+        .pic1 {
+            background-image: url("../images/manphone320.png");
+            width: 320px;
+            height: 351px;
+        }
+        .pic2 {
+            order: 2;
+            background-image: url("../images/manheadphone320.png");
+            width: 320px;
+            height: 351px;
+        }
+        .pic3 {
+            order: 4;
+            background-image: url("../images/team320.png");
+            width: 320px;
+            height: 351px;
+        }
+    }
+    .capability1 {
+        width: 50%;
+        margin-top: -3px;
+        .title {
+            opacity: 0.4;
+            color: #c1c1c1;
+            font-family: "ProximaNovaBold";
+            font-size: 90px;
+            margin-left: 128px;
+            margin-top: 257px;
+        }
+        .text {
+            font-family: "ProximaNovaRegular";
+            font-size: 24px;
+            max-width: 500px;
+            margin-left: 128px;
+            margin-top: 100px;
+        }
+        .border {
+            border-bottom: 5px solid #5e42b0;
+            width: 22px;
+            margin-left: 128px;
+            margin-top: 120px;
+        }
+    }
+    .capability2 {
+        width: 50%;
+        margin-top: -3px;
+        .title {
+            opacity: 0.4;
+            color: #c1c1c1;
+            font-family: "ProximaNovaBold";
+            font-size: 90px;
+            margin-left: 128px;
+            margin-top: 257px;
+        }
+        .text {
+            font-family: "ProximaNovaRegular";
+            font-size: 24px;
+            max-width: 500px;
+            margin-left: 128px;
+            margin-top: 100px;
+        }
+        .border {
+            border-bottom: 5px solid #5e42b0;
+            width: 22px;
+            margin-left: 128px;
+            margin-top: 120px;
+        }
+    }
+    .capability3 {
+        width: 50%;
+        margin-top: -3px;
+        .title {
+            opacity: 0.4;
+            color: #c1c1c1;
+            font-family: "ProximaNovaBold";
+            font-size: 90px;
+            margin-left: 128px;
+            margin-top: 257px;
+        }
+        .text {
+            font-family: "ProximaNovaRegular";
+            font-size: 24px;
+            max-width: 500px;
+            margin-left: 128px;
+            margin-top: 100px;
+        }
+        .border {
+            border-bottom: 5px solid #5e42b0;
+            width: 22px;
+            margin-left: 128px;
+            margin-top: 120px;
+        }
+    }
+    @media screen and (max-width: 768px) {
+        .capability1 {
+            width: 768px;
+            padding-bottom: 60px;
+            .title {
+                margin-top: 80px;
+                margin-left: 28px;
+            }
+            .border {
+                margin-top: 30px;
+                margin-left: 28px;
+            }
+            .text {
+                margin-top: 36px;
+                margin-left: 28px;
+            }
+        }
+        .capability2 {
+            order: 3;
+            width: 768px;
+            padding-bottom: 60px;
+            .title {
+                margin-top: 80px;
+                margin-left: 28px;
+            }
+            .border {
+                margin-top: 30px;
+                margin-left: 28px;
+            }
+            .text {
+                margin-top: 36px;
+                margin-left: 28px;
+            }
+        }   
+        .capability3 {
+            order: 5;
+            width: 768px;
+            padding-bottom: 60px;
+            .title {
+                margin-top: 80px;
+                margin-left: 28px;
+            }
+            .border {
+                margin-top: 30px;
+                margin-left: 28px;
+            }
+            .text {
+                margin-top: 36px;
+                margin-left: 28px;
+            }
+        }
+    }
+    @media screen and (max-width: 320px) {
+        .capability1 {
+            width: 320px;
+            padding-bottom: 51px;
+            .title {
+                margin-top: 35px;
+                margin-left: 19px;
+                font-size: 28px;
+            }
+            .border {
+                margin-top: 23px;
+                margin-left: 19px;
+            }
+            .text {
+                margin-top: 36px;
+                margin-left: 19px;
+                width: 220px;
+                font-size: 16px;
+            }
+        }
+        .capability2 {
+            width: 320px;
+            padding-bottom: 51px;
+            .title {
+                margin-top: 35px;
+                margin-left: 19px;
+                font-size: 28px;
+            }
+            .border {
+                margin-top: 23px;
+                margin-left: 19px;
+            }
+            .text {
+                margin-top: 36px;
+                margin-left: 19px;
+                width: 220px;
+                font-size: 16px;
+            }
+        }
+        .capability3 {
+            width: 320px;
+            padding-bottom: 51px;
+            .title {
+                margin-top: 35px;
+                margin-left: 19px;
+                font-size: 28px;
+            }
+            .border {
+                margin-top: 23px;
+                margin-left: 19px;
+            }
+            .text {
+                margin-top: 36px;
+                margin-left: 19px;
+                width: 220px;
+                font-size: 16px;
+            }
+        }
+    }
+} 
+.footer {
+    max-width: 1920px;
+    margin: 0 auto;
+    background-image: url("../images/footerbg.png");
+    margin-top: -3px;
+    background-position-x: center;
+    .footer1 {
+        background-color: rgba($color: #0a0e34, $alpha: 0.9);
+        max-width: 1920px;
+        .title {
+            padding-top: 229px;
+            font-size: 0px;
+            margin-left: 25%;
+            position: relative;
+            .logo {
+                background-image: url("../images/footlogo.png");
+                background-repeat: no-repeat;
+                width: 130px;
+                height: 137px;
+                display: inline-block;
+                
+            }
+            .text {
+                display: inline-block;
+                margin-left: 36px;
+                position: relative;
+                z-index: 1;
+                .text1 {
+                    font-family: "ProximaNovaBold";
+                    font-size: 90px;
+                    color: white;
+                    letter-spacing: 4.96px;
+                }
+                .text2 {
+                    color: #a496ca;
+                    font-family: "ProximaNovaBold";
+                    font-size: 36px;
+                }
+            }
+            .line1 {
+                position: absolute;
+                top: 200px;
+                left: 260px; 
+                height: 200px;
+                width: 5px;
+                background-color: #9172e6;
+                transform: rotate(40deg);
+            }
+            .line2 {
+                position: absolute;
+                top: 125px;
+                left: 675px;
+                height: 350px;
+                width: 5px;
+                background-color: #9172e6;
+                transform: rotate(40deg);
+            }
+        }
+        .buttons {
+            display: flex;
+            justify-content: center;
+            margin-top: 163px;
+            a {
+                text-decoration: none;
+            }
+            .logo {
+                background-repeat: no-repeat;
+                width: 39px;
+                height: 39px;
+                background-position: center;
+                padding-top: 35px;
+                margin-right: 80px;
+            }
+            .text {
+                margin-top: 26px;
+                color: white;
+                letter-spacing: 0.7px;
+                font-size: 14px;
+                margin-left: -50px;
+                .text1 {
+                    font-family: "ProximaNovaLight";
+                }
+                .text2 {
+                    font-family: "ProximaNovaSemibold";
+                    margin-top: 5px;
+                }
+            }
+            .button1 {
+                width: 311px;
+                height: 77px;
+                border-radius: 50px;
+                background-color: #5e42b0;
+                display: flex;
+                justify-content: center;
+                margin-right: 25px;
+                .logo {
+                    background-image: url("../images/apple.png");
+                }
+            }
+            .button2 {
+                width: 311px;
+                height: 77px;
+                border-radius: 50px;
+                background-color: #5e42b0;
+                display: flex;
+                justify-content: center;
+                margin-left: 25px;
+                .logo {
+                    background-image: url("../images/googleplay.png");
+                }
+            }
+        }
+        .foot {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 200px;
+            padding-top: 70px;
+            padding-bottom: 65px;
+            background-color: rgba($color: #0a0e34, $alpha: 0.6);
+            .logo {
+                background-image: url("../images/logo.png");
+                background-repeat: no-repeat;
+                width: 189px;
+                height: 33px;   
+                margin-left: 50px;   
+                visibility: visible;  
+            }
+            .links {
+                display: flex;
+                margin-left: 90px;
+                .link1 {
+                    width: 27px;
+                    height: 27px;
+                    background-image: url("../images/facebook.png");
+                    background-repeat: no-repeat;
+                }
+                .link2 {
+                    width: 27px;
+                    height: 27px;
+                    background-image: url("../images/twitter.png");
+                    background-repeat: no-repeat;
+                    margin-left: 40px;
+                }
+                .link3 {
+                    width: 27px;
+                    height: 27px;
+                    background-image: url("../images/instagram.png");
+                    background-repeat: no-repeat;
+                    margin-left: 40px;
+                }
+            }
+            .info {
+                font-family: "ProximaNovaRegular";
+                font-size: 20px;
+                margin-right: 60px; 
+                visibility: visible;
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .footer {
+        max-width: 768px;
+        .footer1 {
+            max-width: 768px;
+            .title {
+                margin-left: 0px;
+                padding-top: 128px;
+                .logo {
+                    display: block;
+                    margin-left: 319px;
+                }
+                .text {
+                    margin-left: 46px;
+                    margin-top: 70px;
+                    .text1 {
+                        font-size: 80px;
+                        letter-spacing: 4.85px;
+                    }
+                    .text2 {
+                       
+                    }
+                }
+                .line1 {
+                    top: 300px;
+                }
+                .line2 {
+                    top: 250px;
+                    left: 465px;
+                }
+            }
+            .buttons {
+                margin-top: 198px;
+            }
+            .foot {
+                margin-top: 129px;
+                padding-top: 35px;
+                padding-bottom: 35px;
+                .logo {
+                    visibility: hidden;
+                }
+                .info {
+                    visibility: hidden;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 320px) {
+    .footer {
+        max-width: 320px;
+        background-image: url("../images/footbg320.png");
+        .footer1 {
+            max-width: 320px;
+            background-color: rgba($color: #0a0e34, $alpha: 0);
+            .title {
+                margin-left: 0px;
+                padding-top: 85px;
+                .logo {
+                    background-image: url("../images/footlogo320.png");
+                    background-repeat: no-repeat;
+                    width: 73px;
+                    height: 78px;
+                    display: block;
+                    margin-left: 124px;
+                }
+                .text {
+                    margin-left: 17px;
+                    margin-top: 50px;
+                    .text1 {
+                        font-size: 34px;
+                        letter-spacing: 1.7px;
+                    }
+                    .text2 {
+                        font-size: 15px;
+                        letter-spacing: 0.75px;
+                        margin-top: 8px;
+                    }
+                }
+                .line1 {
+                    top: 212px;
+                    left: 45px;
+                    width: 4px;
+                    height: 100px;
+                }
+                .line2 {
+                    top: 190px;
+                    left: 195px;
+                    width: 4px;
+                    height: 150px;
+                }
+            }
+            @media screen and (max-width: 320px) {
+                .buttons {
+                    margin-top: 70px;
+                    .text {
+                        font-size: 8px;
+                        margin-top: 10px;
+                        margin-left: -85px;
+                        .text2 {
+                            margin-top: 3px;
+                        }
+                    }
+                    .button1 {
+                        width: 140px;
+                        height: 39px;
+                        margin-right: 4px;
+                        .logo {
+                            background-image: url("../images/apple320.png");
+                            padding-top: 0px;
+                        }
+                    }
+                    .button2 {
+                        width: 140px;
+                        height: 39px;
+                        margin-left: 4px;
+                        .logo {
+                            background-image: url("../images/googleplay320.png");
+                            padding-top: 0px;
+                        }
+                    }
+                }
+            }
+            .foot {
+                margin-top: 125px;
+                padding-top: 20px;
+                padding-bottom: 10px;
+                .logo {
+                    visibility: hidden;
+                    width: 0px;
+                    background-image: none;
+                }
+                .info {
+                    visibility: hidden;
+                    font-size: 0px;
+                }
+                .links {
+                    margin-left: 0px;
+                    .link1 {
+                        width: 18px;
+                        height: 18px;
+                        background-image: url("../images/facebook320.png");
+                    }
+                    .link2 {
+                        width: 18px;
+                        height: 18px;
+                        background-image: url("../images/twitter320.png");
+                    }
+                    .link3 {
+                        width: 18px;
+                        height: 18px;
+                        background-image: url("../images/instagram320.png");
+                    }
+                }
+            }
+        }
+    }
+}
