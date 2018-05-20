@@ -1,0 +1,725 @@
+/*
+Theme Name: SRI
+Author: Zagonenko Andrey
+Description: template for K-3 Soft
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: //www.gnu.org/licenses/gpl-2.0.html
+*/
+@font-face {
+  font-family: "Exo2";
+  src: url("fonts/Exo2-Regular.otf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: "RobotoItalic";
+  src: url("fonts/Roboto-Italic.ttf");
+}
+
+@font-face {
+  font-family: "RobotoBold";
+  src: url("fonts/Roboto-Bold.ttf");
+}
+
+/* line 17, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+body {
+  margin: 0;
+  font-family: "Roboto";
+}
+
+/* line 21, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.header {
+  background-color: #80b412;
+  min-height: 100px;
+}
+
+/* line 24, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.header .container {
+  margin: 0 auto;
+  max-width: 1278px;
+}
+
+/* line 27, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.header .container .head {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100px;
+}
+
+/* line 32, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.header .container .head-icons {
+  display: flex;
+}
+
+/* line 35, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.header .container .head-icons-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: #fff;
+  margin-right: 15px;
+}
+
+/* line 42, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.header .container .head-icons .fb {
+  background-image: url("images/facebook.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* line 47, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.header .container .head-icons .tw {
+  background-image: url("images/twitter.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* line 52, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.header .container .head-icons .gg {
+  background-image: url("images/google.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* line 57, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.header .container .head-icons .yt {
+  background-image: url("images/youtube.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* line 63, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.header .container .head-logo {
+  background-image: url("images/mainlogo.png");
+  background-repeat: no-repeat;
+  min-width: 150px;
+  font-size: 13px;
+  color: #fff;
+  padding-top: 40px;
+  font-family: 'Exo2';
+}
+
+/* line 73, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.header .container .head-menu {
+  list-style: none;
+}
+
+/* line 75, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.header .container .head-menu-item {
+  display: inline;
+  margin-left: 23px;
+}
+
+/* line 78, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.header .container .head-menu-item-text {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: -0.16px;
+  line-height: 16px;
+  font-family: 'Roboto';
+}
+
+/* line 93, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.intro {
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 598px;
+  max-width: 1278px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+/* line 102, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.intro-slider {
+  list-style: none;
+  align-self: center;
+  padding-left: 0px;
+  position: absolute;
+  margin-left: calc(100% - 23px);
+}
+
+/* line 108, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.intro-slider-item {
+  color: #fff;
+  font-size: 14px;
+  font-family: 'Roboto';
+  line-height: 31.5px;
+  background-color: rgba(128, 179, 18, 0.4);
+  padding-left: 8px;
+  padding-right: 8px;
+  cursor: pointer;
+}
+
+/* line 117, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.intro-slider-item:hover {
+  color: #222;
+  background-color: #80b412;
+}
+
+/* line 123, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.intro-benefits {
+  background-color: rgba(128, 179, 18, 0.85);
+  display: flex;
+  align-self: flex-end;
+  margin: 0 auto;
+}
+
+/* line 128, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.intro-benefits-benefit {
+  color: #fff;
+  font-size: 18px;
+  min-width: 330px;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 48px;
+  border-right: 1px solid #fff;
+  font-family: 'Exo2';
+}
+
+/* line 137, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.intro-benefits-benefit-logo {
+  width: 75px;
+  height: 75px;
+  background-color: #fff;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+}
+
+/* line 146, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.intro-benefits-benefit .ok {
+  background-image: url("images/ok.png");
+}
+
+/* line 149, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.intro-benefits-benefit .tool {
+  background-image: url("images/tool.png");
+}
+
+/* line 152, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.intro-benefits-benefit .star {
+  background-image: url("images/star.png");
+}
+
+/* line 156, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.intro-benefits .noborder {
+  border: none;
+}
+
+/* line 161, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.firstintro {
+  background-image: url("images/intro.png");
+}
+
+/* line 164, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.thirdintro {
+  background-image: url("images/some.jpg");
+}
+
+/* line 167, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.secondintro {
+  background-image: url("images/some1.jpg");
+}
+
+/* line 170, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.fourthintro {
+  background-image: url("images/some2.jpg");
+}
+
+/* line 173, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.about {
+  margin: 0 auto;
+  position: relative;
+  font-family: 'Roboto';
+}
+
+/* line 177, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.about-additional {
+  background-color: rgba(0, 83, 185, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 128px;
+  overflow: hidden;
+}
+
+/* line 189, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.about-additional-text {
+  -webkit-transform: rotate(-10deg);
+  margin-top: 12%;
+}
+
+/* line 194, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.about-title {
+  text-transform: uppercase;
+  color: #222;
+  font-size: 40px;
+  text-align: center;
+  line-height: 120px;
+}
+
+/* line 201, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.about-info {
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+/* line 205, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.about-info-pic {
+  background-image: url("images/video.png");
+  background-position: center;
+  width: 478px;
+  height: 268px;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+}
+
+/* line 213, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.about-info-text {
+  margin-left: 10px;
+}
+
+/* line 215, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.about-info-text-main {
+  max-width: 475px;
+  font-size: 14px;
+  color: #222;
+  line-height: 22px;
+}
+
+/* line 221, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.about-info-text-list {
+  margin-top: 20px;
+}
+
+/* line 223, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.about-info-text-list-item {
+  max-width: 420px;
+  font-size: 14px;
+  color: #222;
+  line-height: 32px;
+  font-family: "RobotoBold";
+}
+
+/* line 229, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.about-info-text-list-item:before {
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 19px;
+  background-color: #80b412;
+  font-size: 16px;
+  color: #fff;
+  margin-right: 10px;
+}
+
+/* line 239, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.about-info-text-list .first:before {
+  content: '1';
+}
+
+/* line 242, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.about-info-text-list .second:before {
+  content: '2';
+}
+
+/* line 245, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.about-info-text-list .third:before {
+  content: '3';
+}
+
+/* line 248, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.about-info-text-list .fourth:before {
+  content: '4';
+}
+
+/* line 251, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.about-info-text-list .fifth:before {
+  content: '5';
+}
+
+/* line 258, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.news {
+  background-image: url("images/woodpattern.jpg");
+  background-position: center;
+  padding-bottom: 100px;
+}
+
+/* line 262, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.news .container {
+  max-width: 1278px;
+  margin: 0 auto;
+}
+
+/* line 266, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.news-title {
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  padding-top: 50px;
+  text-align: center;
+}
+
+/* line 273, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.news-block {
+  display: flex;
+  max-width: 76%;
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: #fff;
+  padding: 20px 20px 20px 20px;
+  justify-content: space-between;
+}
+
+/* line 281, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.news-block-pic {
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 478px;
+  height: 312px;
+}
+
+/* line 287, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.news-block .blockpic1 {
+  background-image: url("images/home1.png");
+}
+
+/* line 290, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.news-block .blockpic2 {
+  background-image: url("images/home2.png");
+}
+
+/* line 293, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.news-block-text {
+  max-width: 470px;
+}
+
+/* line 295, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.news-block-text-title {
+  color: #222;
+  font-size: 23px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+/* line 301, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.news-block-text-date {
+  font-family: "RobotoItalic";
+  color: #222;
+  font-size: 12px;
+  line-height: 26px;
+}
+
+/* line 307, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.news-block-text-text {
+  font-size: 16px;
+  line-height: 26px;
+  color: #222;
+}
+
+/* line 312, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.news-block-text-button {
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 30px;
+  color: #fff;
+  background-color: #80b412;
+  width: 100px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-left: 77%;
+  margin-top: 24px;
+}
+
+/* line 325, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.news-block .newsblockright {
+  order: 1;
+}
+
+/* line 330, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.testimonials {
+  margin: 0 auto;
+  border-radius: 10px;
+  position: relative;
+  color: #fff;
+  overflow: hidden;
+}
+
+/* line 336, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.testimonials::after {
+  content: '';
+  position: absolute;
+  left: 0px;
+  top: -200px;
+  border: 200px solid transparent;
+  border-right: 4000px solid white;
+  border-bottom: 0px solid white;
+}
+
+/* line 343, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.testimonials-title {
+  color: #222;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 349, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.testimonials-slider {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+}
+
+/* line 354, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.testimonials-slider-item {
+  border: 2px solid #80b412;
+  margin-left: 7px;
+  display: flex;
+  min-width: 666px;
+  align-items: center;
+  transition: order linear 0.5s;
+}
+
+/* line 361, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.testimonials-slider-item .man1 {
+  background-image: url("images/man1.jpg");
+}
+
+/* line 364, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.testimonials-slider-item .man2 {
+  background-image: url("images/man2.png");
+}
+
+/* line 367, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.testimonials-slider-item .woman {
+  background-image: url("images/woman.png");
+}
+
+/* line 370, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.testimonials-slider-item-pic {
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 150px;
+  height: 115px;
+  margin-left: 13px;
+}
+
+/* line 377, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.testimonials-slider-item-text {
+  margin-left: 20px;
+}
+
+/* line 379, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.testimonials-slider-item-text-text {
+  font-size: 22px;
+  color: #222;
+  max-width: 455px;
+  padding-top: 14px;
+}
+
+/* line 385, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.testimonials-slider-item-text-name {
+  font-size: 20px;
+  color: #222;
+  margin-top: 15px;
+  padding-bottom: 15px;
+  font-family: "RobotoBold";
+}
+
+/* line 395, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.testimonials-slider-buttons {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+/* line 399, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.testimonials-slider-buttons-button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #222;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 25px;
+}
+
+/* line 407, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.testimonials-slider-buttons-button:hover {
+  border: 2px solid #80b412;
+}
+
+/* line 411, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.testimonials-slider-buttons .man1small {
+  background-image: url("images/man1small.png");
+}
+
+/* line 414, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.testimonials-slider-buttons .womansmall {
+  background-image: url("images/womansmall.png");
+  margin-left: 35px;
+}
+
+/* line 418, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.testimonials-slider-buttons .man2small {
+  background-image: url("images/man2small.png");
+  margin-left: 35px;
+}
+
+/* line 425, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.center {
+  order: 2;
+}
+
+/* line 428, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.left {
+  order: 1;
+}
+
+/* line 431, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.right {
+  order: 3;
+}
+
+/* line 434, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.footer {
+  background-image: url("images/footerwood.png");
+  background-position: center;
+  min-height: 326px;
+}
+
+/* line 438, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.footer-container {
+  margin: 0 auto;
+  display: flex;
+  max-width: 970px;
+  padding-top: 30px;
+  justify-content: space-between;
+}
+
+/* line 446, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.footer-contact-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #d4d4d4;
+  line-height: 23px;
+}
+
+/* line 452, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.footer-contact-address1 {
+  list-style: none;
+  margin-left: -37px;
+}
+
+/* line 455, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.footer-contact-address1-item {
+  color: #d4d4d4;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* line 461, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.footer-contact-address2 {
+  list-style: none;
+  margin-top: 25px;
+  margin-left: -37px;
+}
+
+/* line 465, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.footer-contact-address2-item {
+  color: #d4d4d4;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* line 473, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.footer-find-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #d4d4d4;
+  line-height: 23px;
+}
+
+/* line 481, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.footer-message-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #d4d4d4;
+  line-height: 23px;
+}
+
+/* line 487, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.footer-message-input {
+  display: block;
+  width: 226px;
+  height: 26px;
+  border: 1px solid #80b412;
+  margin-top: 5px;
+}
+
+/* line 493, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.footer-message-input::placeholder {
+  color: #222;
+  padding-left: 10px;
+}
+
+/* line 498, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.footer-message .message {
+  height: 78px;
+}
+
+/* line 501, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.footer-message-button {
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 30px;
+  color: #fff;
+  background-color: #80b412;
+  width: 70px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 5px;
+  margin-left: 158px;
+}
+
+/* line 514, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.footer-copyright {
+  color: #d4d4d4;
+  font-size: 11px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* line 519, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+.footer-copyright-underline {
+  text-decoration: underline;
+  display: inline;
+  cursor: pointer;
+}
+
+/* line 526, C:/Users/SunWorship/Desktop/k3soft/scss/style.scss */
+#map {
+  height: 176px;
+  width: 475px;
+  margin-top: 20px;
+}
+
+# sourceMappingURL=../css/style.map
