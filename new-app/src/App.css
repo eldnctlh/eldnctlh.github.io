@@ -1,0 +1,101 @@
+body {
+	margin: 0;
+	font-family: sans-serif;
+	background-color: #323e53;
+}
+.title {
+	color: #323e53;
+	font-size: 48px;
+	text-align: center;
+	margin-top: 25px;
+	padding-top: 50px;
+}
+.container {
+	background-color: #408fb4;
+	max-width: 900px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	 border-radius: 5px;
+   -webkit-border-radius: 5px; 
+   -moz-border-radius: 5px; 
+   background-image: url('bg.png');
+   background-repeat: no-repeat;
+   background-position: right;
+}
+.content {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+.cities-list {
+	margin-left: 40px;
+}
+.cities-list button {
+	display: block;
+	color: #bddfef;
+	border: none;
+	background-color: #408fb4;
+	cursor: pointer;
+	padding-top: 5px;
+}
+.cities-list h3 {
+	color: #323e53;
+}
+.form {
+
+}
+.form input[type='text']{
+	border: 1px solid #323e53;
+   border-radius: 3px;
+   -webkit-border-radius: 3px; 
+   -moz-border-radius: 3px; 
+   background:#bddfef !important; 
+   height: 24px; 
+   color: #64566e; 
+
+}
+.form input[type='text']:nth-child(3){
+	margin-left: 20px;
+  
+   
+}
+.form button {
+	color: #bddfef;
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+	font-size: 18px;
+	border-radius: 3px;
+   -webkit-border-radius: 3px; 
+   -moz-border-radius: 3px;  
+   background-color: #323e53;
+   border: 1px solid #323e53;
+   padding: 5px;
+   cursor: pointer;
+
+}
+.form h3 {
+	color: #323e53;
+	text-align: center;
+}
+.weather {
+	color: #323e53;
+	background-color: #bddfef;
+	width: 100%;
+	min-height: 160px;
+	border-radius: 5px;
+   -webkit-border-radius: 5px; 
+   -moz-border-radius: 5px;  
+   border: 1px solid #323e53;
+   text-align: center;
+   margin-top: 20px;
+}
+.weather p {
+	border-bottom: 1px solid #bfefff;
+}
+.weather p:nth-child(4) {
+	border-bottom: none;
+}
+.weather-container {
+	margin-right: 100px;
+}
