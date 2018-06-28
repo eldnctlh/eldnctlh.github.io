@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>App Starter</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 </head>
 <body>
     <div class="head">
@@ -19,7 +20,14 @@
                     ><li class="head_header_menu_menu_item"><a href="#">Pricing</a></li>
                 </ul>
                 <div class="head_header_menu_button"><a href="#">GET IT FREE</a></div>
-                <a href="#" class="head_header_menu_icon"></a>
+                <div class="head_header_menu_icon">
+                    <ul class="head_header_menu_icon_list">
+                        <li class='head_header_menu_icon_list_item'>Features</li>
+                        <li class='head_header_menu_icon_list_item'>Video Tour</li>
+                        <li class='head_header_menu_icon_list_item'>Reviews</li>
+                        <li class='head_header_menu_icon_list_item'>Pricing</li>
+                    </ul>
+                </div>
             </div>
         </div>
         <div class="head_main">
@@ -31,8 +39,8 @@
                     <div class="head_main_left_text_text"> for web and mobile apps</div>
                 </div>
                 <div class="head_main_left_buttons">
-                    <a href="#" class="head_main_left_buttons_button1">Download Now</a
-                    ><a href="#" class="head_main_left_buttons_button2">Watch Video</a>
+                    <a class="head_main_left_buttons_button1">Download Now</a
+                    ><a class="head_main_left_buttons_button2">Watch Video</a>
                 </div>
             </div>
             <div class="head_main_right"></div>
@@ -53,7 +61,7 @@
                     ><div class="info_blocks_block1_title_title2">across all devices</div>
                 </div>
                 <div class="info_blocks_block1_text">This sounded nonsense to Alice, so she said nothing, but set off at once toward the Red Queen. To her surprise.</div>
-                <a href="#" class="info_blocks_block1_link">Watch Video</a>
+                <a class="info_blocks_block1_link">Watch Video</a>
             </div>
             <div class="info_blocks_block2">
                 <div class="info_blocks_block2_icon">
@@ -64,7 +72,7 @@
                     ><div class="info_blocks_block2_title_title2">in one place</div>
                 </div>
                 <div class="info_blocks_block2_text">his sounded nonsense to Alice, so she said nothing, but set off at once toward the Red Queen. To her surprise.</div>
-                <a href="#" class="info_blocks_block2_link">Watch Video</a>
+                <a class="info_blocks_block2_link">Watch Video</a>
             </div>
             <div class="info_blocks_block3">
                 <div class="info_blocks_block3_icon">
@@ -75,7 +83,7 @@
                     ><div class="info_blocks_block3_title_title2">about sales</div>
                 </div>
                 <div class="info_blocks_block3_text">his sounded nonsense to Alice, so she said nothing, but set off at once toward the Red Queen. To her surprise.</div>
-                <a href="#" class="info_blocks_block3_link">Watch Video</a>
+                <a class="info_blocks_block3_link">Watch Video</a>
             </div>
         </div>
     </div>
@@ -126,7 +134,7 @@
             <div class="main_right"></div>
         </div>
     </div>
-    <div class="download1">
+    <div class="download1" id="download">
         <div class="download">
             <div class="download_left">
                 <div class="download_left_title">
@@ -169,7 +177,7 @@
             </div>
         </div>
     </div>
-   <div class="video1">
+   <div class="video1" id="video">
         <div class="video">
             <div class="video_title">
                 <div class="video_title_title1">Watch</div
@@ -276,5 +284,18 @@
        </div>
    </div>
    <div class="copyright">© AppStarter, 2018</div>
+   <script src='script/jquery-3.3.1.min.js'></script>
+   <script>
+        $(document).ready(function () {
+            $('.head_header_menu_icon').hover(
+                function(){
+                    $(this).children("ul").show(100);
+                },
+                function(){
+                    $(this).children("ul").hide(100);
+                });
+        });
+   </script>
+   <script src="script/script.js"></script>
 </body>
 </html>

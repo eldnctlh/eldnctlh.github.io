@@ -1,1 +1,2744 @@
-@import url("https://meyerweb.com/eric/tools/css/reset/reset.css");@font-face{font-family:"NunitoSansRegular";src:url("../fonts/NunitoSansRegular.ttf")}@font-face{font-family:"NunitoSansExtraBold";src:url("../fonts/NunitoSansExtraBold.ttf")}.head{overflow:hidden;background-image:url("../images/head.png");background-repeat:no-repeat;background-position:center;height:720px}@media screen and (max-width: 1170px){.head .head_header{max-width:1000px}}@media screen and (max-width: 1000px){.head .head_header{max-width:720px}}@media screen and (max-width: 768px){.head .head_header{max-width:500px}.head .head_header_logo{font-size:14px}.head .head_header_menu_menu_item{margin-right:15px}.head .head_header_menu_menu_item a{font-size:12px}.head .head_header_menu_button{padding:10px 15px 10px 15px}.head .head_header_menu_button a{font-size:10px}}@media screen and (max-width: 500px){.head .head_header{max-width:300px;flex-wrap:wrap;justify-content:space-around}.head .head_header_logo{font-size:18px}.head .head_header_menu_menu_item{margin-right:10px}.head .head_header_menu_menu_item a{font-size:10px}.head .head_header_menu_button{padding:5px 7px 7px 7px;margin-right:15px}.head .head_header_menu_button a{font-size:10px}}.head_header{height:90px;display:flex;justify-content:space-between;align-items:center;max-width:1170px;margin:0 auto}.head_header_logo{color:white;font-size:20px;line-height:65px;font-family:"NunitoSansExtraBold"}.head_header_menu{display:flex;justify-content:space-between;align-items:center}.head_header_menu_menu_item{display:inline-block;margin-right:30px;font-family:"NunitoSansRegular"}.head_header_menu_menu_item a{color:white;text-decoration:none;font-size:15px}.head_header_menu_button{padding:15px 22px 15px 22px;background-color:white;border-radius:5px;margin-right:30px;font-family:"NunitoSansRegular";box-shadow:0 6px 12px rgba(40,43,49,0.08)}.head_header_menu_button a{color:black;text-decoration:none;font-size:14px}.head_header_menu_icon{background-image:url("../images/menuicon.png");background-repeat:no-repeat;width:16px;height:12px;background-position:center}@media screen and (max-width: 1170px){.head .head_main{max-width:1000px}}@media screen and (max-width: 1000px){.head .head_main{justify-content:space-around}.head .head_main_right{display:none}}@media screen and (max-width: 768px){.head .head_main_left{margin-left:25%;margin-top:100px}.head .head_main_left_logo{margin-left:70px}.head .head_main_left_text_title{font-size:20px;line-height:30px}.head .head_main_left_text_text{font-size:20px;line-height:30px}.head .head_main_left_buttons{margin-left:30px}.head .head_main_left_buttons_button1{font-size:12px;padding:10px 10px 10px 10px}.head .head_main_left_buttons_button2{font-size:12px;padding:10px 10px 10px 10px}}@media screen and (max-width: 500px){.head .head_main_left{margin-left:20%;margin-top:60px}.head .head_main_left_logo{margin-left:45px}.head .head_main_left_text{max-width:300px}.head .head_main_left_text_title{font-size:14px;line-height:20px}.head .head_main_left_text_text{font-size:14px;line-height:20px;margin-left:3px}.head .head_main_left_buttons{margin-left:0px}.head .head_main_left_buttons_button1{font-size:12px;padding:10px 10px 10px 10px}.head .head_main_left_buttons_button2{font-size:12px;padding:10px 10px 10px 10px}}.head_main{max-width:1170px;margin:0 auto;display:flex;justify-content:space-between}.head_main_left{margin-top:179px}.head_main_left_logo{background-image:url("../images/appicon.png");width:90px;height:108px;background-repeat:no-repeat;background-position:center}.head_main_left_text{display:flex;flex-wrap:wrap;max-width:505px;margin-top:20px}.head_main_left_text_title{color:white;font-size:35px;font-family:"NunitoSansExtraBold";display:inline-block;line-height:50px}.head_main_left_text_text{color:white;font-size:35px;font-family:"NunitoSansRegular";line-height:50px;margin-left:7px}.head_main_left_buttons{margin-top:40px}.head_main_left_buttons_button1{color:white;text-decoration:none;font-size:17px;padding:18px 18px 18px 18px;border-radius:5px;background-image:linear-gradient(-225deg, #ff8e64 0%, #ffe641 100%)}.head_main_left_buttons_button2{text-decoration:none;color:black;display:inline-block;font-size:17px;padding:18px 18px 18px 18px;background-color:white;border-radius:5px;margin-left:20px}.head_main_right{background-image:url("../images/tablet.png");width:480px;height:718px;background-repeat:no-repeat;background-position:center;margin-top:89px;margin-right:89px}@media screen and (max-width: 768px){.head{background-image:url("../images/headsmall.png");height:500px}}.info{overflow:hidden;background-color:#f8f9fa;padding-bottom:122px}.info_title{padding-top:244px;text-align:center}.info_title_title1{font-family:"NunitoSansExtraBold";font-size:35px;display:inline-block}.info_title_title2{font-family:"NunitoSansRegular";font-size:35px;margin-left:7px;display:inline-block}.info_blocks{max-width:1170px;margin:0 auto;display:flex;margin-top:78px;justify-content:space-between}.info_blocks_block1{background-color:white;width:28%;height:380px;box-shadow:0 1px 3px rgba(32,33,39,0.12);border-radius:12px;text-align:center}.info_blocks_block1_icon{background-image:linear-gradient(-225deg, #7956ec 0%, #2fb9f8 100%);width:70px;height:70px;border-radius:10px;margin-left:40%;margin-top:62px}.info_blocks_block1_icon_icon{background-image:url("../images/reload.png");background-position:center;width:70px;height:70px;background-repeat:no-repeat}.info_blocks_block1_title{margin-top:35px}.info_blocks_block1_title_title1{color:#282b31;font-family:"NunitoSansExtraBold";font-size:20px;display:inline-block}.info_blocks_block1_title_title2{color:#282b31;font-family:"NunitoSansRegular";font-size:20px;display:inline-block;margin-left:5px}.info_blocks_block1_text{color:#676c75;font-family:"NunitoSansRegular";font-size:14px;width:80%;margin-left:10%;margin-top:25px;line-height:25px}.info_blocks_block1_link{color:#469af4;font-family:"NunitoSansRegular";font-size:14px;line-height:54px}@media screen and (max-width: 1170px){.info_blocks_block1{height:300px}.info_blocks_block1_icon{margin-top:40px}.info_blocks_block1_title{margin-top:30px}.info_blocks_block1_text{margin-top:10px}}@media screen and (max-width: 1170px){.info_blocks_block1{height:300px}.info_blocks_block1_icon{margin-top:40px}.info_blocks_block1_title{margin-top:30px}.info_blocks_block1_text{margin-top:10px}}@media screen and (max-width: 1000px){.info_blocks_block1{height:300px}.info_blocks_block1_icon{margin-top:30px}.info_blocks_block1_title{margin-top:25px}.info_blocks_block1_text{margin-top:10px;font-size:12px;line-height:20px}}.info_blocks_block2{background-color:white;width:30%;height:380px;box-shadow:0 1px 3px rgba(32,33,39,0.12);border-radius:12px;text-align:center}.info_blocks_block2_icon{background-image:linear-gradient(-225deg, #ff8e64 0%, #ffe641 100%);width:70px;height:70px;border-radius:10px;margin-left:40%;margin-top:62px}.info_blocks_block2_icon_icon{background-image:url("../images/inbox.png");background-position:center;width:70px;height:70px;background-repeat:no-repeat}.info_blocks_block2_title{margin-top:35px}.info_blocks_block2_title_title1{color:#282b31;font-family:"NunitoSansExtraBold";font-size:20px;display:inline-block}.info_blocks_block2_title_title2{color:#282b31;font-family:"NunitoSansRegular";font-size:20px;display:inline-block;margin-left:5px}.info_blocks_block2_text{color:#676c75;font-family:"NunitoSansRegular";font-size:14px;width:80%;margin-left:10%;margin-top:25px;line-height:25px}.info_blocks_block2_link{color:#469af4;font-family:"NunitoSansRegular";font-size:14px;line-height:54px}@media screen and (max-width: 1170px){.info_blocks_block2{height:300px}.info_blocks_block2_icon{margin-top:40px}.info_blocks_block2_title{margin-top:30px}.info_blocks_block2_text{margin-top:10px}}@media screen and (max-width: 1000px){.info_blocks_block2{height:300px}.info_blocks_block2_icon{margin-top:30px}.info_blocks_block2_title{margin-top:25px}.info_blocks_block2_text{margin-top:10px;font-size:12px;line-height:20px}}.info_blocks_block3{background-color:white;width:28%;height:380px;box-shadow:0 1px 3px rgba(32,33,39,0.12);border-radius:12px;text-align:center}.info_blocks_block3_icon{background-image:linear-gradient(-225deg, #ad2ab9 0%, #ff618c 100%);width:70px;height:70px;border-radius:10px;margin-left:40%;margin-top:62px}.info_blocks_block3_icon_icon{background-image:url("../images/notification.png");background-position:center;width:70px;height:70px;background-repeat:no-repeat}.info_blocks_block3_title{margin-top:35px}.info_blocks_block3_title_title1{color:#282b31;font-family:"NunitoSansExtraBold";font-size:20px;display:inline-block}.info_blocks_block3_title_title2{color:#282b31;font-family:"NunitoSansRegular";font-size:20px;display:inline-block;margin-left:5px}.info_blocks_block3_text{color:#676c75;font-family:"NunitoSansRegular";font-size:14px;width:80%;margin-left:10%;margin-top:25px;line-height:25px}.info_blocks_block3_link{color:#469af4;font-family:"NunitoSansRegular";font-size:14px;line-height:54px}@media screen and (max-width: 1170px){.info_blocks_block3{height:300px}.info_blocks_block3_icon{margin-top:40px}.info_blocks_block3_title{margin-top:30px}.info_blocks_block3_text{margin-top:10px}}@media screen and (max-width: 1000px){.info_blocks_block3{height:300px}.info_blocks_block3_icon{margin-top:30px}.info_blocks_block3_title{margin-top:25px}.info_blocks_block3_text{margin-top:10px;font-size:12px;line-height:20px}}@media screen and (max-width: 768px){.info_blocks{flex-wrap:wrap;justify-content:space-around}.info_blocks_block1{width:45%}.info_blocks_block2{width:45%}.info_blocks_block3{width:45%;margin-top:30px}}@media screen and (max-width: 500px){.info_blocks{flex-wrap:wrap;justify-content:space-around}.info_blocks_block1{width:80%;margin-top:30px}.info_blocks_block2{width:80%;margin-top:30px}.info_blocks_block3{width:80%;margin-top:30px}}@media screen and (max-width: 768px){.info{padding-bottom:75px}.info_title{padding-top:75px}}.links1{overflow:hidden;border:1px solid #e7e8ea}.links1 .links{display:flex;justify-content:space-between;height:180px;align-items:center;max-width:930px;margin:0 auto}.links1 .links .link1{background-image:url("../images/wired.png");width:140px;height:20px;background-position:center;background-repeat:no-repeat}.links1 .links .link2{background-image:url("../images/lifehacker.png");width:140px;height:20px;background-position:center;background-repeat:no-repeat}.links1 .links .link3{background-image:url("../images/mashable.png");width:140px;height:20px;background-position:center;background-repeat:no-repeat}.links1 .links .link4{background-image:url("../images/theverge.png");width:140px;height:20px;background-position:center;background-repeat:no-repeat}.links1 .links .link5{background-image:url("../images/gizmodo.png");width:140px;height:20px;background-position:center;background-repeat:no-repeat}.links1 .links .link6{background-image:url("../images/macworld.png");width:140px;height:20px;background-position:center;background-repeat:no-repeat}@media screen and (max-width: 768px){.links1 .links{flex-wrap:wrap;justify-content:space-around}}.main1{overflow:hidden;background-color:#f8f9fa;padding-bottom:121px}.main1 .main{max-width:1170px;margin:0 auto;display:flex;justify-content:space-between}.main1 .main_left{padding-top:235px}.main1 .main_left_block1{width:470px;min-height:160px;display:flex}.main1 .main_left_block1_icon{background-image:url("../images/reloadblue.png");width:24px;height:24px;background-position:center;background-repeat:no-repeat;margin-left:30px;margin-top:31px}.main1 .main_left_block1_content{max-width:362px;margin-left:20px;margin-top:31px}.main1 .main_left_block1_content_title{display:flex}.main1 .main_left_block1_content_title_title1{color:#282b31;font-family:"NunitoSansExtraBold";font-size:16px;line-height:35px}.main1 .main_left_block1_content_title_title2{margin-left:5px;color:#282b31;font-family:"NunitoSansRegular";font-size:16px;line-height:35px}.main1 .main_left_block1_content_text{color:#676c75;font-family:"NunitoSansRegular";font-size:14px;line-height:25px}.main1 .main_left_block2{width:470px;min-height:160px;display:flex}.main1 .main_left_block2_icon{background-image:url("../images/inboxblue.png");width:24px;height:24px;background-position:center;background-repeat:no-repeat;margin-left:30px;margin-top:31px}.main1 .main_left_block2_content{max-width:362px;margin-left:20px;margin-top:31px}.main1 .main_left_block2_content_title{display:flex}.main1 .main_left_block2_content_title_title1{color:#282b31;font-family:"NunitoSansExtraBold";font-size:16px;line-height:35px}.main1 .main_left_block2_content_title_title2{margin-left:5px;color:#282b31;font-family:"NunitoSansRegular";font-size:16px;line-height:35px}.main1 .main_left_block2_content_text{color:#676c75;font-family:"NunitoSansRegular";font-size:14px;line-height:25px}.main1 .main_left_block3{width:470px;min-height:160px;display:flex}.main1 .main_left_block3_icon{background-image:url("../images/clockblue.png");width:24px;height:24px;background-position:center;background-repeat:no-repeat;margin-left:30px;margin-top:31px}.main1 .main_left_block3_content{max-width:362px;margin-left:20px;margin-top:31px}.main1 .main_left_block3_content_title{display:flex}.main1 .main_left_block3_content_title_title1{color:#282b31;font-family:"NunitoSansExtraBold";font-size:16px;line-height:35px}.main1 .main_left_block3_content_title_title2{margin-left:5px;color:#282b31;font-family:"NunitoSansRegular";font-size:16px;line-height:35px}.main1 .main_left_block3_content_text{color:#676c75;font-family:"NunitoSansRegular";font-size:14px;line-height:25px}.main1 .main_left_block1:hover{background-color:white;box-shadow:0 6px 12px rgba(32,33,39,0.08);border-radius:12px}.main1 .main_left_block1:hover>.main_left_block1_icon{background-image:url("../images/reloadred.png")}.main1 .main_left_block2:hover{background-color:white;box-shadow:0 6px 12px rgba(32,33,39,0.08);border-radius:12px}.main1 .main_left_block2:hover>.main_left_block2_icon{background-image:url("../images/inboxred.png")}.main1 .main_left_block3:hover{background-color:white;box-shadow:0 6px 12px rgba(32,33,39,0.08);border-radius:12px}.main1 .main_left_block3:hover>.main_left_block3_icon{background-image:url("../images/clockred.png")}.main1 .main_right{background-image:url("../images/tablet1.png");width:480px;height:718px;background-repeat:no-repeat;background-position:center;margin-top:121px;margin-right:50px}@media screen and (max-width: 1000px){.main1 .main{max-width:1000px;justify-content:space-around}.main1 .main_right{display:none}}@media screen and (max-width: 500px){.main1{padding-bottom:100px}.main1 .main{max-width:500px;justify-content:space-around}.main1 .main_right{display:none}.main1 .main_left{padding-top:100px}.main1 .main_left_block1{width:310px}.main1 .main_left_block1_icon{margin-left:10px;margin-top:10px}.main1 .main_left_block1_content{max-width:270px;margin-left:10px;margin-top:10px}.main1 .main_left_block2{width:310px;margin-top:30px}.main1 .main_left_block2_icon{margin-left:10px;margin-top:10px}.main1 .main_left_block2_content{max-width:270px;margin-left:10px;margin-top:10px}.main1 .main_left_block3{margin-top:30px;width:310px}.main1 .main_left_block3_icon{margin-left:10px;margin-top:10px}.main1 .main_left_block3_content{max-width:270px;margin-left:10px;margin-top:10px}}.download1{overflow:hidden;background-image:url("../images/background2.png");height:280px;background-position:center;background-repeat:no-repeat}.download1 .download{max-width:1170px;margin:0 auto;display:flex;justify-content:space-between}.download1 .download_left{margin-top:84px}.download1 .download_left_title{display:flex}.download1 .download_left_title_title1{font-family:"NunitoSansExtraBold";font-size:35px;color:white}.download1 .download_left_title_title2{font-family:"NunitoSansRegular";font-size:35px;color:white;margin-left:10px}.download1 .download_left_text{opacity:0.8;color:#ffffff;font-family:"NunitoSansRegular";font-size:16px;line-height:30px;margin-top:25px;width:575px}.download1 .download_right_buttons{display:flex;margin-top:115px}.download1 .download_right_buttons_button1{font-family:"NunitoSansRegular";font-size:17px;color:white;padding:17px 35px 17px 35px;box-shadow:0 6px 12px rgba(40,43,49,0.08);border-radius:6px;background-image:linear-gradient(-225deg, #ff8e64 0%, #ffe641 100%);text-decoration:none}.download1 .download_right_buttons_button2{font-family:"NunitoSansRegular";font-size:17px;color:#282b31;padding:17px 42px 17px 42px;box-shadow:0 6px 12px rgba(40,43,49,0.08);border-radius:6px;background-color:white;text-decoration:none;margin-left:20px}@media screen and (max-width: 1170px){.download1 .download{max-width:1000px}}@media screen and (max-width: 1000px){.download1 .download{justify-content:space-around}.download1 .download_left_title_title1{font-size:30px}.download1 .download_left_title_title2{font-size:30px}.download1 .download_left_text{font-size:14px;width:400px}}@media screen and (max-width: 768px){.download1 .download{flex-wrap:wrap;justify-content:space-around}.download1 .download_left{margin-top:30px}.download1 .download_left_text{font-size:16px;width:500px;margin-top:15px}.download1 .download_right_buttons{margin-top:30px}}@media screen and (max-width: 500px){.download1 .download{flex-wrap:wrap;justify-content:space-around}.download1 .download_left{margin-top:30px}.download1 .download_left_title_title1{font-size:25px}.download1 .download_left_title_title2{font-size:25px}.download1 .download_left_text{font-size:14px;width:300px;margin-top:15px;line-height:20px}.download1 .download_right_buttons{margin-top:30px}.download1 .download_right_buttons_button1{padding:10px 15px 10px 15px;line-height:14px}.download1 .download_right_buttons_button2{padding:10px 15px 10px 15px;line-height:14px}}.examples1{overflow:hidden;background-color:#f8f9fa;padding-bottom:120px}.examples1 .examples{max-width:1170px;margin:0 auto;display:flex;padding-top:120px;flex-wrap:wrap}.examples1 .examples_pic1{width:50%;height:590px;background-image:url("../images/examplebg.png");background-position:center;background-repeat:no-repeat}.examples1 .examples_pic1_pic{background-image:url("../images/tablet3.png");width:405px;height:500px;margin-top:90px;background-repeat:no-repeat;background-position:center;margin-left:15%}.examples1 .examples_pic2{width:50%;height:590px;background-image:url("../images/examplebg1.png");background-position:center;background-repeat:no-repeat}.examples1 .examples_pic2_pic{background-image:url("../images/tablet4.png");width:405px;height:500px;margin-top:90px;background-repeat:no-repeat;background-position:center;margin-left:15%}.examples1 .examples_block{text-align:center;width:50%;background-color:white}.examples1 .examples_block_title{margin-top:177px}.examples1 .examples_block_title_title1{color:#282b31;font-family:"NunitoSansExtraBold";font-size:35px;line-height:50px;display:inline-block}.examples1 .examples_block_title_title2{color:#282b31;font-family:"NunitoSansRegular";font-size:35px;line-height:50px;display:inline-block;margin-left:7px}.examples1 .examples_block_title_title3{color:#282b31;font-family:"NunitoSansRegular";font-size:35px;line-height:50px}.examples1 .examples_block_text{color:#676c75;font-family:"NunitoSansRegular";font-size:16px;line-height:30px;margin-top:25px;width:370px;margin:0 auto;margin-top:16px}@media screen and (max-width: 1170px){.examples1 .examples{max-width:1000px}}@media screen and (max-width: 1000px){.examples1 .examples{justify-content:space-around;max-width:768px}.examples1 .examples_pic1{width:90%}.examples1 .examples_pic1_pic{margin-left:22%}.examples1 .examples_pic2{width:90%}.examples1 .examples_pic2_pic{margin-left:22%}.examples1 .examples_block{width:90%}.examples1 .examples_block_title{margin-top:75px}.examples1 .examples_block_text{margin-top:10px;padding-bottom:50px}.examples1 .examples .one{order:1}}@media screen and (max-width: 768px){.examples1 .examples_pic1{display:none}.examples1 .examples_pic2{display:none}.examples1 .examples_block{margin-top:30px}}@media screen and (max-width: 500px){.examples1 .examples_block_text{width:290px}.examples1 .examples_block_title_title1{font-size:20px;line-height:35px}.examples1 .examples_block_title_title2{font-size:20px;line-height:35px}.examples1 .examples_block_title_title3{font-size:20px;line-height:35px}}.video1{overflow:hidden;background-image:linear-gradient(-225deg, #7956ec 0%, #2fb9f8 100%);height:520px}.video1 .video{background-image:url("../images/mantablet.png");background-repeat:no-repeat;background-position:center;height:520px;text-align:center}.video1 .video_title{margin:0 auto;padding-top:126px}.video1 .video_title_title1{font-family:"NunitoSansExtraBold";font-size:35px;color:white;display:inline-block}.video1 .video_title_title2{font-family:"NunitoSansRegular";font-size:35px;color:white;display:inline-block;margin-left:10px}.video1 .video_text{opacity:0.8;color:white;font-family:"NunitoSansRegular";font-size:16px;line-height:30px;width:563px;margin:0 auto;margin-top:38px}.video1 .video_pic{background-image:url("../images/play.png");background-position:center;background-repeat:no-repeat;width:130px;height:130px;margin:0 auto;margin-top:20px;cursor:pointer}.messages{overflow:hidden;display:flex}.messages_left{margin-left:8%;width:40%}.messages_left_stars{background-image:url("../images/stars.png");width:88px;height:15px;background-position:center;background-repeat:no-repeat;padding-top:144px}.messages_left_title1{color:#282b31;font-family:"NunitoSansExtraBold";font-size:35px;line-height:50px}.messages_left_title2{color:#282b31;font-family:"NunitoSansRegular";font-size:35px;line-height:50px}.messages_left_more{color:#999ea8;font-family:"NunitoSansRegular";font-size:15px;margin-top:240px;padding-bottom:39px}.messages_left_appstore{color:#282b31;font-family:"NunitoSansExtraBold";font-size:15px;text-decoration:none;background-image:url("../images/arrow.png");background-repeat:no-repeat;background-position-y:center;padding-left:37px;margin-top:39px}.messages_left_googleplay{color:#282b31;font-family:"NunitoSansExtraBold";font-size:15px;text-decoration:none;display:block;background-image:url("../images/arrow.png");background-repeat:no-repeat;background-position-y:center;padding-left:37px;margin-top:16px}.messages_right{border:1px solid #e7e8ea;background-color:#f8f9fa;width:60%;padding-bottom:120px}.messages_right_block1{width:78%;height:180px;background-color:white;box-shadow:0 6px 12px rgba(32,33,39,0.08);border-radius:12px;margin-left:12%;margin-top:120px}.messages_right_block1_pic{background-image:url("../images/person1.png");width:50px;height:50px;background-position:center;background-repeat:no-repeat;margin-left:30px;display:inline-block}.messages_right_block1_text{color:#696b70;font-family:"NunitoSansRegular";font-size:14px;line-height:25px;width:70%;display:inline-block;margin-left:30px;padding-top:25px}.messages_right_block1_foot{display:flex;border-top:1px solid #e7e8ea;justify-content:space-between;width:90%;margin:0 auto;margin-top:20px}.messages_right_block1_foot_name{color:#999ea8;font-family:"Nunito Sans";font-size:12px;line-height:25px;margin-top:20px}.messages_right_block1_foot_icon{background-image:url("../images/twittericon.png");background-position:center;background-repeat:no-repeat;width:16px;height:16px;margin-top:20px}.messages_right_block2{width:78%;height:180px;background-color:white;box-shadow:0 6px 12px rgba(32,33,39,0.08);border-radius:12px;margin-left:23%;margin-top:20px}.messages_right_block2_pic{background-image:url("../images/person2.png");width:50px;height:50px;background-position:center;background-repeat:no-repeat;margin-left:30px;display:inline-block}.messages_right_block2_text{color:#696b70;font-family:"NunitoSansRegular";font-size:14px;line-height:25px;width:70%;display:inline-block;margin-left:30px;padding-top:25px;text-align:right}.messages_right_block2_foot{display:flex;border-top:1px solid #e7e8ea;justify-content:space-between;width:90%;margin:0 auto;margin-top:20px}.messages_right_block2_foot_name{color:#999ea8;font-family:"Nunito Sans";font-size:12px;line-height:25px;margin-top:20px}.messages_right_block2_foot_icon{background-image:url("../images/twittericon.png");background-position:center;background-repeat:no-repeat;width:16px;height:16px;margin-top:20px}.messages_right_block3{width:78%;height:180px;background-color:white;box-shadow:0 6px 12px rgba(32,33,39,0.08);border-radius:12px;margin-left:12%;margin-top:20px}.messages_right_block3_pic{background-image:url("../images/person3.png");width:50px;height:50px;background-position:center;background-repeat:no-repeat;margin-left:30px;display:inline-block}.messages_right_block3_text{color:#696b70;font-family:"NunitoSansRegular";font-size:14px;line-height:25px;width:70%;display:inline-block;margin-left:30px;padding-top:25px}.messages_right_block3_foot{display:flex;border-top:1px solid #e7e8ea;justify-content:space-between;width:90%;margin:0 auto;margin-top:20px}.messages_right_block3_foot_name{color:#999ea8;font-family:"Nunito Sans";font-size:12px;line-height:25px;margin-top:20px}.messages_right_block3_foot_icon{background-image:url("../images/twittericon.png");background-position:center;background-repeat:no-repeat;width:16px;height:16px;margin-top:20px}@media screen and (max-width: 1174px){.messages_right_block1{width:80%}.messages_right_block1_pic{margin-left:15px}.messages_right_block1_text{font-size:12px;line-height:20px;margin-left:15px}.messages_right_block1_foot{margin-top:10px}.messages_right_block1_foot_name{margin-top:10px}.messages_right_block1_foot_icon{margin-top:10px}.messages_right_block2{width:80%}.messages_right_block2_pic{margin-left:15px}.messages_right_block2_text{font-size:12px;line-height:20px;margin-left:15px}.messages_right_block2_foot{margin-top:10px}.messages_right_block2_foot_name{margin-top:10px}.messages_right_block2_foot_icon{margin-top:10px}.messages_right_block3{width:80%}.messages_right_block3_pic{margin-left:15px}.messages_right_block3_text{font-size:12px;line-height:20px;margin-left:15px}.messages_right_block3_foot{margin-top:10px}.messages_right_block3_foot_name{margin-top:10px}.messages_right_block3_foot_icon{margin-top:10px}}@media screen and (max-width: 768px){.messages_right_block1{width:80%;margin-left:5%}.messages_right_block2{width:80%;margin-left:15%}.messages_right_block3{width:80%;margin-left:5%}}@media screen and (max-width: 640px){.messages_right_block1{margin-left:5%;width:90%}.messages_right_block1_text{margin-left:5px;width:90%}.messages_right_block1_pic{display:none}.messages_right_block2{margin-left:5%;width:90%}.messages_right_block2_text{margin-left:5px;width:90%}.messages_right_block2_pic{display:none}.messages_right_block3{margin-left:5%;width:90%}.messages_right_block3_text{margin-left:5px;width:90%}.messages_right_block3_pic{display:none}}@media screen and (max-width: 640px){.messages_left{margin-left:5%}}.plans1{overflow:hidden;background-color:#f8f9fa;border-top:1px solid #e7e8ea;padding-bottom:120px}.plans1 .plans{max-width:1170px;margin:0 auto;display:flex;justify-content:space-between}.plans1 .plans_left_title{padding-top:274px;display:flex}.plans1 .plans_left_title_title1{color:#282b31;font-family:"NunitoSansExtraBold";font-size:35px}.plans1 .plans_left_title_title2{color:#282b31;font-family:"NunitoSansRegular";font-size:35px;margin-left:10px}.plans1 .plans_left_text{color:#676c75;font-family:"Nunito Sans";font-size:16px;line-height:30px;width:360px;margin-top:30px}.plans1 .plans_right{margin-top:120px}.plans1 .plans_right_plan1{background-image:url("../images/bgplan.png");width:350px;height:510px;background-position:center;background-repeat:no-repeat;text-align:center;display:inline-block;position:relative;z-index:10}.plans1 .plans_right_plan1_title{font-family:"NunitoSansExtraBold";font-size:11px;letter-spacing:1.65px;color:white;background-image:url("../images/line.png");background-repeat:no-repeat;background-position-y:40px;background-position-x:center;width:100%;height:40px;line-height:30px;padding-top:50px}.plans1 .plans_right_plan1_price{color:#ffffff;font-family:"NunitoSansRegular";font-size:60px;margin-top:40px}.plans1 .plans_right_plan1_list{text-align:left;margin-left:50px;margin-top:35px}.plans1 .plans_right_plan1_list_item{color:#ffffff;font-family:"Nunito Sans";font-size:15px;line-height:30px;background-image:url("../images/ok.png");background-position-y:center;background-repeat:no-repeat;padding-left:30px}.plans1 .plans_right_plan1_button{color:#ffffff;font-family:"NunitoSansRegular";font-size:17px;line-height:50px;background-image:linear-gradient(-225deg, #ff8e64 0%, #ffe641 100%);border-radius:6px;width:250px;margin:0 auto;margin-top:40px;cursor:pointer}.plans1 .plans_right_plan2{background-color:white;border-radius:12px;border:1px solid #e7e8ea;width:350px;height:470px;background-position:center;background-repeat:no-repeat;text-align:center;display:inline-block;margin-left:-30px;position:relative}.plans1 .plans_right_plan2_title{font-family:"NunitoSansExtraBold";font-size:11px;letter-spacing:1.65px;color:#676c75;background-image:url("../images/line2.png");background-repeat:no-repeat;background-position-y:40px;background-position-x:20px;width:100%;height:40px;line-height:30px;padding-top:50px}.plans1 .plans_right_plan2_price{font-family:"NunitoSansRegular";font-size:60px;color:#282b31;margin-top:40px}.plans1 .plans_right_plan2_list{text-align:left;margin-left:50px;margin-top:35px}.plans1 .plans_right_plan2_list_item{color:#676c75;font-family:"Nunito Sans";font-size:15px;line-height:30px;background-image:url("../images/ok2.png");background-position-y:center;background-repeat:no-repeat;padding-left:30px}.plans1 .plans_right_plan2_button{color:#ffffff;font-family:"NunitoSansRegular";font-size:17px;line-height:50px;background-image:linear-gradient(-225deg, #009fc5 0%, #3cecb0 100%);border-radius:6px;width:250px;margin:0 auto;margin-top:40px;cursor:pointer}@media screen and (max-width: 1170px){.plans1 .plans{max-width:95%;flex-wrap:wrap}}@media screen and (max-width: 1000px){.plans1 .plans{max-width:95%;flex-wrap:wrap;justify-content:space-around}.plans1 .plans_left_title{padding-top:100px}}@media screen and (max-width: 768px){.plans1 .plans_right_plan1{width:300px;border-radius:10px}.plans1 .plans_right_plan2{width:300px}}@media screen and (max-width: 640px){.plans1 .plans_right{text-align:center}.plans1 .plans_right_plan2{margin-left:0px;margin-top:30px}}.request{overflow:hidden;background-image:url("../images/bgrequest.png");background-position:center;background-repeat:no-repeat;text-align:center;padding-bottom:120px;margin-top:-30px}.request_title1{color:#ffffff;font-family:"NunitoSansExtraBold";font-size:35px;display:inline-block;padding-top:125px}.request_title2{color:#ffffff;font-family:"NunitoSansRegular";font-size:35px;display:inline-block;margin-left:10px}.request_text{opacity:0.8;color:#ffffff;font-family:"NunitoSansRegular";font-size:16px;line-height:30px;width:563px;margin:0 auto;margin-top:25px;padding-bottom:66px}.request_form{box-shadow:0 12px 24px rgba(40,43,49,0.16);border-radius:12px;background-color:#ffffff;width:806px;height:475px;margin:0 auto;margin-top:60px}.request_form_name{width:285px;height:51px;border-radius:6px;border:1px solid #e7e8ea;background-color:#f8f9fa;margin-right:8px;margin-top:69px;color:#b9bdc3;font-family:"NunitoSansRegular";font-size:17px;padding-left:20px}.request_form_email{width:285px;height:51px;border-radius:6px;border:1px solid #e7e8ea;background-color:#f8f9fa;margin-left:8px;margin-top:69px;color:#b9bdc3;font-family:"NunitoSansRegular";font-size:17px;padding-left:20px}.request_form_message{display:block;width:610px;height:211px;border-radius:6px;border:1px solid #e7e8ea;background-color:#f8f9fa;margin:0 auto;margin-top:20px;color:#b9bdc3;font-family:"NunitoSansRegular";font-size:17px;padding-left:20px}.request_form_button{color:#ffffff;font-family:"NunitoSansRegular";font-size:17px;width:164px;margin:0 auto;line-height:50px;border-radius:6px;background-image:linear-gradient(-225deg, #ff8e64 0%, #ffe641 100%);cursor:pointer;margin-top:30px}@media screen and (max-width: 900px){.request_form{width:90%}.request_form_name{width:35%}.request_form_email{width:35%}.request_form_message{width:75%}}@media screen and (max-width: 640px){.request_title1{font-size:25px}.request_title2{font-size:25px}.request_title3{font-size:25px}.request_text{font-size:14px;width:300px;padding-bottom:30px}}.footer{overflow:hidden;max-width:1170px;margin:0 auto;height:100px;display:flex;justify-content:space-between;align-items:center}.footer_logo{color:#282b31;font-family:"NunitoSansExtraBold";font-size:20px}.footer_name{display:flex}.footer_name_text1{opacity:0.8;color:#999ea8;font-family:"NunitoSansRegular";font-size:11px;padding-right:5px}.footer_name_text2{opacity:0.8;color:#999ea8;font-family:"NunitoSansRegular";font-size:11px;background-image:url("../images/heart.png");background-repeat:no-repeat;padding-left:18px}.footer_name_name{color:#282b31;font-family:"NunitoSansExtraBold";font-size:11px;margin-left:5px}.footer_links{display:flex}.footer_links_link1{background-image:url("../images/twitterfoot.png");background-repeat:no-repeat;width:40px;height:40px;background-position:center;border:1px solid #e7e8ea}.footer_links_link2{background-image:url("../images/facebook.png");background-repeat:no-repeat;width:40px;height:40px;background-position:center;border:1px solid #e7e8ea}.footer_links_link3{background-image:url("../images/insta.png");background-repeat:no-repeat;width:40px;height:40px;background-position:center;border:1px solid #e7e8ea}@media screen and (max-width: 1170px){.footer{max-width:1000px}}@media screen and (max-width: 1000px){.footer{max-width:768px}}@media screen and (max-width: 768px){.footer{max-width:640px}}@media screen and (max-width: 640px){.footer{max-width:500px}}@media screen and (max-width: 500px){.footer{max-width:320px}}.copyright{color:#999ea8;font-family:"NunitoSansRegular";font-size:11px;line-height:15px;text-align:center;margin-top:-25px}
+@import url("https://meyerweb.com/eric/tools/css/reset/reset.css");
+@font-face {
+  font-family: "NunitoSansRegular";
+  src: url("../fonts/NunitoSansRegular.ttf");
+}
+
+@font-face {
+  font-family: "NunitoSansExtraBold";
+  src: url("../fonts/NunitoSansExtraBold.ttf");
+}
+
+/* line 11, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.head {
+  overflow: hidden;
+  background-image: url("../images/head.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 720px;
+}
+
+@media screen and (max-width: 1170px) {
+  /* line 18, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .head .head_header {
+    max-width: 1000px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  /* line 24, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .head .head_header {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* line 30, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .head .head_header {
+    max-width: 500px;
+  }
+  /* line 32, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .head .head_header_logo {
+    font-size: 14px;
+  }
+  /* line 37, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .head .head_header_menu_menu_item {
+    margin-right: 15px;
+  }
+  /* line 39, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .head .head_header_menu_menu_item a {
+    font-size: 12px;
+  }
+  /* line 44, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .head .head_header_menu_button {
+    padding: 10px 15px 10px 15px;
+  }
+  /* line 46, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .head .head_header_menu_button a {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  /* line 55, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .head .head_header {
+    max-width: 300px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+  /* line 61, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .head .head_header_logo {
+    font-size: 18px;
+  }
+  /* line 66, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .head .head_header_menu_menu_item {
+    margin-right: 10px;
+  }
+  /* line 68, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .head .head_header_menu_menu_item a {
+    font-size: 10px;
+  }
+  /* line 73, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .head .head_header_menu_button {
+    padding: 5px 7px 7px 7px;
+    margin-right: 15px;
+  }
+  /* line 76, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .head .head_header_menu_button a {
+    font-size: 10px;
+  }
+}
+
+/* line 83, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.head_header {
+  height: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+/* line 96, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.head_header_logo {
+  color: white;
+  font-size: 20px;
+  line-height: 65px;
+  font-family: "NunitoSansExtraBold";
+}
+
+/* line 102, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.head_header_menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+/* line 114, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.head_header_menu_menu_item {
+  display: inline-block;
+  margin-right: 30px;
+  font-family: "NunitoSansRegular";
+}
+
+/* line 118, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.head_header_menu_menu_item a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+/* line 123, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.head_header_menu_menu_item a:hover {
+  color: black;
+}
+
+/* line 128, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.head_header_menu_button {
+  padding: 15px 22px 15px 22px;
+  background-color: white;
+  border-radius: 5px;
+  margin-right: 30px;
+  font-family: "NunitoSansRegular";
+  -webkit-box-shadow: 0 6px 12px rgba(40, 43, 49, 0.08);
+  box-shadow: 0 6px 12px rgba(40, 43, 49, 0.08);
+}
+
+/* line 136, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.head_header_menu_button a {
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* line 142, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.head_header_menu_icon {
+  background-image: url("../images/menuicon.png");
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 12px;
+  background-position: center;
+}
+
+/* line 148, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.head_header_menu_icon_list {
+  margin-top: -17px;
+  margin-left: -10px;
+  background-color: #fff;
+  width: 100px;
+  border-radius: 3px;
+  font-family: "NunitoSansRegular";
+  -webkit-box-shadow: 0 6px 12px rgba(40, 43, 49, 0.08);
+  box-shadow: 0 6px 12px rgba(40, 43, 49, 0.08);
+  display: none;
+}
+
+/* line 158, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.head_header_menu_icon_list_item {
+  color: #222;
+  padding: 10px 15px 10px 15px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1170px) {
+  /* line 169, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .head .head_main {
+    max-width: 1000px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  /* line 174, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .head .head_main {
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+  /* line 177, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .head .head_main_right {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* line 187, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .head .head_main_left {
+    margin-left: 25%;
+    margin-top: 100px;
+  }
+  /* line 190, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .head .head_main_left_logo {
+    margin-left: 70px;
+  }
+  /* line 194, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .head .head_main_left_text_title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  /* line 198, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .head .head_main_left_text_text {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  /* line 203, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .head .head_main_left_buttons {
+    margin-left: 30px;
+  }
+  /* line 205, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .head .head_main_left_buttons_button1 {
+    font-size: 12px;
+    padding: 10px 10px 10px 10px;
+  }
+  /* line 210, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .head .head_main_left_buttons_button2 {
+    font-size: 12px;
+    padding: 10px 10px 10px 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  /* line 220, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .head .head_main_left {
+    margin-left: 20%;
+    margin-top: 60px;
+  }
+  /* line 223, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .head .head_main_left_logo {
+    margin-left: 45px;
+  }
+  /* line 226, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .head .head_main_left_text {
+    max-width: 300px;
+  }
+  /* line 228, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .head .head_main_left_text_title {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  /* line 232, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .head .head_main_left_text_text {
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 3px;
+  }
+  /* line 238, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .head .head_main_left_buttons {
+    margin-left: 0px;
+  }
+  /* line 240, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .head .head_main_left_buttons_button1 {
+    font-size: 12px;
+    padding: 10px 10px 10px 10px;
+  }
+  /* line 245, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .head .head_main_left_buttons_button2 {
+    font-size: 12px;
+    padding: 10px 10px 10px 10px;
+  }
+}
+
+/* line 254, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.head_main {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+/* line 263, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.head_main_left {
+  margin-top: 179px;
+}
+
+/* line 265, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.head_main_left_logo {
+  background-image: url("../images/appicon.png");
+  width: 90px;
+  height: 108px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* line 272, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.head_main_left_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  max-width: 505px;
+  margin-top: 20px;
+}
+
+/* line 280, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.head_main_left_text_title {
+  color: white;
+  font-size: 35px;
+  font-family: "NunitoSansExtraBold";
+  display: inline-block;
+  line-height: 50px;
+}
+
+/* line 288, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.head_main_left_text_text {
+  color: white;
+  font-size: 35px;
+  font-family: "NunitoSansRegular";
+  line-height: 50px;
+  margin-left: 7px;
+}
+
+/* line 296, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.head_main_left_buttons {
+  margin-top: 40px;
+  font-family: 'NunitoSansExtraBold';
+  font-size: 17px;
+}
+
+/* line 300, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.head_main_left_buttons_button1 {
+  color: white;
+  text-decoration: none;
+  padding: 18px;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(315deg, #ff8e64 0%, #ffe641 100%);
+  background-image: linear-gradient(-225deg, #ff8e64 0%, #ffe641 100%);
+  -o-background-image: -o-linear-gradient(315deg, #ff8e64 0%, #ffe641 100%);
+}
+
+/* line 309, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.head_main_left_buttons_button2 {
+  text-decoration: none;
+  color: black;
+  display: inline;
+  padding: 18px;
+  background-color: white;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+/* line 318, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.head_main_left_buttons_button1:hover {
+  padding: 20px;
+  margin-right: -4px;
+}
+
+/* line 322, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.head_main_left_buttons_button2:hover {
+  padding: 20px;
+}
+
+/* line 327, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.head_main_right {
+  background-image: url("../images/tablet.png");
+  width: 480px;
+  height: 718px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 89px;
+  margin-right: 89px;
+  position: absolute;
+  left: 55%;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 341, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .head {
+    background-image: url("../images/headsmall.png");
+    height: 500px;
+  }
+}
+
+/* line 346, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.info {
+  overflow: hidden;
+  background-color: #f8f9fa;
+  padding-bottom: 122px;
+}
+
+/* line 350, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.info_title {
+  padding-top: 244px;
+  text-align: center;
+}
+
+/* line 353, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.info_title_title1 {
+  font-family: "NunitoSansExtraBold";
+  font-size: 35px;
+  display: inline-block;
+}
+
+/* line 358, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.info_title_title2 {
+  font-family: "NunitoSansRegular";
+  font-size: 35px;
+  margin-left: 7px;
+  display: inline-block;
+}
+
+/* line 365, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.info_blocks {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 78px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+/* line 375, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.info_blocks_block1 {
+  background-color: white;
+  width: 28%;
+  height: 380px;
+  -webkit-box-shadow: 0 1px 3px rgba(32, 33, 39, 0.12);
+  box-shadow: 0 1px 3px rgba(32, 33, 39, 0.12);
+  border-radius: 12px;
+  text-align: center;
+}
+
+/* line 383, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.info_blocks_block1_icon {
+  -o-background-image: -o-linear-gradient(315deg, #7956ec 0%, #2fb9f8 100%);
+  background-image: -webkit-linear-gradient(315deg, #7956ec 0%, #2fb9f8 100%);
+  background-image: linear-gradient(-225deg, #7956ec 0%, #2fb9f8 100%);
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  margin-left: 40%;
+  margin-top: 62px;
+}
+
+/* line 392, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.info_blocks_block1_icon_icon {
+  background-image: url("../images/reload.png");
+  background-position: center;
+  width: 70px;
+  height: 70px;
+  background-repeat: no-repeat;
+}
+
+/* line 401, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.info_blocks_block1_title {
+  margin-top: 35px;
+}
+
+/* line 403, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.info_blocks_block1_title_title1 {
+  color: #282b31;
+  font-family: "NunitoSansExtraBold";
+  font-size: 20px;
+  display: inline-block;
+}
+
+/* line 409, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.info_blocks_block1_title_title2 {
+  color: #282b31;
+  font-family: "NunitoSansRegular";
+  font-size: 20px;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+/* line 417, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.info_blocks_block1_text {
+  color: #676c75;
+  font-family: "NunitoSansRegular";
+  font-size: 14px;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 25px;
+  line-height: 25px;
+}
+
+/* line 427, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.info_blocks_block1_link {
+  color: #469af4;
+  font-family: "NunitoSansRegular";
+  font-size: 14px;
+  line-height: 54px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1170px) {
+  /* line 437, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .info_blocks_block1 {
+    height: 300px;
+  }
+  /* line 439, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .info_blocks_block1_icon {
+    margin-top: 40px;
+  }
+  /* line 442, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .info_blocks_block1_title {
+    margin-top: 30px;
+  }
+  /* line 451, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .info_blocks_block1_text {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  /* line 457, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .info_blocks_block1 {
+    height: 300px;
+  }
+  /* line 459, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .info_blocks_block1_icon {
+    margin-top: 40px;
+  }
+  /* line 462, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .info_blocks_block1_title {
+    margin-top: 30px;
+  }
+  /* line 471, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .info_blocks_block1_text {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  /* line 477, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .info_blocks_block1 {
+    height: 300px;
+  }
+  /* line 479, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .info_blocks_block1_icon {
+    margin-top: 30px;
+  }
+  /* line 482, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .info_blocks_block1_title {
+    margin-top: 25px;
+  }
+  /* line 491, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .info_blocks_block1_text {
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+/* line 501, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.info_blocks_block2 {
+  background-color: white;
+  width: 30%;
+  height: 380px;
+  -webkit-box-shadow: 0 1px 3px rgba(32, 33, 39, 0.12);
+  box-shadow: 0 1px 3px rgba(32, 33, 39, 0.12);
+  border-radius: 12px;
+  text-align: center;
+}
+
+/* line 509, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.info_blocks_block2_icon {
+  -o-background-image: -o-linear-gradient(315deg, #ff8e64 0%, #ffe641 100%);
+  background-image: -webkit-linear-gradient(315deg, #ff8e64 0%, #ffe641 100%);
+  background-image: linear-gradient(-225deg, #ff8e64 0%, #ffe641 100%);
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  margin-left: 40%;
+  margin-top: 62px;
+}
+
+/* line 518, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.info_blocks_block2_icon_icon {
+  background-image: url("../images/inbox.png");
+  background-position: center;
+  width: 70px;
+  height: 70px;
+  background-repeat: no-repeat;
+}
+
+/* line 527, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.info_blocks_block2_title {
+  margin-top: 35px;
+}
+
+/* line 529, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.info_blocks_block2_title_title1 {
+  color: #282b31;
+  font-family: "NunitoSansExtraBold";
+  font-size: 20px;
+  display: inline-block;
+}
+
+/* line 535, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.info_blocks_block2_title_title2 {
+  color: #282b31;
+  font-family: "NunitoSansRegular";
+  font-size: 20px;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+/* line 543, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.info_blocks_block2_text {
+  color: #676c75;
+  font-family: "NunitoSansRegular";
+  font-size: 14px;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 25px;
+  line-height: 25px;
+}
+
+/* line 553, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.info_blocks_block2_link {
+  color: #469af4;
+  font-family: "NunitoSansRegular";
+  font-size: 14px;
+  line-height: 54px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1170px) {
+  /* line 563, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .info_blocks_block2 {
+    height: 300px;
+  }
+  /* line 565, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .info_blocks_block2_icon {
+    margin-top: 40px;
+  }
+  /* line 568, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .info_blocks_block2_title {
+    margin-top: 30px;
+  }
+  /* line 577, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .info_blocks_block2_text {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  /* line 583, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .info_blocks_block2 {
+    height: 300px;
+  }
+  /* line 585, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .info_blocks_block2_icon {
+    margin-top: 30px;
+  }
+  /* line 588, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .info_blocks_block2_title {
+    margin-top: 25px;
+  }
+  /* line 597, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .info_blocks_block2_text {
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+/* line 607, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.info_blocks_block3 {
+  background-color: white;
+  width: 28%;
+  height: 380px;
+  -webkit-box-shadow: 0 1px 3px rgba(32, 33, 39, 0.12);
+  box-shadow: 0 1px 3px rgba(32, 33, 39, 0.12);
+  border-radius: 12px;
+  text-align: center;
+}
+
+/* line 615, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.info_blocks_block3_icon {
+  -o-background-image: -o-linear-gradient(315deg, #ad2ab9 0%, #ff618c 100%);
+  background-image: -webkit-linear-gradient(315deg, #ad2ab9 0%, #ff618c 100%);
+  background-image: linear-gradient(-225deg, #ad2ab9 0%, #ff618c 100%);
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  margin-left: 40%;
+  margin-top: 62px;
+}
+
+/* line 624, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.info_blocks_block3_icon_icon {
+  background-image: url("../images/notification.png");
+  background-position: center;
+  width: 70px;
+  height: 70px;
+  background-repeat: no-repeat;
+}
+
+/* line 633, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.info_blocks_block3_title {
+  margin-top: 35px;
+}
+
+/* line 635, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.info_blocks_block3_title_title1 {
+  color: #282b31;
+  font-family: "NunitoSansExtraBold";
+  font-size: 20px;
+  display: inline-block;
+}
+
+/* line 641, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.info_blocks_block3_title_title2 {
+  color: #282b31;
+  font-family: "NunitoSansRegular";
+  font-size: 20px;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+/* line 649, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.info_blocks_block3_text {
+  color: #676c75;
+  font-family: "NunitoSansRegular";
+  font-size: 14px;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 25px;
+  line-height: 25px;
+}
+
+/* line 659, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.info_blocks_block3_link {
+  color: #469af4;
+  font-family: "NunitoSansRegular";
+  font-size: 14px;
+  line-height: 54px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1170px) {
+  /* line 669, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .info_blocks_block3 {
+    height: 300px;
+  }
+  /* line 671, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .info_blocks_block3_icon {
+    margin-top: 40px;
+  }
+  /* line 674, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .info_blocks_block3_title {
+    margin-top: 30px;
+  }
+  /* line 683, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .info_blocks_block3_text {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  /* line 689, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .info_blocks_block3 {
+    height: 300px;
+  }
+  /* line 691, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .info_blocks_block3_icon {
+    margin-top: 30px;
+  }
+  /* line 694, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .info_blocks_block3_title {
+    margin-top: 25px;
+  }
+  /* line 703, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .info_blocks_block3_text {
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* line 715, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .info_blocks {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+  /* line 720, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .info_blocks_block1 {
+    width: 45%;
+  }
+  /* line 723, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .info_blocks_block2 {
+    width: 45%;
+  }
+  /* line 726, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .info_blocks_block3 {
+    width: 45%;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  /* line 733, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .info_blocks {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+  /* line 738, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .info_blocks_block1 {
+    width: 80%;
+    margin-top: 30px;
+  }
+  /* line 742, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .info_blocks_block2 {
+    width: 80%;
+    margin-top: 30px;
+  }
+  /* line 746, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .info_blocks_block3 {
+    width: 80%;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* line 754, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .info {
+    padding-bottom: 75px;
+  }
+  /* line 756, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .info_title {
+    padding-top: 75px;
+  }
+}
+
+/* line 761, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.links1 {
+  overflow: hidden;
+  border: 1px solid #e7e8ea;
+}
+
+/* line 764, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.links1 .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 180px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 930px;
+  margin: 0 auto;
+}
+
+/* line 777, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.links1 .links .link1 {
+  background-image: url("../images/wired.png");
+  width: 140px;
+  height: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* line 784, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.links1 .links .link2 {
+  background-image: url("../images/lifehacker.png");
+  width: 140px;
+  height: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* line 791, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.links1 .links .link3 {
+  background-image: url("../images/mashable.png");
+  width: 140px;
+  height: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* line 798, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.links1 .links .link4 {
+  background-image: url("../images/theverge.png");
+  width: 140px;
+  height: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* line 805, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.links1 .links .link5 {
+  background-image: url("../images/gizmodo.png");
+  width: 140px;
+  height: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* line 812, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.links1 .links .link6 {
+  background-image: url("../images/macworld.png");
+  width: 140px;
+  height: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 821, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .links1 .links {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+}
+
+/* line 829, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.main1 {
+  overflow: hidden;
+  background-color: #f8f9fa;
+  padding-bottom: 121px;
+}
+
+/* line 833, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.main1 .main {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+/* line 842, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.main1 .main_left {
+  padding-top: 235px;
+}
+
+/* line 844, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.main1 .main_left_block1 {
+  width: 470px;
+  min-height: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 850, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.main1 .main_left_block1_icon {
+  background-image: url("../images/reloadblue.png");
+  width: 24px;
+  height: 24px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 30px;
+  margin-top: 31px;
+}
+
+/* line 859, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.main1 .main_left_block1_content {
+  max-width: 362px;
+  margin-left: 20px;
+  margin-top: 31px;
+}
+
+/* line 863, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.main1 .main_left_block1_content_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 867, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.main1 .main_left_block1_content_title_title1 {
+  color: #282b31;
+  font-family: "NunitoSansExtraBold";
+  font-size: 16px;
+  line-height: 35px;
+}
+
+/* line 873, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.main1 .main_left_block1_content_title_title2 {
+  margin-left: 5px;
+  color: #282b31;
+  font-family: "NunitoSansRegular";
+  font-size: 16px;
+  line-height: 35px;
+}
+
+/* line 881, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.main1 .main_left_block1_content_text {
+  color: #676c75;
+  font-family: "NunitoSansRegular";
+  font-size: 14px;
+  line-height: 25px;
+}
+
+/* line 889, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.main1 .main_left_block2 {
+  width: 470px;
+  min-height: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 895, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.main1 .main_left_block2_icon {
+  background-image: url("../images/inboxblue.png");
+  width: 24px;
+  height: 24px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 30px;
+  margin-top: 31px;
+}
+
+/* line 904, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.main1 .main_left_block2_content {
+  max-width: 362px;
+  margin-left: 20px;
+  margin-top: 31px;
+}
+
+/* line 908, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.main1 .main_left_block2_content_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 912, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.main1 .main_left_block2_content_title_title1 {
+  color: #282b31;
+  font-family: "NunitoSansExtraBold";
+  font-size: 16px;
+  line-height: 35px;
+}
+
+/* line 918, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.main1 .main_left_block2_content_title_title2 {
+  margin-left: 5px;
+  color: #282b31;
+  font-family: "NunitoSansRegular";
+  font-size: 16px;
+  line-height: 35px;
+}
+
+/* line 926, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.main1 .main_left_block2_content_text {
+  color: #676c75;
+  font-family: "NunitoSansRegular";
+  font-size: 14px;
+  line-height: 25px;
+}
+
+/* line 934, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.main1 .main_left_block3 {
+  width: 470px;
+  min-height: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 940, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.main1 .main_left_block3_icon {
+  background-image: url("../images/clockblue.png");
+  width: 24px;
+  height: 24px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 30px;
+  margin-top: 31px;
+}
+
+/* line 949, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.main1 .main_left_block3_content {
+  max-width: 362px;
+  margin-left: 20px;
+  margin-top: 31px;
+}
+
+/* line 953, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.main1 .main_left_block3_content_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 957, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.main1 .main_left_block3_content_title_title1 {
+  color: #282b31;
+  font-family: "NunitoSansExtraBold";
+  font-size: 16px;
+  line-height: 35px;
+}
+
+/* line 963, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.main1 .main_left_block3_content_title_title2 {
+  margin-left: 5px;
+  color: #282b31;
+  font-family: "NunitoSansRegular";
+  font-size: 16px;
+  line-height: 35px;
+}
+
+/* line 971, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.main1 .main_left_block3_content_text {
+  color: #676c75;
+  font-family: "NunitoSansRegular";
+  font-size: 14px;
+  line-height: 25px;
+}
+
+/* line 979, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.main1 .main_left_block1:hover {
+  background-color: white;
+  -webkit-box-shadow: 0 6px 12px rgba(32, 33, 39, 0.08);
+  box-shadow: 0 6px 12px rgba(32, 33, 39, 0.08);
+  border-radius: 12px;
+}
+
+/* line 985, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.main1 .main_left_block1:hover > .main_left_block1_icon {
+  background-image: url("../images/reloadred.png");
+}
+
+/* line 988, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.main1 .main_left_block2:hover {
+  background-color: white;
+  -webkit-box-shadow: 0 6px 12px rgba(32, 33, 39, 0.08);
+  box-shadow: 0 6px 12px rgba(32, 33, 39, 0.08);
+  border-radius: 12px;
+}
+
+/* line 994, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.main1 .main_left_block2:hover > .main_left_block2_icon {
+  background-image: url("../images/inboxred.png");
+}
+
+/* line 997, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.main1 .main_left_block3:hover {
+  background-color: white;
+  -webkit-box-shadow: 0 6px 12px rgba(32, 33, 39, 0.08);
+  box-shadow: 0 6px 12px rgba(32, 33, 39, 0.08);
+  border-radius: 12px;
+}
+
+/* line 1003, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.main1 .main_left_block3:hover > .main_left_block3_icon {
+  background-image: url("../images/clockred.png");
+}
+
+/* line 1007, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.main1 .main_right {
+  background-image: url("../images/tablet1.png");
+  width: 480px;
+  height: 718px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 121px;
+  margin-right: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+  /* line 1020, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .main1 .main {
+    max-width: 1000px;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+  /* line 1024, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .main1 .main_right {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  /* line 1031, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .main1 {
+    padding-bottom: 100px;
+  }
+  /* line 1033, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .main1 .main {
+    max-width: 500px;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+  /* line 1037, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .main1 .main_right {
+    display: none;
+  }
+  /* line 1040, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .main1 .main_left {
+    padding-top: 100px;
+  }
+  /* line 1042, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .main1 .main_left_block1 {
+    width: 310px;
+  }
+  /* line 1044, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .main1 .main_left_block1_icon {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  /* line 1048, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .main1 .main_left_block1_content {
+    max-width: 270px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  /* line 1054, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .main1 .main_left_block2 {
+    width: 310px;
+    margin-top: 30px;
+  }
+  /* line 1057, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .main1 .main_left_block2_icon {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  /* line 1061, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .main1 .main_left_block2_content {
+    max-width: 270px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  /* line 1067, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .main1 .main_left_block3 {
+    margin-top: 30px;
+    width: 310px;
+  }
+  /* line 1070, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .main1 .main_left_block3_icon {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  /* line 1074, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .main1 .main_left_block3_content {
+    max-width: 270px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+}
+
+/* line 1084, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.download1 {
+  overflow: hidden;
+  background-image: url("../images/background2.png");
+  height: 280px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* line 1090, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.download1 .download {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+/* line 1099, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.download1 .download_left {
+  margin-top: 84px;
+}
+
+/* line 1101, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.download1 .download_left_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 1105, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.download1 .download_left_title_title1 {
+  font-family: "NunitoSansExtraBold";
+  font-size: 35px;
+  color: white;
+}
+
+/* line 1110, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.download1 .download_left_title_title2 {
+  font-family: "NunitoSansRegular";
+  font-size: 35px;
+  color: white;
+  margin-left: 10px;
+}
+
+/* line 1117, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.download1 .download_left_text {
+  opacity: 0.8;
+  color: #ffffff;
+  font-family: "NunitoSansRegular";
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 25px;
+  width: 575px;
+}
+
+/* line 1128, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.download1 .download_right_buttons {
+  margin-top: 115px;
+}
+
+/* line 1131, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.download1 .download_right_buttons_button1 {
+  font-family: "NunitoSansRegular";
+  font-size: 17px;
+  color: white;
+  padding: 17px 35px 17px 35px;
+  -webkit-box-shadow: 0 6px 12px rgba(40, 43, 49, 0.08);
+  box-shadow: 0 6px 12px rgba(40, 43, 49, 0.08);
+  border-radius: 6px;
+  -o-background-image: -o-linear-gradient(315deg, #ff8e64 0%, #ffe641 100%);
+  background-image: -webkit-linear-gradient(315deg, #ff8e64 0%, #ffe641 100%);
+  background-image: linear-gradient(-225deg, #ff8e64 0%, #ffe641 100%);
+  text-decoration: none;
+}
+
+/* line 1144, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.download1 .download_right_buttons_button1:hover {
+  padding: 19px 37px 19px 37px;
+}
+
+/* line 1147, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.download1 .download_right_buttons_button2 {
+  font-family: "NunitoSansRegular";
+  font-size: 17px;
+  color: #282b31;
+  padding: 17px 42px 17px 42px;
+  -webkit-box-shadow: 0 6px 12px rgba(40, 43, 49, 0.08);
+  box-shadow: 0 6px 12px rgba(40, 43, 49, 0.08);
+  border-radius: 6px;
+  background-color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+/* line 1159, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.download1 .download_right_buttons_button2:hover {
+  padding: 19px 44px 19px 44px;
+  margin-left: 16px;
+}
+
+@media screen and (max-width: 1170px) {
+  /* line 1169, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .download1 .download {
+    max-width: 1000px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  /* line 1176, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .download1 .download {
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+  /* line 1181, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .download1 .download_left_title_title1 {
+    font-size: 30px;
+  }
+  /* line 1184, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .download1 .download_left_title_title2 {
+    font-size: 30px;
+  }
+  /* line 1188, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .download1 .download_left_text {
+    font-size: 14px;
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* line 1198, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .download1 .download {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+  /* line 1203, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .download1 .download_left {
+    margin-top: 30px;
+  }
+  /* line 1205, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .download1 .download_left_text {
+    font-size: 16px;
+    width: 500px;
+    margin-top: 15px;
+  }
+  /* line 1212, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .download1 .download_right_buttons {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  /* line 1221, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .download1 .download {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+  /* line 1226, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .download1 .download_left {
+    margin-top: 30px;
+  }
+  /* line 1228, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .download1 .download_left_title_title1 {
+    font-size: 25px;
+  }
+  /* line 1231, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .download1 .download_left_title_title2 {
+    font-size: 25px;
+  }
+  /* line 1236, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .download1 .download_left_text {
+    font-size: 14px;
+    width: 300px;
+    margin-top: 15px;
+    line-height: 20px;
+  }
+  /* line 1244, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .download1 .download_right_buttons {
+    margin-top: 30px;
+  }
+  /* line 1246, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .download1 .download_right_buttons_button1 {
+    padding: 10px 15px 10px 15px;
+    line-height: 14px;
+  }
+  /* line 1250, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .download1 .download_right_buttons_button2 {
+    padding: 10px 15px 10px 15px;
+    line-height: 14px;
+  }
+}
+
+/* line 1259, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.examples1 {
+  overflow: hidden;
+  background-color: #f8f9fa;
+  padding-bottom: 120px;
+}
+
+/* line 1263, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.examples1 .examples {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 120px;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+/* line 1272, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.examples1 .examples_pic1 {
+  width: 50%;
+  height: 590px;
+  background-image: url("../images/examplebg1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* line 1278, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.examples1 .examples_pic1_pic {
+  background-image: url("../images/tablet3.png");
+  width: 405px;
+  height: 500px;
+  margin-top: 90px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 15%;
+}
+
+/* line 1288, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.examples1 .examples_pic2 {
+  width: 50%;
+  height: 590px;
+  background-image: url("../images/examplebg1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* line 1294, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.examples1 .examples_pic2_pic {
+  background-image: url("../images/tablet4.png");
+  width: 405px;
+  height: 500px;
+  margin-top: 90px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 15%;
+}
+
+/* line 1304, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.examples1 .examples_block {
+  text-align: center;
+  width: 50%;
+  background-color: white;
+}
+
+/* line 1308, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.examples1 .examples_block_title {
+  margin-top: 177px;
+}
+
+/* line 1310, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.examples1 .examples_block_title_title1 {
+  color: #282b31;
+  font-family: "NunitoSansExtraBold";
+  font-size: 35px;
+  line-height: 50px;
+  display: inline-block;
+}
+
+/* line 1317, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.examples1 .examples_block_title_title2 {
+  color: #282b31;
+  font-family: "NunitoSansRegular";
+  font-size: 35px;
+  line-height: 50px;
+  display: inline-block;
+  margin-left: 7px;
+}
+
+/* line 1325, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.examples1 .examples_block_title_title3 {
+  color: #282b31;
+  font-family: "NunitoSansRegular";
+  font-size: 35px;
+  line-height: 50px;
+}
+
+/* line 1332, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.examples1 .examples_block_text {
+  color: #676c75;
+  font-family: "NunitoSansRegular";
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 25px;
+  width: 370px;
+  margin: 0 auto;
+  margin-top: 16px;
+}
+
+@media screen and (max-width: 1170px) {
+  /* line 1347, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .examples1 .examples {
+    max-width: 1000px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  /* line 1354, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .examples1 .examples {
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    max-width: 768px;
+  }
+  /* line 1358, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .examples1 .examples_pic1 {
+    width: 90%;
+  }
+  /* line 1359, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .examples1 .examples_pic1_pic {
+    margin-left: 22%;
+  }
+  /* line 1364, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .examples1 .examples_pic2 {
+    width: 90%;
+  }
+  /* line 1365, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .examples1 .examples_pic2_pic {
+    margin-left: 22%;
+  }
+  /* line 1370, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .examples1 .examples_block {
+    width: 90%;
+  }
+  /* line 1372, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .examples1 .examples_block_title {
+    margin-top: 75px;
+  }
+  /* line 1375, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .examples1 .examples_block_text {
+    margin-top: 10px;
+    padding-bottom: 50px;
+  }
+  /* line 1380, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .examples1 .examples .one {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* line 1391, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .examples1 .examples_pic1 {
+    display: none;
+  }
+  /* line 1394, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .examples1 .examples_pic2 {
+    display: none;
+  }
+  /* line 1397, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .examples1 .examples_block {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  /* line 1407, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .examples1 .examples_block_text {
+    width: 290px;
+  }
+  /* line 1411, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .examples1 .examples_block_title_title1 {
+    font-size: 20px;
+    line-height: 35px;
+  }
+  /* line 1415, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .examples1 .examples_block_title_title2 {
+    font-size: 20px;
+    line-height: 35px;
+  }
+  /* line 1419, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .examples1 .examples_block_title_title3 {
+    font-size: 20px;
+    line-height: 35px;
+  }
+}
+
+/* line 1428, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.video1 {
+  overflow: hidden;
+  -o-background-image: -o-linear-gradient(315deg, #7956ec 0%, #2fb9f8 100%);
+  background-image: -webkit-linear-gradient(315deg, #7956ec 0%, #2fb9f8 100%);
+  background-image: linear-gradient(-225deg, #7956ec 0%, #2fb9f8 100%);
+  height: 520px;
+}
+
+/* line 1434, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.video1 .video {
+  background-image: url("../images/mantablet.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 520px;
+  text-align: center;
+}
+
+/* line 1440, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.video1 .video_title {
+  margin: 0 auto;
+  padding-top: 126px;
+}
+
+/* line 1443, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.video1 .video_title_title1 {
+  font-family: "NunitoSansExtraBold";
+  font-size: 35px;
+  color: white;
+  display: inline-block;
+}
+
+/* line 1449, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.video1 .video_title_title2 {
+  font-family: "NunitoSansRegular";
+  font-size: 35px;
+  color: white;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+/* line 1457, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.video1 .video_text {
+  opacity: 0.8;
+  color: white;
+  font-family: "NunitoSansRegular";
+  font-size: 16px;
+  line-height: 30px;
+  width: 563px;
+  margin: 0 auto;
+  margin-top: 38px;
+}
+
+/* line 1467, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.video1 .video_pic {
+  background-image: url("../images/play.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 130px;
+  height: 130px;
+  margin: 0 auto;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+/* line 1479, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.messages {
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 1484, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.messages_left {
+  margin-left: 8%;
+  width: 40%;
+}
+
+/* line 1487, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.messages_left_stars {
+  background-image: url("../images/stars.png");
+  width: 88px;
+  height: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 144px;
+}
+
+/* line 1495, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.messages_left_title1 {
+  color: #282b31;
+  font-family: "NunitoSansExtraBold";
+  font-size: 35px;
+  line-height: 50px;
+}
+
+/* line 1501, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.messages_left_title2 {
+  color: #282b31;
+  font-family: "NunitoSansRegular";
+  font-size: 35px;
+  line-height: 50px;
+}
+
+/* line 1507, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.messages_left_more {
+  color: #999ea8;
+  font-family: "NunitoSansRegular";
+  font-size: 15px;
+  margin-top: 240px;
+  padding-bottom: 39px;
+}
+
+/* line 1514, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.messages_left_appstore {
+  color: #282b31;
+  font-family: "NunitoSansExtraBold";
+  font-size: 15px;
+  text-decoration: none;
+  background-image: url("../images/arrow.png");
+  background-repeat: no-repeat;
+  background-position-y: center;
+  padding-left: 37px;
+  margin-top: 39px;
+}
+
+/* line 1525, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.messages_left_googleplay {
+  color: #282b31;
+  font-family: "NunitoSansExtraBold";
+  font-size: 15px;
+  text-decoration: none;
+  display: block;
+  background-image: url("../images/arrow.png");
+  background-repeat: no-repeat;
+  background-position-y: center;
+  padding-left: 37px;
+  margin-top: 16px;
+}
+
+/* line 1538, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.messages_right {
+  border: 1px solid #e7e8ea;
+  background-color: #f8f9fa;
+  width: 60%;
+  padding-bottom: 120px;
+}
+
+/* line 1543, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.messages_right_block1 {
+  width: 78%;
+  height: 180px;
+  background-color: white;
+  -webkit-box-shadow: 0 6px 12px rgba(32, 33, 39, 0.08);
+  box-shadow: 0 6px 12px rgba(32, 33, 39, 0.08);
+  border-radius: 12px;
+  margin-left: 12%;
+  margin-top: 120px;
+}
+
+/* line 1552, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.messages_right_block1_pic {
+  background-image: url("../images/person1.png");
+  width: 50px;
+  height: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 30px;
+  display: inline-block;
+}
+
+/* line 1561, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.messages_right_block1_text {
+  color: #696b70;
+  font-family: "NunitoSansRegular";
+  font-size: 14px;
+  line-height: 25px;
+  width: 70%;
+  display: inline-block;
+  margin-left: 30px;
+  padding-top: 25px;
+}
+
+/* line 1571, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.messages_right_block1_foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 1px solid #e7e8ea;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+/* line 1582, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.messages_right_block1_foot_name {
+  color: #999ea8;
+  font-family: "Nunito Sans";
+  font-size: 12px;
+  line-height: 25px;
+  margin-top: 20px;
+}
+
+/* line 1589, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.messages_right_block1_foot_icon {
+  background-image: url("../images/twittericon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  margin-top: 20px;
+}
+
+/* line 1599, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.messages_right_block2 {
+  width: 78%;
+  height: 180px;
+  background-color: white;
+  -webkit-box-shadow: 0 6px 12px rgba(32, 33, 39, 0.08);
+  box-shadow: 0 6px 12px rgba(32, 33, 39, 0.08);
+  border-radius: 12px;
+  margin-left: 23%;
+  margin-top: 20px;
+}
+
+/* line 1608, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.messages_right_block2_pic {
+  background-image: url("../images/person2.png");
+  width: 50px;
+  height: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 30px;
+  display: inline-block;
+}
+
+/* line 1617, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.messages_right_block2_text {
+  color: #696b70;
+  font-family: "NunitoSansRegular";
+  font-size: 14px;
+  line-height: 25px;
+  width: 70%;
+  display: inline-block;
+  margin-left: 30px;
+  padding-top: 25px;
+  text-align: right;
+}
+
+/* line 1628, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.messages_right_block2_foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 1px solid #e7e8ea;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+/* line 1639, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.messages_right_block2_foot_name {
+  color: #999ea8;
+  font-family: "Nunito Sans";
+  font-size: 12px;
+  line-height: 25px;
+  margin-top: 20px;
+}
+
+/* line 1646, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.messages_right_block2_foot_icon {
+  background-image: url("../images/twittericon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  margin-top: 20px;
+}
+
+/* line 1656, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.messages_right_block3 {
+  width: 78%;
+  height: 180px;
+  background-color: white;
+  -webkit-box-shadow: 0 6px 12px rgba(32, 33, 39, 0.08);
+  box-shadow: 0 6px 12px rgba(32, 33, 39, 0.08);
+  border-radius: 12px;
+  margin-left: 12%;
+  margin-top: 20px;
+}
+
+/* line 1665, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.messages_right_block3_pic {
+  background-image: url("../images/person3.png");
+  width: 50px;
+  height: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 30px;
+  display: inline-block;
+}
+
+/* line 1674, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.messages_right_block3_text {
+  color: #696b70;
+  font-family: "NunitoSansRegular";
+  font-size: 14px;
+  line-height: 25px;
+  width: 70%;
+  display: inline-block;
+  margin-left: 30px;
+  padding-top: 25px;
+}
+
+/* line 1684, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.messages_right_block3_foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 1px solid #e7e8ea;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+/* line 1695, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.messages_right_block3_foot_name {
+  color: #999ea8;
+  font-family: "Nunito Sans";
+  font-size: 12px;
+  line-height: 25px;
+  margin-top: 20px;
+}
+
+/* line 1702, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.messages_right_block3_foot_icon {
+  background-image: url("../images/twittericon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1174px) {
+  /* line 1717, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .messages_right_block1 {
+    width: 80%;
+  }
+  /* line 1719, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .messages_right_block1_pic {
+    margin-left: 15px;
+  }
+  /* line 1722, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .messages_right_block1_text {
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: 15px;
+  }
+  /* line 1727, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .messages_right_block1_foot {
+    margin-top: 10px;
+  }
+  /* line 1729, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .messages_right_block1_foot_name {
+    margin-top: 10px;
+  }
+  /* line 1732, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .messages_right_block1_foot_icon {
+    margin-top: 10px;
+  }
+  /* line 1737, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .messages_right_block2 {
+    width: 80%;
+  }
+  /* line 1739, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .messages_right_block2_pic {
+    margin-left: 15px;
+  }
+  /* line 1742, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .messages_right_block2_text {
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: 15px;
+  }
+  /* line 1747, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .messages_right_block2_foot {
+    margin-top: 10px;
+  }
+  /* line 1749, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .messages_right_block2_foot_name {
+    margin-top: 10px;
+  }
+  /* line 1752, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .messages_right_block2_foot_icon {
+    margin-top: 10px;
+  }
+  /* line 1757, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .messages_right_block3 {
+    width: 80%;
+  }
+  /* line 1759, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .messages_right_block3_pic {
+    margin-left: 15px;
+  }
+  /* line 1762, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .messages_right_block3_text {
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: 15px;
+  }
+  /* line 1767, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .messages_right_block3_foot {
+    margin-top: 10px;
+  }
+  /* line 1769, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .messages_right_block3_foot_name {
+    margin-top: 10px;
+  }
+  /* line 1772, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .messages_right_block3_foot_icon {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* line 1783, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .messages_right_block1 {
+    width: 80%;
+    margin-left: 5%;
+  }
+  /* line 1787, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .messages_right_block2 {
+    width: 80%;
+    margin-left: 15%;
+  }
+  /* line 1791, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .messages_right_block3 {
+    width: 80%;
+    margin-left: 5%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  /* line 1801, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .messages_right_block1 {
+    margin-left: 5%;
+    width: 90%;
+  }
+  /* line 1804, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .messages_right_block1_text {
+    margin-left: 5px;
+    width: 90%;
+  }
+  /* line 1808, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .messages_right_block1_pic {
+    display: none;
+  }
+  /* line 1812, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .messages_right_block2 {
+    margin-left: 5%;
+    width: 90%;
+  }
+  /* line 1815, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .messages_right_block2_text {
+    margin-left: 5px;
+    width: 90%;
+  }
+  /* line 1819, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .messages_right_block2_pic {
+    display: none;
+  }
+  /* line 1823, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .messages_right_block3 {
+    margin-left: 5%;
+    width: 90%;
+  }
+  /* line 1826, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .messages_right_block3_text {
+    margin-left: 5px;
+    width: 90%;
+  }
+  /* line 1830, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .messages_right_block3_pic {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  /* line 1839, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .messages_left {
+    margin-left: 5%;
+  }
+}
+
+/* line 1844, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.plans1 {
+  overflow: hidden;
+  background-color: #f8f9fa;
+  border-top: 1px solid #e7e8ea;
+  padding-bottom: 120px;
+}
+
+/* line 1849, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.plans1 .plans {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+/* line 1859, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.plans1 .plans_left_title {
+  padding-top: 274px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 1864, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.plans1 .plans_left_title_title1 {
+  color: #282b31;
+  font-family: "NunitoSansExtraBold";
+  font-size: 35px;
+}
+
+/* line 1869, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.plans1 .plans_left_title_title2 {
+  color: #282b31;
+  font-family: "NunitoSansRegular";
+  font-size: 35px;
+  margin-left: 10px;
+}
+
+/* line 1876, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.plans1 .plans_left_text {
+  color: #676c75;
+  font-family: "Nunito Sans";
+  font-size: 16px;
+  line-height: 30px;
+  width: 360px;
+  margin-top: 30px;
+}
+
+/* line 1885, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.plans1 .plans_right {
+  margin-top: 120px;
+}
+
+/* line 1887, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.plans1 .plans_right_plan1 {
+  background-image: url("../images/bgplan.png");
+  width: 350px;
+  height: 510px;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  z-index: 10;
+}
+
+/* line 1897, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.plans1 .plans_right_plan1_title {
+  font-family: "NunitoSansExtraBold";
+  font-size: 11px;
+  letter-spacing: 1.65px;
+  color: white;
+  background-image: url("../images/line.png");
+  background-repeat: no-repeat;
+  background-position-y: 40px;
+  background-position-x: center;
+  width: 100%;
+  height: 40px;
+  line-height: 30px;
+  padding-top: 50px;
+}
+
+/* line 1911, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.plans1 .plans_right_plan1_price {
+  color: #ffffff;
+  font-family: "NunitoSansRegular";
+  font-size: 60px;
+  margin-top: 40px;
+}
+
+/* line 1917, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.plans1 .plans_right_plan1_list {
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 35px;
+}
+
+/* line 1921, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.plans1 .plans_right_plan1_list_item {
+  color: #ffffff;
+  font-family: "Nunito Sans";
+  font-size: 15px;
+  line-height: 30px;
+  background-image: url("../images/ok.png");
+  background-position-y: center;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+}
+
+/* line 1932, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.plans1 .plans_right_plan1_button {
+  color: #ffffff;
+  font-family: "NunitoSansRegular";
+  font-size: 17px;
+  line-height: 50px;
+  -o-background-image: -o-linear-gradient(315deg, #ff8e64 0%, #ffe641 100%);
+  background-image: -webkit-linear-gradient(315deg, #ff8e64 0%, #ffe641 100%);
+  background-image: linear-gradient(-225deg, #ff8e64 0%, #ffe641 100%);
+  border-radius: 6px;
+  width: 250px;
+  margin: 0 auto;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+/* line 1947, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.plans1 .plans_right_plan2 {
+  background-color: white;
+  border-radius: 12px;
+  border: 1px solid #e7e8ea;
+  width: 350px;
+  height: 470px;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: inline-block;
+  margin-left: -30px;
+  position: relative;
+}
+
+/* line 1959, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.plans1 .plans_right_plan2_title {
+  font-family: "NunitoSansExtraBold";
+  font-size: 11px;
+  letter-spacing: 1.65px;
+  color: #676c75;
+  background-image: url("../images/line2.png");
+  background-repeat: no-repeat;
+  background-position-y: 40px;
+  background-position-x: 20px;
+  width: 100%;
+  height: 40px;
+  line-height: 30px;
+  padding-top: 50px;
+}
+
+/* line 1973, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.plans1 .plans_right_plan2_price {
+  font-family: "NunitoSansRegular";
+  font-size: 60px;
+  color: #282b31;
+  margin-top: 40px;
+}
+
+/* line 1979, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.plans1 .plans_right_plan2_list {
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 35px;
+}
+
+/* line 1983, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.plans1 .plans_right_plan2_list_item {
+  color: #676c75;
+  font-family: "Nunito Sans";
+  font-size: 15px;
+  line-height: 30px;
+  background-image: url("../images/ok2.png");
+  background-position-y: center;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+}
+
+/* line 1994, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.plans1 .plans_right_plan2_button {
+  color: #ffffff;
+  font-family: "NunitoSansRegular";
+  font-size: 17px;
+  line-height: 50px;
+  -o-background-image: -o-linear-gradient(315deg, #009fc5 0%, #3cecb0 100%);
+  background-image: -webkit-linear-gradient(315deg, #009fc5 0%, #3cecb0 100%);
+  background-image: linear-gradient(-225deg, #009fc5 0%, #3cecb0 100%);
+  border-radius: 6px;
+  width: 250px;
+  margin: 0 auto;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1170px) {
+  /* line 2014, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .plans1 .plans {
+    max-width: 95%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  /* line 2023, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .plans1 .plans {
+    max-width: 95%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+  /* line 2030, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .plans1 .plans_left_title {
+    padding-top: 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* line 2041, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .plans1 .plans_right_plan1 {
+    width: 300px;
+    border-radius: 10px;
+  }
+  /* line 2045, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .plans1 .plans_right_plan2 {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  /* line 2055, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .plans1 .plans_right {
+    text-align: center;
+  }
+  /* line 2057, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .plans1 .plans_right_plan2 {
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+}
+
+/* line 2065, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.request {
+  overflow: hidden;
+  background-image: url("../images/bgrequest.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-bottom: 120px;
+  margin-top: -30px;
+}
+
+/* line 2073, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.request_title1 {
+  color: #ffffff;
+  font-family: "NunitoSansExtraBold";
+  font-size: 35px;
+  display: inline-block;
+  padding-top: 125px;
+}
+
+/* line 2080, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.request_title2 {
+  color: #ffffff;
+  font-family: "NunitoSansRegular";
+  font-size: 35px;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+/* line 2087, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.request_text {
+  opacity: 0.8;
+  color: #ffffff;
+  font-family: "NunitoSansRegular";
+  font-size: 16px;
+  line-height: 30px;
+  width: 563px;
+  margin: 0 auto;
+  margin-top: 25px;
+  padding-bottom: 66px;
+}
+
+/* line 2098, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.request_form {
+  -webkit-box-shadow: 0 12px 24px rgba(40, 43, 49, 0.16);
+  box-shadow: 0 12px 24px rgba(40, 43, 49, 0.16);
+  border-radius: 12px;
+  background-color: #ffffff;
+  width: 806px;
+  height: 475px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+/* line 2107, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.request_form_name {
+  width: 285px;
+  height: 51px;
+  border-radius: 6px;
+  border: 1px solid #e7e8ea;
+  background-color: #f8f9fa;
+  margin-right: 8px;
+  margin-top: 69px;
+  color: #b9bdc3;
+  font-family: "NunitoSansRegular";
+  font-size: 17px;
+  padding-left: 20px;
+}
+
+/* line 2120, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.request_form_email {
+  width: 285px;
+  height: 51px;
+  border-radius: 6px;
+  border: 1px solid #e7e8ea;
+  background-color: #f8f9fa;
+  margin-left: 8px;
+  margin-top: 69px;
+  color: #b9bdc3;
+  font-family: "NunitoSansRegular";
+  font-size: 17px;
+  padding-left: 20px;
+}
+
+/* line 2133, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.request_form_message {
+  display: block;
+  width: 610px;
+  height: 211px;
+  border-radius: 6px;
+  border: 1px solid #e7e8ea;
+  background-color: #f8f9fa;
+  margin: 0 auto;
+  margin-top: 20px;
+  color: #b9bdc3;
+  font-family: "NunitoSansRegular";
+  font-size: 17px;
+  padding-left: 20px;
+}
+
+/* line 2147, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.request_form_button {
+  color: #ffffff;
+  font-family: "NunitoSansRegular";
+  font-size: 17px;
+  width: 164px;
+  margin: 0 auto;
+  line-height: 50px;
+  border-radius: 6px;
+  background-image: -webkit-linear-gradient(315deg, #ff8e64 0%, #ffe641 100%);
+  background-image: linear-gradient(-225deg, #ff8e64 0%, #ffe641 100%);
+  -o-background-image: -o-linear-gradient(315deg, #ff8e64 0%, #ffe641 100%);
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 900px) {
+  /* line 2165, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .request_form {
+    width: 90%;
+  }
+  /* line 2167, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .request_form_name {
+    width: 35%;
+  }
+  /* line 2170, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .request_form_email {
+    width: 35%;
+  }
+  /* line 2173, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .request_form_message {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  /* line 2181, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .request_title1 {
+    font-size: 25px;
+  }
+  /* line 2184, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .request_title2 {
+    font-size: 25px;
+  }
+  /* line 2187, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .request_title3 {
+    font-size: 25px;
+  }
+  /* line 2190, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .request_text {
+    font-size: 14px;
+    width: 300px;
+    padding-bottom: 30px;
+  }
+}
+
+/* line 2197, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.footer {
+  overflow: hidden;
+  max-width: 1170px;
+  margin: 0 auto;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+/* line 2211, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.footer_logo {
+  color: #282b31;
+  font-family: "NunitoSansExtraBold";
+  font-size: 20px;
+}
+
+/* line 2216, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.footer_name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 2220, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.footer_name_text1 {
+  opacity: 0.8;
+  color: #999ea8;
+  font-family: "NunitoSansRegular";
+  font-size: 11px;
+  padding-right: 5px;
+}
+
+/* line 2227, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.footer_name_text2 {
+  opacity: 0.8;
+  color: #999ea8;
+  font-family: "NunitoSansRegular";
+  font-size: 11px;
+  background-image: url("../images/heart.png");
+  background-repeat: no-repeat;
+  padding-left: 18px;
+}
+
+/* line 2236, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.footer_name_name {
+  color: #282b31;
+  font-family: "NunitoSansExtraBold";
+  font-size: 11px;
+  margin-left: 5px;
+}
+
+/* line 2243, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.footer_links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 2247, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.footer_links_link1 {
+  background-image: url("../images/twitterfoot.png");
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  background-position: center;
+  border: 1px solid #e7e8ea;
+}
+
+/* line 2255, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.footer_links_link2 {
+  background-image: url("../images/facebook.png");
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  background-position: center;
+  border: 1px solid #e7e8ea;
+}
+
+/* line 2263, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.footer_links_link3 {
+  background-image: url("../images/insta.png");
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  background-position: center;
+  border: 1px solid #e7e8ea;
+}
+
+@media screen and (max-width: 1170px) {
+  /* line 2274, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .footer {
+    max-width: 1000px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  /* line 2279, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .footer {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* line 2284, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .footer {
+    max-width: 640px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  /* line 2289, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .footer {
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  /* line 2294, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+  .footer {
+    max-width: 320px;
+  }
+}
+
+/* line 2298, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+.copyright {
+  color: #999ea8;
+  font-family: "NunitoSansRegular";
+  font-size: 11px;
+  line-height: 15px;
+  text-align: center;
+  margin-top: -25px;
+}
+
+/*# sourceMappingURL=../css/style.map */
