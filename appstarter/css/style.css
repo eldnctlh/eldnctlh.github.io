@@ -173,11 +173,12 @@
   width: 16px;
   height: 12px;
   background-position: center;
+  cursor: pointer;
 }
 
-/* line 148, D:/eldnctlh.github.io/appstarter/scss/style.scss */
+/* line 149, D:/eldnctlh.github.io/appstarter/scss/style.scss */
 .head_header_menu_icon_list {
-  margin-top: -17px;
+  margin-top: 30px;
   margin-left: -10px;
   background-color: #fff;
   width: 100px;
@@ -185,13 +186,12 @@
   font-family: "NunitoSansRegular";
   -webkit-box-shadow: 0 6px 12px rgba(40, 43, 49, 0.08);
   box-shadow: 0 6px 12px rgba(40, 43, 49, 0.08);
-  display: none;
 }
 
 /* line 158, D:/eldnctlh.github.io/appstarter/scss/style.scss */
 .head_header_menu_icon_list_item {
   color: #222;
-  padding: 10px 15px 10px 15px;
+  padding: 5px 15px 5px 15px;
   font-size: 14px;
   cursor: pointer;
 }

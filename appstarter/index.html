@@ -287,12 +287,10 @@
    <script src='script/jquery-3.3.1.min.js'></script>
    <script>
         $(document).ready(function () {
-            $('.head_header_menu_icon').hover(
+            $('.head_header_menu_icon_list').hide();
+            $('.head_header_menu_icon').click(
                 function(){
-                    $(this).children("ul").show(100);
-                },
-                function(){
-                    $(this).children("ul").hide(100);
+                    $(this).children("ul").slideToggle();
                 });
         });
    </script>
