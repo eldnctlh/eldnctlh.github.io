@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="format-detection" content="telephone=no">
+    <title>Linux Support</title>
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.css"/>
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="less/style.css">
+</head>
+<body style="opacity:0;transition: opacity .2s;">
+    <div class="index">
+        <div class="popup-bg">
+        <div class="popup">
+            <div class="popup-close"></div>
+            <div class="popup-container">
+                <div class="popup-title">Request help now</div>
+                <div class="popup-labels">
+                    <div class="head-main-right-text">Name:</div>
+                    <div class="head-main-right-text">Contact Number:</div>
+                </div>
+                <form action="" method="POST">
+                    <div class="popup-inputs">
+                        <input required placeholder='Enter your name' type="text" id="input1" class="head-main-right-input inputp">
+                        <input required placeholder='Enter a phone number' type="text" id="input2" class="head-main-right-input inputp">
+                    </div>
+                    <div class="head-main-right-icons popup-icons">
+                        <div tabindex="0" class="head-main-right-icons-icon tl" title="Telegram"></div>
+                        <div tabindex="0" class="head-main-right-icons-icon wh" title="Whatsapp"></div>
+                        <div tabindex="0" class="head-main-right-icons-icon vb" title="Viber"></div>
+                        <div tabindex="0" class="head-main-right-icons-icon sk" title="Skype"></div>
+                        <div tabindex="0" class="head-main-right-icons-icon em" title="Email"></div>
+                        <div tabindex="0" class="head-main-right-icons-icon cl" title="Call"></div>
+                    </div>
+                    <div class="popup-plans-title">Choose your plan:</div>
+                    <div class="popup-plans">
+                        <div tabindex="0" class="popup-plans-plan plan-hover"><div class="popup-plans-plan-text">One Time Help<br />$4.99</div></div>
+                        <div tabindex="0" class="popup-plans-plan"><div class="popup-plans-plan-text">Monthly Help<br />$19.99</div></div>
+                        <div tabindex="0" class="popup-plans-plan"><div class="popup-plans-plan-text">Corporate monthly support<br />$99.99</div></div>
+                    </div>
+                    <div class="popup-input-title">Your problem:</div>
+                    <textarea placeholder="Describe your problem here" class="popup-input"></textarea>
+                    <input style="display: block; border: none" type="submit" tabindex="0" class="popup-button" value="Send">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="signin-bg" id="signInBg">
+        <div class="signin">
+            <div class="signin-close" id="signInClose"></div>
+            <div class="signin-container">
+                <div class="signin-title">Sign up</div>
+                <form action="" method="POST">
+                    <div class="signin-label">Name:</div>
+                    <input required type="text" class="signin-input" placeholder="Enter your name">
+                    <div class="signin-label">Email:</div>
+                    <input required type="text" class="signin-input at" placeholder="Enter your email">
+                    <div class="signin-label">Password:</div>
+                    <input required type="password" class="signin-input locked" placeholder="Enter your password">
+                    <div class="signin-label">Repeat password:</div>
+                    <input required type="password" class="signin-input locked" placeholder="Repeat your password">
+                    <input style="display: block; border: none" type="submit" tabindex="0" class="signin-button" value="Sign Up">
+                </form>
+                <div class="signin-or">&nbsp;or use account&nbsp;</div>
+                <div class="signin-buttons">
+                    <div class="signin-buttons-button">Facebook</div>
+                    <div class="signin-buttons-button">Google</div>
+                </div>
+                <div class="signin-last">Do you have an account?<a class="logIn">Log in</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="signin-bg" id="logInBg">
+            <div class="signin">
+                <div class="signin-close" id="logInClose"></div>
+                <div class="signin-container">
+                    <div class="signin-title">Log in</div>
+                    <form action="" method="POST">
+                        <div class="signin-label">Email:</div>
+                        <input required type="text" class="signin-input at" placeholder="Enter your email">
+                        <div class="signin-label">Password:</div>
+                        <input required type="password" class="signin-input locked" placeholder="Enter your password">
+                        <div class="signin-forgot">Forgot your password?</div>
+                        <input type="submit" style="display: block; border: none" class="signin-button" value="Log In">
+                    </form>
+                    <div class="signin-or">&nbsp;or use account&nbsp;</div>
+                    <div class="signin-buttons">
+                        <div class="signin-buttons-button">Facebook</div>
+                        <div class="signin-buttons-button">Google</div>
+                    </div>
+                    <div class="signin-last">Don’t have an account?<a id="signIn">Sign up</a></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Logined -->    
+        <!-- <div class="index-login-popup">
+            <div class="upgradePopupCross upgradePopupCrossIndex">x</div>
+            <div class="per-acc-sidebar">
+                <div class="per-acc-sidebar-item">
+                    <div class="per-acc-sidebar-container">
+                        <div class="per-acc-sidebar-pretitle">Your plan</div>
+                        <div class="per-acc-sidebar-title changedTitle">Monthly Help</div>
+                        <div class="per-acc-sidebar-date">02.07.2018 - 02.08.2018</div>
+                        <div class="per-acc-sidebar-buttons">
+                            <div class="per-acc-sidebar-buttons-button planChange" id="upgrade">Change Plan</div>
+                            <div class="per-acc-sidebar-buttons-button planUn">Unsubscribe</div>
+                        </div>
+                        <div class="per-acc-sidebar-planchange">
+                            <div class="per-acc-sidebar-planchange-item upgradePopupItem">One Time Help</div>
+                            <div class="per-acc-sidebar-planchange-item upgradePopupItem">Monthly Help</div>
+                            <div class="per-acc-sidebar-planchange-item upgradePopupItem">Corporate Monthly Support</div>
+                        </div>
+                        <div class="per-acc-sidebar-sure">
+                            <div class="per-acc-sidebar-sure-title">Are you sure?</div>
+                            <div class="per-acc-sidebar-sure-button">Yes</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Logined -->
+
+
+        <div class="header">
+            <div class="header-container">
+                <a tabindex="0" class="header-logo" onclick="return clickHandler()" href="index.html"><span class="header-logo-bold">LINUX</span>Support</a>
+                <div class="header-right">
+                    <a tabindex="0" style="color: #fff; text-decoration: none" href="tel:+38 (096) 45-56-789" class="header-right-phone">+38 (096) 45-56-789</a>
+                    <div class="header-right-lang-wrapper">
+                        <div tabindex="0" class="header-right-lang-wrapper-lang" id="lang" style="outline: none">EN</div>
+                        <div class="ru">RU</div>
+                    </div>
+                    <a tabindex="0" style="color: #fff; text-decoration: none" href="tel:+38 (096) 45-56-789" class="header-right-phone-mobile"></a>
+                    <button style="display: none" tabindex="0" class="header-right-button logIn">Login for customers</button>
+
+                    <!-- Logined -->
+                    <div tabindex="0" style="display: block" class="header-right-user"><a style="text-decoration: none; color: #fff" href="personal-account.html">Amanda</a><div class="header-right-logout"></div></div>
+                    <!-- Logined -->
+
+
+                    <a style="display: none" class="header-right-button-mobile logIn"></a>
+                </div>
+            </div>
+        </div>
+    <div class="head">
+        <div class="container">
+            <div class="head-main">               
+                <div class="head-main-left">
+                    <div class="head-main-left-title">We'll solve any problem with your Linux</div>
+                    <div class="head-main-left-text">24x7 Linux support. No need to waste your time and nerves. Request help and receive solution in minutes.</div>
+                    <div id="wrapper">
+                        <div id="wrapper-inner">
+                            <div id="scroll-down">
+                            <span class="arrow-down">
+                            </span>
+                            <span id="scroll-title">How it works?</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="head-main-right" style="display: block">
+                    <div class="head-main-right-container">
+                        <div class="head-main-right-title">Request help now</div>
+                        <form action="">
+                            <div class="head-main-right-text">Contact Number:</div>
+                            <input style="width: calc(100% - 37px)" required id="inputRight" placeholder='Enter a phone number' type="text" class="head-main-right-input inputr">
+                            <div class="head-main-right-icons">
+                                <div tabindex="0" class="head-main-right-icons-icon tl" title="Telegram"></div>
+                                <div tabindex="0" class="head-main-right-icons-icon wh" title="Whatsapp"></div>
+                                <div tabindex="0" class="head-main-right-icons-icon vb" title="Viber"></div>
+                                <div tabindex="0" class="head-main-right-icons-icon sk" title="Skype"></div>
+                                <div tabindex="0" class="head-main-right-icons-icon em" title="Email"></div>
+                                <div tabindex="0" class="head-main-right-icons-icon cl" title="Call"></div>
+                            </div>
+                            <div tabindex="0" class="head-main-right-info">
+                                <div class="head-main-right-info-item chosen-plan"><span class="chosen-plan-border">One Time help for $4,99</span></div>
+                                <div class="head-main-right-info-item"><span>Monthly help for $19,99</span></div>
+                                <div class="head-main-right-info-item"><span>Corporate Monthly Support for $99,99</span></div>
+                            </div>
+                            <input type="submit" style="display: block; border: none; width: calc(100% - 12px)" class="head-main-right-button" value="Request Linux Help">
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Logined -->
+                <div class="per-acc-sidebar" style="display: none">
+                    <div class="per-acc-sidebar-item">
+                        <div class="per-acc-sidebar-container">
+                            <div class="per-acc-sidebar-pretitle">Your plan</div>
+                            <div class="per-acc-sidebar-title changedTitle">Monthly Help</div>
+                            <div class="per-acc-sidebar-date">02.07.2018 - 02.08.2018</div>
+                            <div class="per-acc-sidebar-buttons">
+                                <div class="per-acc-sidebar-buttons-button planChange" id="upgrade">Change Plan</div>
+                                <div class="per-acc-sidebar-buttons-button planUn">Unsubscribe</div>
+                            </div>
+                            <div class="per-acc-sidebar-planchange">
+                                <div class="per-acc-sidebar-planchange-item">One Time Help</div>
+                                <div class="per-acc-sidebar-planchange-item">Monthly Help</div>
+                                <div class="per-acc-sidebar-planchange-item">Corporate Monthly Support</div>
+                            </div>
+                            <div class="per-acc-sidebar-sure">
+                                <div class="per-acc-sidebar-sure-title">Are you sure?</div>
+                                <div class="per-acc-sidebar-sure-button">Yes</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Logined -->
+
+
+                <div id="wrapperm">
+                    <div id="wrapper-innerm">
+                        <div id="scroll-downm">
+                        <span class="arrow-down">
+                        </span>
+                        <span id="scroll-titlem">How it works?</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+            <a class="anchor1" id="anchor1"></a>
+        <div class="main-pretitle">How it Works?</div>
+        <div class="main-title">How it Works?</div>     
+        <div class="main-path">
+            <div class="main-path-item">
+                <div class="main-path-item-arrow"></div>
+                <div class="mobile-arrow"></div>
+                <div class="main-path-item-number">1</div>
+                <div class="main-path-item-title">Application</div>
+                <div class="main-path-item-text">Request help and we will contact you in the most comfortable way</div>
+            </div>
+            <div class="main-path-item">
+                    <div class="main-path-item-arrow arrow2"></div>
+                    <div class="mobile-arrow2"></div>
+                    <div class="main-path-item-number">2</div>
+                    <div class="main-path-item-title second">Description of the problem</div>
+                    <div class="main-path-item-text secondtext">You will describe your problem to our assistant</div>
+            </div>
+            <div class="main-path-item">
+                    <div class="main-path-item-arrow arrow3"></div>
+                    <div class="mobile-arrow"></div>
+                    <div class="main-path-item-number">3</div>
+                    <div class="main-path-item-title">Get solutions</div>
+                    <div class="main-path-item-text">In less than 10 minutes we'll return back to you with ready solution</div>
+            </div>
+        </div>
+        <div class="main-instruction">
+                <div class="main-instruction-left">
+                    <div class="main-instruction-left-title">Connect via TeamViewer</div>
+                    <div class="main-instruction-left-description">We connect to your computer and do all the fixes by ourserlves</div>
+                    <div class="main-instruction-left-text">All you need is to install Teamviewer and provide us special code. You will see every actions of our personal, so everything is safe</div>
+                    <a href="teamviewer.html" class="main-instruction-left-button">How to provide TeamViewer access?</a>
+                    <div class="main-instruction-left-buttondesc">*Detailed instruction</div>
+                </div>
+                <div class="main-instruction-or">or</div>
+                <div class="main-instruction-right">
+                    <div class="main-instruction-right-title">Step-to-Step Instruction</div>
+                    <div class="main-instruction-right-description">When it's not possible to connect directly, will guide you and explain every action you must do to fix the issue. </div>
+                    <div class="main-instruction-right-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris </div>
+                </div>
+        </div>
+        <div tabindex="0" class="main-button popupShow">Get support</div>
+
+
+        <!-- Logined -->
+        <div style="display: none" tabindex="0" class="main-button upgrade">Upgrade plan</div>
+        <!-- Logined -->
+
+
+    </div>
+    <div class="info">
+        <div class="info-pretitle">Our advantages</div>
+        <div class="info-title">A few reasons why we might be the right fit</div>
+        <div class="info-reasons">
+            <div class="info-reasons-reason">
+                <div class="info-reasons-reason-icon"></div>
+                <div class="info-reasons-reason-title">12 specialists</div>
+                <div class="info-reasons-reason-text">Graduated specialist reday to make your life more comfortable</div>
+            </div>
+            <div class="info-reasons-reason">
+                    <div class="info-reasons-reason-icon hours"></div>
+                    <div class="info-reasons-reason-title">24 hours and 7 days</div>
+                    <div class="info-reasons-reason-text">Hours and 7 days a week we are ready to help</div>
+            </div>
+            <div class="info-reasons-reason">
+                    <div class="info-reasons-reason-icon team"></div>
+                    <div class="info-reasons-reason-title">545 clients</div>
+                    <div class="info-reasons-reason-text">Happy client's by this far</div>
+            </div>
+        </div>
+    </div>
+    <div class="services">
+        <div class="services-pretitle">Cost of Services</div>
+        <div class="services-title">Cost of Linux Support Services</div>
+        <div class="services-items">
+            <div class="services-items-itemone">
+                <div class="services-items-itemone-title">One time help</div>
+                <div class="services-items-itemone-text">receive help with unlimited issues listed with your request for one computer</div>  
+                <div tabindex="0" class="services-items-itemone-button popupShow1">Request Linux Help</div>
+
+                <!-- Logined -->
+                <div style="display: none" tabindex="0" class="services-items-itemone-button upgrade">Upgrade plan</div>
+                <!-- Logined -->
+
+
+                <div class="services-items-itemone-price"><span class="services-items-itemone-pricedollar">$</span> 4.99</div>
+            </div>
+            <div class="services-items-item">
+                    <div class="services-items-item-title">Monthly Help</div>
+                    <ul class="services-items-item-list">
+                        <li class="services-items-item-list-item">Personal support</li> 
+                        <li class="services-items-item-list-item">24/7 support</li> 
+                        <li class="services-items-item-list-item">For 1 computer</li> 
+                        <li class="services-items-item-list-item">Only $19.99</li> 
+                    </ul> 
+                    <div tabindex="0" class="services-items-item-button popupShow2">Request Help</div>
+
+                    <!-- Logined -->
+                    <div style="display: none" tabindex="0" class="services-items-item-button upgrade">Upgrade plan</div>
+                    <!-- Logined -->
+
+
+            </div>
+            <div class="services-items-item">
+                    <div class="services-items-item-title">Corporate monthly support</div>
+                    <ul class="services-items-item-list">
+                        <li class="services-items-item-list-item">Personal support</li> 
+                        <li class="services-items-item-list-item">24/7 support</li> 
+                        <li class="services-items-item-list-item">For 10 computer</li> 
+                        <li class="services-items-item-list-item">Only $99.99</li> 
+                    </ul> 
+                    <div tabindex="0" class="services-items-item-button popupShow3">Request Help</div>
+
+                    <!-- Logined -->
+                    <div style="display: none" tabindex="0" class="services-items-item-button upgrade">Upgrade plan</div>
+                    <!-- Logined -->
+
+
+            </div>
+        </div>
+    </div>
+    <div class="testimonials">
+        <div class="testimonials-pretitle">Testimonials</div>
+        <div class="testimonials-title">Our clients trust us</div>
+        <div class="owl-carousel owl-theme slider"> 
+                <div class="item">
+                    <div class="slider-item">
+                        <div class="slider-item-pic"></div>
+                        <div class="slider-item-title">Lisa Strong</div>
+                        <div class="slider-item-text">Thanks for the help! It really helped me get a grasp on the basics of linux in an easy to use tutorial. It was very interactive which made the experience easy to finish all in one sitting because it made it more enjoyable. I could go on writing a praise for you but I’ll sum it up in just one word “Exceptional”.</div>
+                        <div class="slider-item-bg">“</div>
+                    </div> 
+                </div>
+                <div class="item">
+                    <div class="slider-item">
+                        <div class="slider-item-pic test2"></div>
+                        <div class="slider-item-title">Kevin Shelton</div>
+                        <div class="slider-item-text">It really helped me get a grasp on the basics of linux in an easy to use tutorial. It was very interactive which made the experience easy to finish all in one sitting because it made it more enjoyable. </div>
+                        <div class="slider-item-bg">“</div>
+                    </div> 
+                </div>
+                <div class="item">
+                    <div class="slider-item">
+                        <div class="slider-item-pic test3"></div>
+                        <div class="slider-item-title">Lisa Kwong</div>
+                        <div class="slider-item-text">Thanks for the help! It really helped me get a grasp on the basics of linux in an easy to use tutorial. It was very interactive which made the experience easy to finish all in one sitting because it made it more enjoyable. </div>
+                        <div class="slider-item-bg">“</div>
+                    </div> 
+                </div>
+                <div class="item">
+                    <div class="slider-item">
+                        <div class="slider-item-pic"></div>
+                        <div class="slider-item-title">Lisa Strong</div>
+                        <div class="slider-item-text">Thanks for the help! It really helped me get a grasp on the basics of linux in an easy to use tutorial. It was very interactive which made the experience easy to finish all in one sitting because it made it more enjoyable. I could go on writing a praise for you but I’ll sum it up in just one word “Exceptional”.</div>
+                        <div class="slider-item-bg">“</div>
+                    </div> 
+                </div>
+                <div class="item">
+                        <div class="slider-item">
+                            <div class="slider-item-pic test2"></div>
+                            <div class="slider-item-title">Kevin Shelton</div>
+                            <div class="slider-item-text">It really helped me get a grasp on the basics of linux in an easy to use tutorial. It was very interactive which made the experience easy to finish all in one sitting because it made it more enjoyable. </div>
+                            <div class="slider-item-bg">“</div>
+                        </div> 
+                    </div>
+                    <div class="item">
+                        <div class="slider-item">
+                            <div class="slider-item-pic test3"></div>
+                            <div class="slider-item-title">Lisa Kwong</div>
+                            <div class="slider-item-text">Thanks for the help! It really helped me get a grasp on the basics of linux in an easy to use tutorial. It was very interactive which made the experience easy to finish all in one sitting because it made it more enjoyable. </div>
+                            <div class="slider-item-bg">“</div>
+                        </div> 
+                    </div>
+                    <div class="item">
+                        <div class="slider-item">
+                            <div class="slider-item-pic"></div>
+                            <div class="slider-item-title">Lisa Strong</div>
+                            <div class="slider-item-text">Thanks for the help! It really helped me get a grasp on the basics of linux in an easy to use tutorial. It was very interactive which made the experience easy to finish all in one sitting because it made it more enjoyable. I could go on writing a praise for you but I’ll sum it up in just one word “Exceptional”.</div>
+                            <div class="slider-item-bg">“</div>
+                        </div> 
+                    </div>
+            </div>
+    </div>
+    <div class="blog">
+        <div class="blog-pretitle">Blog</div>
+        <div class="blog-title">The Knowledge Base</div>
+        <div class="blog-items">
+            <a href="post.html" class="blog-items-item">
+                <img src="images/img-blog1.png" alt="">
+                <div class="blog-items-item-title">Linux Tips: Inserting One Landscape Page in a LibreOffice Document</div>
+                <div class="blog-items-item-text">Most business documents are in portrait format, but sometimes there is a need to insert one or two pages in landscape format. The information in this post applies to both LibreOffice and Open Office; for...</div>
+            </a>
+            <a href="post.html" class="blog-items-item">
+                <img src="images/img-blog2.png" alt="">
+                <div class="blog-items-item-title blogtitle2">Linux Tips: Seeing What’s Mounted Part 1</div>
+                <div class="blog-items-item-text">Most business documents are in portrait format, but sometimes there is a need to insert one or two pages in landscape format. The information in this post applies to both LibreOffice and Open Office; for...</div>
+            </a>
+        </div>
+        <div tabindex="0" class="blog-more" id="buttonBlog"><a style="color:#fff; text-decoration: none" href="blog.html">More information</a></div>
+    </div>
+    <div class="footerr">
+        <div class="bgfoot"><div class="flexibleFoot"></div></div>
+        <div class="faq">
+            <div class="faq-pretitle">FAQ</div>
+            <div class="faq-title">Frequently Asked Questions</div>
+            <div class="faq-main">
+                <ul class="faq-main-list">
+                    <li class="faq-main-list-item">Which Linux distributions do you support?
+                            <div class="faq-main-list-item-inside">Our standard support contracts cover the following Linux distributions: Debian, Red Hat, CentOS, Ubuntu, Scientific Linux. Generally we only support the current release(s) of those distributions, however, if you have specific version requirements or you would like to discuss support of another distribution, please do contact us.</div>
+                    </li>
+                    <li class="faq-main-list-item">How do I get into safe mode?                    
+                            <div class="faq-main-list-item-inside">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam voluptatum nemo, similique, laboriosam earum minus excepturi aliquam placeat consectetur a sapiente culpa nihil quidem, nulla illo omnis ex architecto voluptatem.</div>
+                    </li>
+                    <li class="faq-main-list-item">I can't delete a file because it is being used by Linux?                    
+                            <div class="faq-main-list-item-inside">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam voluptatum nemo, similique, laboriosam earum minus excepturi aliquam placeat consectetur a sapiente culpa nihil quidem, nulla illo omnis ex architecto voluptatem.</div>
+                    </li>
+                    <li class="faq-main-list-item">How can I recover a file from the recycle bin?                    
+                            <div class="faq-main-list-item-inside">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam voluptatum nemo, similique, laboriosam earum minus excepturi aliquam placeat consectetur a sapiente culpa nihil quidem, nulla illo omnis ex architecto voluptatem.</div>
+                    </li>
+                    <li class="faq-main-list-item">How can I update my Linux computer?                    
+                            <div class="faq-main-list-item-inside">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam voluptatum nemo, similique, laboriosam earum minus excepturi aliquam placeat consectetur a sapiente culpa nihil quidem, nulla illo omnis ex architecto voluptatem.</div>
+                    </li>
+                    <li class="faq-main-list-item">Is it safe to turn off a Linux computer without doing a shut down?                    
+                            <div class="faq-main-list-item-inside">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam voluptatum nemo, similique, laboriosam earum minus excepturi aliquam placeat consectetur a sapiente culpa nihil quidem, nulla illo omnis ex architecto voluptatem.</div>
+                    </li>
+                    <li class="faq-main-list-item">Can a virus damage computer hardware?
+                            <div class="faq-main-list-item-inside">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam voluptatum nemo, similique, laboriosam earum minus excepturi aliquam placeat consectetur a sapiente culpa nihil quidem, nulla illo omnis ex architecto voluptatem.</div>
+                    </li>
+                    <li class="faq-main-list-item">If I format or erase my hard drive will it remove a virus?                    
+                        <div class="faq-main-list-item-inside">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam voluptatum nemo, similique, laboriosam earum minus excepturi aliquam placeat consectetur a sapiente culpa nihil quidem, nulla illo omnis ex architecto voluptatem.</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    <a href="javascript:" id="return-to-top">&uarr;</a>
+    <div class="footer">
+        <div class="footer-line"></div>
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-top-title">Get in touch <div class="footer-top-title-bold">Ready to get support?</div></div>
+                <div tabindex="0" style="display: none" class="footer-top-button popupShow" id="popupShow" >Get support now</div>
+
+
+                <!-- Logined -->
+                <a tabindex="0" href="personal-account.html" style="display: block" tabindex="0" class="footer-top-button upgrade">Upgrade plan</a>
+                <!-- Logined -->
+
+
+            </div>
+            <div class="footer-bottom">
+                <a tabindex="0" style="color: #fff; text-decoration: none" href="tel:+38 (096) 45-56-789" class="footer-bottom-phone">+38 (096) 45-56-789</a>
+                <div class="footer-bottom-copyright">© LinuxSupport. All rights reserved</div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src='script/jquery-3.3.1.min.js'></script>
+    <script src="script/bootstrap.min.js"></script>
+    <script src='script/detect.min.js'></script>
+    <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="script/script.js"></script>
+    <script>
+        $(document).ready(function() {    
+            $("body").css("opacity", "1");
+        });
+    </script>
+</body>
+</html>
