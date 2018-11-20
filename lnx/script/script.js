@@ -332,6 +332,7 @@ if(document.title === "Linux Support") {
     $('.owl-carousel').owlCarousel({
         loop:true,
         nav:true,
+        lazyLoad: true,
         responsive:{
             781: {
                 margin:60,
